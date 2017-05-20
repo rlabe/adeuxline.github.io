@@ -2,3 +2,8 @@ name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 
 permalink: /blog/:year/:month/:day/:title
+
+collections:
+  countries:
+    output: true
+    permalink: /:collection/:name
