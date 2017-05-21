@@ -6,6 +6,6 @@ title: Liste des pays
 	<ul class="posts">
 
 	  {% for country in site.countries %}
-	    <li><span>{{ country.date | date_to_string }}</span> » <a href="{{ country.url }}" title="{{ country.title }}">{{ country.title }}</a></li>
+	    <li>» La <a href="{{ country.url }}" title="{{ country.title }}">{{ country.title }}</a>dont la capitale est {{ country.capitale }}.</li>
 	  {% endfor %}
 	</ul>
