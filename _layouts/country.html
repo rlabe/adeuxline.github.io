@@ -2,9 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-{% include world.html %}
+<p class="meta">Du {{ page.dateBegin | date_to_string }} au {{ page.dateEnd | date_to_string }}</p>
 
 <div class="post">
   {{ content }}
