@@ -41,3 +41,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+ul.countries { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.countries li {
+    list-style: none;
+}
