@@ -4,6 +4,8 @@ layout: default
 <h1>{{ page.title }}</h1>
 <p class="meta">Du {{ page.dateBegin | date_to_string }} au {{ page.dateEnd | date_to_string }}</p>
 
+{% if name-es %} Le nom en espagnol est {{name-es}} {%ifend%}
+
 <div class="post">
   {{ content }}
 </div>
