@@ -2,7 +2,7 @@
 layout: country
 title: Liste des pays
 ---
-	<h1>{{ page.title }}</h1>
+<center><h1>{{ page.title }}</h1></center>
 	<ul class="posts">
 	  {% for country in site.countries %}
 	    <li>» La <a href="{{ country.url }}" title="{{ country.title }}">{{ country.title }}</a> dont la capitale est {{ country.capitale }}.</li>
