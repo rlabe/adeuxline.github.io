@@ -12,7 +12,17 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-
+}
+nav.sub ul, footer.sub ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 150%;
+}
+nav.sub ul li, footer.sub ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 a {
