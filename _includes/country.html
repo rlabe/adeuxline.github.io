@@ -2,13 +2,13 @@
 
   {% if page.title = country.name %}
   
-    {% if country.date %} date: "{{ country.date }}" {% endif %}
-    {% if country.dateBegin %} dateBegin: "{{ country.dateBegin }}" {% endif %}
-    {% if country.dateEnd %} dateEnd: "{{ country.dateEnd }}" {% endif %}
-    {% if country.nameFr %} nameFr: "{{ country.nameFr }}" {% endif %}
-    {% if country.nameEn %} dateEn: "{{ country.nameEn }}" {% endif %}
-    {% if country.nameEs %} dateEs: "{{ country.nameEs }}" {% endif %}
-    {% if country.capitale %} capitale: "{{ country.capitale }}" {% endif %}
+{% if country.date %}<p> date: "{{ country.date }}" </p>{% endif %}
+    {% if country.dateBegin %}<p> dateBegin: "{{ country.dateBegin }}" </p>{% endif %}
+    {% if country.dateEnd %}<p> dateEnd: "{{ country.dateEnd }}" </p>{% endif %}
+    {% if country.nameFr %}<p> nameFr: "{{ country.nameFr }}" </p>{% endif %}
+    {% if country.nameEn %}<p> dateEn: "{{ country.nameEn }}" </p>{% endif %}
+    {% if country.nameEs %}<p> dateEs: "{{ country.nameEs }}" </p>{% endif %}
+    {% if country.capitale %}<p> capitale: "{{ country.capitale }}" </p>{% endif %}
   
   {% endif %}
   
