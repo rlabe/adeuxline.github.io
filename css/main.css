@@ -18,7 +18,7 @@ nav.sub ul, footer.sub ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 100%;
 }
 nav.sub ul li, footer.sub ul li {
     display: inline;
