@@ -1,0 +1,14 @@
+---
+layout: default
+title: Europe
+---
+{% include menu_country.html %}
+
+<center><h1>{{ page.title }}</h1></center>
+	<ul class="posts">
+	  {% for country in site.countries %}
+    {% if country.continent = "europe" %}
+	    <li>» La <a href="{{ country.url }}" title="{{ country.title }}">{{ country.nameFr }}</a> dont la capitale est {{ country.capitale }}.</li>
+	  {% endfor %}
+    {% endif %}
+	</ul>
