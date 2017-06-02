@@ -1,13 +1,11 @@
 <div class="country" style=float:right>
-  {% for country in site.countries %}
-  {% if {{page.title}} == {{ country.name }} %}
   <table>
       <tr>
           <th class="title" colspan="4">{{ page.title }}</th>
       </tr>
       <tr>
-        <th colspan="2" style="text-align:center;">(en) {{ country.nameEn }}</th>
-        <th colspan="2" style="text-align:center;">(es) {{ country.nameEs }}</th>
+        <th colspan="2" style="text-align:center;">(en) {{ page.nameEn }}</th>
+        <th colspan="2" style="text-align:center;">(es) {{ page.nameEs }}</th>
       </tr>
       <tr>
         <th class="title" colspan="4">Carte</th>
@@ -20,27 +18,25 @@
       </tr>
       <tr>
         <td><b>Capitale</b></td>
-        <td colspan="3">{{ country.capitale }}</td>
+        <td colspan="3">{{ page.capitale }}</td>
       </tr>
       <tr>
         <td><b>Superficie</b></td>
-        <td colspan="3">{{ country.area }}</td>
+        <td colspan="3">{{ page.area }}</td>
       </tr>
       <tr>
         <td><b>Monnaie</b></td>
-        <td colspan="3">{{ country.currency }}</td>
+        <td colspan="3">{{ page.currency }}</td>
       </tr>
       <tr>
         <td><b>Langues</b></td>
-        <td colspan="3">{{ country.languages }}</td>
+        <td colspan="3">{{ page.languages }}</td>
       </tr>
-      {% if {{ country.visa }} %}
+
       <tr>
         <td><b>Visa ?</b></td>
-        <td colspan="3"> {{ country.visa }}</td>
+        <td colspan="3"> Non</td>
       </tr>
-      {% endif %}
+
   </table>
-  {% endif %}
-  {% endfor %}
 </div>
