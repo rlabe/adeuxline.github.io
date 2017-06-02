@@ -1,11 +1,11 @@
 <div class="country" style=float:right>
   <table>
       <tr>
-          <th class="title" colspan="4">Belgique</th>
+          <th class="title" colspan="4">{{ page.title }}</th>
       </tr>
       <tr>
-        <th colspan="2" style="text-align:center;">(en) Belgium</th>
-        <th colspan="2" style="text-align:center;">(es) Belgicà</th>
+        <th colspan="2" style="text-align:center;">(en) {{ page.nameEn }}</th>
+        <th colspan="2" style="text-align:center;">(es) {{ page.nameEs }}</th>
       </tr>
       <tr>
       	<th class="title" colspan="4">Drapeau</th>
@@ -18,27 +18,23 @@
       </tr>
       <tr>
         <td><b>Capitale</b></td>
-        <td colspan="3">Bruxelles</td>
+        <td colspan="3">{{ page.capitale }}</td>
       </tr>
       <tr>
         <td><b>Superficie</b></td>
-        <td colspan="3">30.000</td>
+        <td colspan="3">{{ page.area }}</td>
       </tr>
       <tr>
         <td><b>Monnaie</b></td>
-        <td colspan="3">Euro</td>
+        <td colspan="3">{{ page.currency }}</td>
       </tr>
       <tr>
         <td><b>Langues</b></td>
-        <td colspan="3">Fr, Nl, En</td>
+        <td colspan="3">{{ page.languages}}</td>
       </tr>
       <tr>
         <td><b>Visa ?</b></td>
         <td colspan="3">Non</td>
-      </tr>
-      <tr>
-        <td><b>Langues</b></td>
-        <td colspan="3">19 ans</td>
       </tr>
       <tr>
         <th class="title" colspan="4">Carte</th>
