@@ -54,3 +54,18 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+table.country {
+    width: 20%;
+}
+
+th.title {
+	text-align: center;
+    background-color: #dddddd;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
