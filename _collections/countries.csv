@@ -1,2 +1,3 @@
 name,layout,date,dateBegin,dateEnd,capitale,nameFr,nameEn,nameEs,area,currency,languages,visa
-belgium,country,2017-05-20,2017-01-01,2017-05-25,Bruxelles,Belgique,Belgium,Belgica,30500,Euro,Fr,
+belgium,country,2017-05-20,2017-01-01,2017-05-25,Bruxelles,Belgique,Belgium,Belgica,30500,Euro,Nl,
+france,country,2017-05-20,2017-01-01,2017-05-25,paris,France,France,Francia,210000,Euro,Fr,
