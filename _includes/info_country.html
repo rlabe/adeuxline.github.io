@@ -1,6 +1,6 @@
 <div class="country" style=float:right>
   {% for country in site.countries %}
-  {% if country.name == {{page.title}} %}
+  {% if {{page.title}} == {{ country.name }} %}
   <table>
       <tr>
           <th class="title" colspan="4">{{ page.title }}</th>
