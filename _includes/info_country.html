@@ -1,6 +1,10 @@
 <div class="country" style=float:right>
   <table>
       {% for country in site.countries %}
+      <!--
+      Ajouter une condition pour choisir le pays du type :
+      {% if page.title == country.name %}
+      -->
       <tr>
           <th class="title" colspan="4">{{ country.nameFr }}</th>
       </tr>
@@ -14,6 +18,7 @@
       <tr>
         <td colspan="4" style="padding:40px; text-align:center;">CARTE DE LA {{ page.title | upcase}}</td>
       </tr>
+      <!-- Uniquement si le pays a été traversé -->
       <tr>
         <th class="title" colspan="4">Statistiques de stop</th>
       </tr>
@@ -29,30 +34,32 @@
         <td><b>KM parcourus</b></td>
         <td colspan="3">2000</td>
       </tr>
+      
       <tr>
         <th class="title" colspan="4">Informations</th>
       </tr>
       <tr>
         <td><b>Capitale</b></td>
-        <td colspan="3">{{ page.capitale }}</td>
+        <td colspan="3">{{ country.capitale }}</td>
       </tr>
       <tr>
         <td><b>Superficie</b></td>
-        <td colspan="3">{{ page.area }}</td>
+        <td colspan="3">{{ country.area }}</td>
       </tr>
       <tr>
         <td><b>Monnaie</b></td>
-        <td colspan="3">{{ page.currency }}</td>
+        <td colspan="3">{{ country.currency }}</td>
       </tr>
       <tr>
         <td><b>Langues</b></td>
-        <td colspan="3">{{ page.languages }}</td>
+        <td colspan="3">{{ country.languages }}</td>
       </tr>
-
+      <!-- Uniquement si besoin d'un visa ? -->
       <tr>
         <td><b>Visa ?</b></td>
         <td colspan="3"> Non</td>
       </tr>
+    
       {% endfor %}
   </table>
 </div>
