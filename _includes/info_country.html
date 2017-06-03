@@ -3,10 +3,12 @@
       <tr>
           <th class="title" colspan="4">{{ page.title }}</th>
       </tr>
+      {% for country in site.countries %}
       <tr>
-        <th colspan="2" style="text-align:center;">(en) {{ page.nameEn }}</th>
-        <th colspan="2" style="text-align:center;">(es) {{ page.nameEs }}</th>
+        <th colspan="2" style="text-align:center;">(en) {{ country.nameEn }}</th>
+        <th colspan="2" style="text-align:center;">(es) {{ country.nameEs }}</th>
       </tr>
+      {% endfor %}
       <tr>
         <th class="title" colspan="4">Carte</th>
       </tr>
