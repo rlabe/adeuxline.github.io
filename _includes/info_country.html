@@ -1,7 +1,6 @@
 <div class="country" style=float:right>
   <table>
       {% for country in site.countries %}
-      {% if page.title == country.name %}
       <tr>
           <th class="title" colspan="4">{{ country.nameFr }}</th>
       </tr>
@@ -9,8 +8,6 @@
         <th colspan="2" style="text-align:center;">(en) {{ country.nameEn }}</th>
         <th colspan="2" style="text-align:center;">(es) {{ country.nameEs }}</th>
       </tr>
-      {% endif %}
-      {% endfor %}
       <tr>
         <th class="title" colspan="4">Carte</th>
       </tr>
@@ -56,6 +53,6 @@
         <td><b>Visa ?</b></td>
         <td colspan="3"> Non</td>
       </tr>
-
+      {% endfor %}
   </table>
 </div>
