@@ -1,7 +1,8 @@
 <div class="country" style=float:right>
   <table>
-      {% for country in site.countries %}
       <!--
+      {% for country in site.countries %}
+      
       Ajouter une condition pour choisir le pays du type :
       {% if page.title == country.name %}
       -->
@@ -55,8 +56,10 @@
         <td><b>Langues</b></td>
         <td colspan="3">{{ country.languages }}</td>
       </tr>
+      <!--
       {% endif %}
       {% endfor %}
+      -->
       <!-- Uniquement si besoin d'un visa ? -->
       <tr>
         <td><b>Visa ?</b></td>
