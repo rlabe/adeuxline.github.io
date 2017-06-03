@@ -8,7 +8,6 @@
           <th colspan="2" style="text-align:center;">(en) {{ country.nameEn }}</th>
           <th colspan="2" style="text-align:center;">(es) {{ country.nameEs }}</th>
         </tr>
-      {% endfor %}
         <tr>
           <th class="title" colspan="4">Carte</th>
         </tr>
@@ -35,21 +34,21 @@
        </tr>
        <tr>
          <td><b>Capitale</b></td>
-         <td colspan="3">{{ page.capitale }}</td>
+         <td colspan="3">{{ country.capitale }}</td>
        </tr>
        <tr>
          <td><b>Superficie</b></td>
-         <td colspan="3">{{ page.area }}</td>
+         <td colspan="3">{{ country.area }}</td>
        </tr>
        <tr>
          <td><b>Monnaie</b></td>
-         <td colspan="3">{{ page.currency }}</td>
+         <td colspan="3">{{ country.currency }}</td>
        </tr>
        <tr>
          <td><b>Langues</b></td>
-         <td colspan="3">{{ page.languages }}</td>
+         <td colspan="3">{{ country.languages }}</td>
        </tr>
- 
+       {% endfor %}
        <tr>
           <td><b>Visa ?</b></td>
           <td colspan="3"> Non</td>
