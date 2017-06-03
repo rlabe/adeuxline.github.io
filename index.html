@@ -4,7 +4,11 @@ title: Welcome home
 ---
 <center><h1>Bienvenue !</h1></center>
 
-
+<ul>
+{% for country in site.countries %}
+  <li>{{country.name}}</li>
+{% endfor %}
+</ul>
 <!--  DÉBUT SLIDESHOW -->
 
 {% include carousel.html %}
