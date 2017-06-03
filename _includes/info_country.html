@@ -1,13 +1,15 @@
 <div class="country" style=float:right>
   <table>
-      <tr>
-          <th class="title" colspan="4">{{ page.title }}</th>
-      </tr>
       {% for country in site.countries %}
+      {% if page.title == country.name %}
+      <tr>
+          <th class="title" colspan="4">{{ country.nameFr }}</th>
+      </tr>
       <tr>
         <th colspan="2" style="text-align:center;">(en) {{ country.nameEn }}</th>
         <th colspan="2" style="text-align:center;">(es) {{ country.nameEs }}</th>
       </tr>
+      {% endif %}
       {% endfor %}
       <tr>
         <th class="title" colspan="4">Carte</th>
