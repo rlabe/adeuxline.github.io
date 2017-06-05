@@ -1,18 +1,21 @@
-<div id="googleMap" style="
+<div id="map" style="
     width:{% if include.width %}{{ include.width }}{% else %}100%{% endif %};
     height:{% if include.height %}{{ include.height }}{% else %}400px{% endif %};
     float:{% if include.float %}{{ include.float }}{% else %}left{% endif %}
 "></div>
 
 <script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(
-        {% if include.coord %}{{ include.coord }}{% else %}51.508742,-0.120850{% endif %}),
-        zoom:{% if include.zoom %}{{ include.zoom }}{% else %}5,{% endif %}
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
 </script>
 
 {% include google_maps_key.html %}
