@@ -1,4 +1,4 @@
-<div id="googleMap" style="width:100%;height:400px;"></div>
+<div id="googleMap" style="width:{% if include.taille %} {{ include.taille }} {% else %}100% {% endif %};height:400px;"></div>
 
 <script>
 function myMap() {
