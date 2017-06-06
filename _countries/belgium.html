@@ -26,11 +26,15 @@ geocoder = new google.maps.Geocoder();
 function getCity(city) {
     geocoder.geocode( { 'address': city }, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
-           map.setCenter(results[0].geometry.location);
-           var marker = new google.maps.Marker({
-               map: map,
-               position: results[0].geometry.location
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location
            });
+          var infowindow = new google.maps.InfoWindow({
+          content: "Hello World!"
+          });
+          infowindow.open(map,marker);
         } else {
           alert("Geocode was not successful for the following reason: " + status);
         }
