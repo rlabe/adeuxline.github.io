@@ -21,6 +21,8 @@ height="400px"
 
 {% include google_maps.html %}
 
+geocoder = new google.maps.Geocoder();
+
 function getCity(city) {
     geocoder.geocode( { 'address': city }, function(results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
