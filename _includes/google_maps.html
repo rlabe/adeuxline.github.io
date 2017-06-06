@@ -1,21 +1,10 @@
-<div id="map" style="
-    width:{% if include.width %}{{ include.width }}{% else %}100%{% endif %};
-    height:{% if include.height %}{{ include.height }}{% else %}400px{% endif %};
-    float:{% if include.float %}{{ include.float }}{% else %}left{% endif %}
-"></div>
-
 <script>
       function initMap() {
-        var lln = {lat: 50.668447, lng: 4.612091};
+        var {% if include.name %}{{ include.name }}{% else %}lln{% endif %} = {
+            lat: {% if include.lat %}{{ include.lat }}{% else %}50.668447{% endif %},
+            lng: {% if include.long %}{{ include.long }}{% else %}4.612091{% endif %}
+        };
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 7,
-          center: lln
+          zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
+          center: {% if include.name %}{{ include.name }}{% else %}lln{% endif %}
         });
-        var marker = new google.maps.Marker({
-          position: lln,
-          map: map
-        });
-      }
-</script>
-
-{% include google_maps_key.html %}
