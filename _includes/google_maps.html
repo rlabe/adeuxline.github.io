@@ -8,3 +8,5 @@
           zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
           center: {% if include.name %}{{ include.name }}{% else %}lln{% endif %}
         });
+        
+        geocoder = new google.maps.Geocoder();
