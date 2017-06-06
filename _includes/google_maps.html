@@ -6,13 +6,13 @@
 
 <script>
       function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
+        var lln = {lat: 50.668447, lng: 4.612091};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: uluru
+          center: lln
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: lln,
           map: map
         });
       }
