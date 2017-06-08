@@ -1,0 +1,58 @@
+<!-- Paramètres du <div> de la carte -->
+<div id="map" style="
+    width:{% if include.width %}{{ include.width }}{% else %}75%{% endif %};
+    height:{% if include.height %}{{ include.height }}{% else %}400px{% endif %};
+    float:{% if include.float %}{{ include.float }}{% else %}left{% endif %}
+"></div>
+
+<script>
+    function initMap() {
+		<!-- Création de la carte -->
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
+        });
+        <!-- Lancement du service Geocoder -->
+        geocoder = new google.maps.Geocoder();
+		<!-- Placement des marqueurs avec Geocoder -->
+		function getCountry(country) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Centre la carte sur le marqueur -->
+					map.setCenter(results[0].geometry.location);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis le pays sur lequel centrer la carte -->
+		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
+		<!-- Placement des marqueurs avec Geocoder -->
+		function getCity(city) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location
+					});
+					<!-- Création d'une fenêtre au dessus du marqueur -->
+					var infowindow = new google.maps.InfoWindow({
+					content: "Manon ! ♥"
+					});
+					infowindow.open(map,marker);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis les villes à localiser sur la carte -->
+		getCity('{% if include.city %}{{ include.city }}{% else %}Louvain-la-Neuve{% endif %}');
+		}
+</script>
+
+<!-- Ajout de la clé API Google Maps -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap">
+</script>
