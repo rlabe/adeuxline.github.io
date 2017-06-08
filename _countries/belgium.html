@@ -24,14 +24,10 @@ languages: "Fr, Nl, Al"
 <script>
     function initMap() {
 		<!-- Coordonnées du centre de la carte -->
-        var {% if include.name %}{{ include.name }}{% else %}lln{% endif %} = {
-            lat: {% if include.lat %}{{ include.lat }}{% else %}50.668447{% endif %},
-            lng: {% if include.long %}{{ include.long }}{% else %}4.612091{% endif %}
-        };
+
 		<!-- Création de la carte -->
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
-          center: {% if include.name %}{{ include.name }}{% else %}lln{% endif %}
+			zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %}
         });
         <!-- Lancement du service Geocoder -->
         geocoder = new google.maps.Geocoder();
@@ -48,7 +44,7 @@ languages: "Fr, Nl, Al"
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					var infowindow = new google.maps.InfoWindow({
-					content: "Manon ! ♥"
+					content: "{{ include.country }}"
 					});
 					infowindow.open(map,marker);
 					<!-- Si jamais ça plante... -->
