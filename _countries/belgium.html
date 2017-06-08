@@ -14,31 +14,56 @@ currency: "Euro"
 languages: "Fr, Nl, Al"
 ---
 
-{% include google_maps_settings.html 
-width="75%"
-height="400px"
-%}
+<!-- Paramètres du <div> de la carte -->
+<div id="map" style="
+    width:{% if include.width %}{{ include.width }}{% else %}100%{% endif %};
+    height:{% if include.height %}{{ include.height }}{% else %}400px{% endif %};
+    float:{% if include.float %}{{ include.float }}{% else %}left{% endif %}
+"></div>
 
-{% include google_maps.html %}
+<script>
+    function initMap() {
+		<!-- Coordonnées du centre de la carte -->
+        var {% if include.name %}{{ include.name }}{% else %}lln{% endif %} = {
+            lat: {% if include.lat %}{{ include.lat }}{% else %}50.668447{% endif %},
+            lng: {% if include.long %}{{ include.long }}{% else %}4.612091{% endif %}
+        };
+		<!-- Création de la carte -->
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
+          center: {% if include.name %}{{ include.name }}{% else %}lln{% endif %}
+        });
+        <!-- Lancement du service Geocoder -->
+        geocoder = new google.maps.Geocoder();
+		<!-- Placement des marqueurs avec Geocoder -->
+		function getCountry(country) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Centre la carte sur le marqueur -->
+					map.setCenter(results[0].geometry.location);
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location
+					});
+					<!-- Création d'une fenêtre au dessus du marqueur -->
+					var infowindow = new google.maps.InfoWindow({
+					content: "Manon ! ♥"
+					});
+					infowindow.open(map,marker);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Ajout des marqueurs sur la carte -->
+		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
+		
+		}
+</script>
 
-function getCity(city) {
-    geocoder.geocode( { 'address': city }, function(results, status) {
-        if (status == google.maps.GeocoderStatus.OK) {
-            map.setCenter(results[0].geometry.location);
-            var marker = new google.maps.Marker({
-                map: map,
-                position: results[0].geometry.location
-           });
-          var infowindow = new google.maps.InfoWindow({
-          content: "Manon ! ♥"
-          });
-          infowindow.open(map,marker);
-        } else {
-          alert("Geocode was not successful for the following reason: " + status);
-        }
-    });
-}
-
-getCity('Celles, 4317');
-
-{% include google_maps_end.html %}
+<!-- Ajout de la clé API Google Maps -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap">
+</script>
