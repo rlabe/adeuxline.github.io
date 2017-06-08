@@ -23,11 +23,9 @@ languages: "Fr, Nl, Al"
 
 <script>
     function initMap() {
-		<!-- Coordonnées du centre de la carte -->
-
 		<!-- Création de la carte -->
         var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %}
+					zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %}
         });
         <!-- Lancement du service Geocoder -->
         geocoder = new google.maps.Geocoder();
@@ -35,18 +33,8 @@ languages: "Fr, Nl, Al"
 		function getCountry(country) {
 			geocoder.geocode( { 'address': country }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
-					<!-- Centre la carte sur le marqueur -->
+					<!-- Centre la carte sur le Pays -->
 					map.setCenter(results[0].geometry.location);
-					<!-- Crée le marqueur -->
-					var marker = new google.maps.Marker({
-						map: map,
-						position: results[0].geometry.location
-					});
-					<!-- Création d une fenêtre au dessus du marqueur -->
-					var infowindow = new google.maps.InfoWindow({
-					content: "{{ include.country }}"
-					});
-					infowindow.open(map,marker);
 					<!-- Si jamais ça plante... -->
 				} else {
 					alert("Geocode was not successful for the following reason: " + status);
@@ -54,9 +42,9 @@ languages: "Fr, Nl, Al"
 			});
 		}
 		<!-- Ajout des marqueurs sur la carte -->
-		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
+	getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
 		
-		}
+	}
 </script>
 
 <!-- Ajout de la clé API Google Maps -->
