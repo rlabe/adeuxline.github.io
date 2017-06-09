@@ -25,15 +25,17 @@ languages: "Fr, Nl, Al"
     function initMap() {
 		<!-- Création de la carte -->
         var map = new google.maps.Map(document.getElementById('map'), {
-					zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %}
+          zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
         });
+		
         <!-- Lancement du service Geocoder -->
         geocoder = new google.maps.Geocoder();
-		<!-- Placement des marqueurs avec Geocoder -->
+		
+		<!-- Localisation du pays -->
 		function getCountry(country) {
 			geocoder.geocode( { 'address': country }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
-					<!-- Centre la carte sur le Pays -->
+					<!-- Centre la carte sur le marqueur -->
 					map.setCenter(results[0].geometry.location);
 					<!-- Si jamais ça plante... -->
 				} else {
@@ -41,11 +43,32 @@ languages: "Fr, Nl, Al"
 				}
 			});
 		}
+		<!-- Choisis le pays sur lequel centrer la carte -->
+		getCity('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
 		
-		<!-- Ajout des marqueurs sur la carte -->
-	getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
-		
-	}
+		<!-- Placement des marqueurs avec Geocoder -->
+		function getCity(city) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location
+					});
+					<!-- Création d'une fenêtre au dessus du marqueur -->
+					var infowindow = new google.maps.InfoWindow({
+					content: {{ include.city }}
+					});
+					infowindow.open(map,marker);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis les villes à localiser sur la carte -->
+		getCity('{% if include.city %}{{ include.city }}{% else %}Louvain-la-Neuve{% endif %}');
+		}
 </script>
 
 <!-- Ajout de la clé API Google Maps -->
