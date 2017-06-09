@@ -57,7 +57,7 @@ languages: "Fr, Nl, Al"
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					var infowindow = new google.maps.InfoWindow({
-					content: {{ include.city }}
+					content: "{{ include.city }}"
 					});
 					infowindow.open(map,marker);
 					<!-- Si jamais ça plante... -->
