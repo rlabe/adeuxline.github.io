@@ -5,11 +5,12 @@
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
 						map: map,
-						position: results[0].geometry.location
+						position: results[0].geometry.location,
+						label: {% if include.text %}{{ include.text }}{% else %}1{% endif %}
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					var infowindow = new google.maps.InfoWindow({
-					content: "{% if include.city %}{{ include.city }}{% else %}city{% endif %}"
+					content: "{% if include.text %}{{ include.text }}{% else %}city{% endif %}"
 					});
 					infowindow.open(map,marker);
 					<!-- Si jamais ça plante... -->
