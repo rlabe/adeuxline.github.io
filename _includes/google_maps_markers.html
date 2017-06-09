@@ -1,0 +1,22 @@
+<!-- Placement des marqueurs avec Geocoder -->
+		function getCity(city) {
+			geocoder.geocode( { 'address': city }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location
+					});
+					<!-- Création d une fenêtre au dessus du marqueur -->
+					var infowindow = new google.maps.InfoWindow({
+					content: "{{ include.city }}"
+					});
+					infowindow.open(map,marker);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis les villes à localiser sur la carte -->
+		getCity('{% if include.city %}{{ include.city }}{% else %}Louvain-la-Neuve{% endif %}');
