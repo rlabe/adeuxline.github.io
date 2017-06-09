@@ -44,7 +44,7 @@ languages: "Fr, Nl, Al"
 			});
 		}
 		<!-- Choisis le pays sur lequel centrer la carte -->
-		getCity('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
+		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
 		
 		<!-- Placement des marqueurs avec Geocoder -->
 		function getCity(city) {
