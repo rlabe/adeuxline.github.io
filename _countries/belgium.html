@@ -48,7 +48,7 @@ languages: "Fr, Nl, Al"
 		
 		<!-- Placement des marqueurs avec Geocoder -->
 		function getCity(city) {
-			geocoder.geocode( { 'address': country }, function(results, status) {
+			geocoder.geocode( { 'address': city }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
