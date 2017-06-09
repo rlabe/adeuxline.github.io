@@ -1,8 +1,0 @@
-var {% if include.name %}{{ include.name }}{% else %}lln{% endif %} ={
-    lat: {% if include.lat %}{{ include.lat }}{% else %}50.668447{% endif %},
-    lng: {% if include.long %}{{ include.long }}{% else %}4.612091{% endif %}
-    };
-var marker = new google.maps.Marker({
-  position: {% if include.name %}{{ include.name }}{% else %}lln{% endif %},
-  map: map
-});
