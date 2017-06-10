@@ -9,10 +9,12 @@
 						label: {% if include.text %}{{ include.text }}{% else %}1{% endif %}
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
+					{% if include.text %}
 					var infowindow = new google.maps.InfoWindow({
-					content: "{% if include.text %}{{ include.text }}{% endif %}"
+					content: "{{ include.text }}"
 					});
 					infowindow.open(map,marker);
+					{% endif %}
 					<!-- Si jamais ça plante... -->
 				} else {
 					alert("Geocode was not successful for the following reason: " + status);
