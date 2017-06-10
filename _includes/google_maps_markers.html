@@ -10,7 +10,7 @@
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					var infowindow = new google.maps.InfoWindow({
-					content: "{% if include.text %}{{ include.text }}{% else %}city{% endif %}"
+					content: "{% if include.text %}{{ include.text }}{% endif %}"
 					});
 					infowindow.open(map,marker);
 					<!-- Si jamais ça plante... -->
