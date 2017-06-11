@@ -23,6 +23,7 @@ languages: "Fr, Nl, Al"
 "></div>
 
 <script>
+	var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	var labelIndex = 0;
     function initMap() {
 		<!-- Création de la carte -->
@@ -55,9 +56,10 @@ languages: "Fr, Nl, Al"
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
 						position: results[0].geometry.location,
+						label: labels[labelIndex++ % labels.length],
 						map: map
 					});
-					marker.setlabel(++labelIndex);
+					
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					{% if include.text %}
 					var infowindow = new google.maps.InfoWindow({
