@@ -15,10 +15,65 @@ currency: "Euro"
 languages: "Fr, Nl, Al"
 ---
 
-{% include google_maps_settings.html %}
+<!-- Paramètres du <div> de la carte -->
+<div id="map" style="
+    width:{% if include.width %}{{ include.width }}{% else %}75%{% endif %};
+    height:{% if include.height %}{{ include.height }}{% else %}400px{% endif %};
+    float:{% if include.float %}{{ include.float }}{% else %}left{% endif %}
+"></div>
 
-{% include google_maps.html %}
+<script>
+    function initMap() {
+		<!-- Création de la carte -->
+        var map = new google.maps.Map(document.getElementById('map'), {
+        	zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
+        });
+		
+        <!-- Lancement du service Geocoder -->
+        geocoder = new google.maps.Geocoder();
+		
+		<!-- Localisation du pays -->
+		function getCountry(country) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Centre la carte sur le pays -->
+					map.setCenter(results[0].geometry.location);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis le pays sur lequel centrer la carte -->
+		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
 
-{% include google_maps_markers.html city="Liège" %}
+<!-- Placement des marqueurs avec Geocoder -->
+		function getCity(city) {
+			geocoder.geocode( { 'address': city }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						map: map,
+						position: results[0].geometry.location,
+						label: {% if include.text %}{{ include.text }}{% else %}1{% endif %}
+					});
+					<!-- Création d une fenêtre au dessus du marqueur -->
+					{% if include.text %}
+					var infowindow = new google.maps.InfoWindow({
+					content: "{{ include.text }}"
+					});
+					infowindow.open(map,marker);
+					{% endif %}
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis les villes à localiser sur la carte -->
+		getCity('{% if include.city %}{{ include.city }}{% else %}Louvain-la-Neuve{% endif %}');
 
-{% include google_maps_end.html %}
+}
+</script>
+
+{% include google_maps_key.html %}
