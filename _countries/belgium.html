@@ -23,6 +23,7 @@ languages: "Fr, Nl, Al"
 "></div>
 
 <script>
+	var index = 0;
     function initMap() {
 		<!-- Création de la carte -->
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -53,9 +54,9 @@ languages: "Fr, Nl, Al"
 				if (status == google.maps.GeocoderStatus.OK) {
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
-						map: map,
 						position: results[0].geometry.location,
-						label: {% if include.text %}{{ include.text }}{% else %}1{% endif %}
+						label: ++index
+						map: map,
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					{% if include.text %}
