@@ -55,8 +55,8 @@ languages: "Fr, Nl, Al"
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
 						position: results[0].geometry.location,
-						label: ++index
-						map: map,
+						label: ++index,
+						map: map
 					});
 					<!-- Création d une fenêtre au dessus du marqueur -->
 					{% if include.text %}
