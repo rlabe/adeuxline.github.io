@@ -5,5 +5,3 @@ permalink: /blog/:year/:month/:day/:title
 
 collections:
   countries:
-    output: true
-    permalink: /:collection/:name
