@@ -1,7 +1,6 @@
  <div class="country" style="float:right; width:20%;">
     <table>
-        {% for country in site.data.countries %}
-        {% if {{ country.name }} == 'belgium' %}
+        {% for country in site.data.countries limit:1 %}
         <tr>
             <th class="title" colspan="4">{{ country.nameFr }}</th>
         </tr>
@@ -43,7 +42,6 @@
          <td><b>Langues</b></td>
          <td colspan="3">{{ country.languages }}</td>
        </tr>
-         {% endif %}
        {% endfor %}
        <tr>
           <td><b>Visa ?</b></td>
