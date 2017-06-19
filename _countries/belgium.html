@@ -50,12 +50,18 @@ continent: "europe"
 					});
 					
 					<!-- Création d une fenêtre au dessus du marqueur -->
+					<!--
 					{% if include.text %}
 					var infowindow = new google.maps.InfoWindow({
 					content: "{{ include.text }}"
 					});
 					infowindow.open(map,marker);
 					{% endif %}
+					var infowindow = new google.maps.InfoWindow({
+					content: "{{ include.city }}"
+					});
+					infowindow.open(map,marker);
+					-->
 					<!-- Si jamais ça plante... -->
 				} else {
 					alert("Geocode was not successful for the following reason: " + status);
