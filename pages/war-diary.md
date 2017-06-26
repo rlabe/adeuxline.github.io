@@ -6,7 +6,7 @@ subheadline: "La survie..."
 teaser: "La grande aventure est à venir."
 header:
    image_fullwidth: "header_homepage_13.jpg"
-permalink: "/about-us/"
+permalink: "/war-diary/"
 ---
 
 {% include alert warning='This is a warning.' %}
