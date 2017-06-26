@@ -2,7 +2,7 @@
 layout: page
 show_meta: false
 title: "Marie & Romain"
-subheadline: "Une aventure gare après gare
+subheadline: "Une aventure gare après gare"
 teaser: "Quatre jours et demi de train, sans douche. Survireront-iels ?"
 header:
    image_fullwidth: "header_homepage_13.jpg"
