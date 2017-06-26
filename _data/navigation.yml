@@ -2,11 +2,11 @@
   url: "/"
   side: left
 
-- title: Qui sommes-nous ?
+- title: "Qui sommes-nous ?"
   url: "/about-us/"
   side: left
   
-- title: Journal de guerre ?
+- title: "Journal de guerre"
   url: "/war-diary/"
   side: left
 
