@@ -1,56 +1,50 @@
-- title: Start
+- title: [Logo]
   url: "/"
   side: left
 
-- title: Getting Started
+- title: Qui sommes-nous ?
   url: "/getting-started/"
   side: left
 
-- title: "Templates"
+- title: "Monnaies locales"
   url: "/design/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
+  - title: "Europe"
     url: "/design/grid/"
-  - title: "Typography"
+  - title: "Asie"
     url: "/design/typography/typography/"
-  - title: "Page/Post"
+  - title: "Amérique du Sud"
     url: "/design/page/"
-  - title: "Post-Left-Sidebar"
+  - title: "Afrique"
     url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
+  - title: "Océanie"
     url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
+  - title: "Amérique du Nord"
     url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
+  - title: "Autres..."
     url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
 
-- title: "Header Styles"
+- title: "Le stop"
   url: "/headers/"
   side: left
   dropdown:
-  - title: "Header with Full-Width-Image"
+  - title: "Europe"
     url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
+  - title: "Asie"
     url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
+  - title: "Amérique du Sud"
     url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
+  - title: "Afrique"
     url: "/design/header-logo-only/"
-  - title: "Header With Text"
+  - title: "Amérique du Nord"
     url: "/design/header-with-text/"
-  - title: "No Header"
+  - title: "Océanie"
     url: "/design/no-header/"
-  - title: "No Header but Image"
+  - title: "Autres..."
     url: "/design/no-header-but-image/"
 
-- title: Documentation
+- title: Challenges
   url: "/documentation/"
   side: left
   dropdown:
@@ -59,14 +53,14 @@
   - title: "Roadmap"
     url: "/roadmap/"
 
-- title: Blog
+- title: Articles
   url: "/blog/"
   side: left
   dropdown:
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
+- title: "Recherche"
   url: "/search/"
   side: right
 
