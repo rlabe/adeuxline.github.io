@@ -5,6 +5,10 @@
 - title: Qui sommes-nous ?
   url: "/about-us/"
   side: left
+  
+- title: Journal de guerre ?
+  url: "/war-diary/"
+  side: left
 
 - title: "Monnaies locales"
   url: "/design/"
