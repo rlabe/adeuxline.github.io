@@ -1,8 +1,0 @@
-name: Romain
-markdown: kramdown
-
-permalink: /blog/:year/:month/:day/:title
-
-collections:
-  countries:
-    output: true
