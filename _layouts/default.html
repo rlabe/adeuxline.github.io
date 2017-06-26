@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<center><nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/countries">Pays</a></li>
-				<li><a href="/monnaieslocales">Monnaies locales</a></li>
-	        		<li><a href="/alcools">Alcools</a></li>
-				<li><a href="/blog">Blog</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="/todo">Liste des choses à faire...</a></li>
-	    		</ul>
-				</nav></center>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:laberomain@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/Adeuxline">github.com/Adeuxline</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
+
+	{% include _masthead.html %}
+	{{ content }}
+
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
+
+	{% include _footer_scripts.html %}
+</body>
+</html>

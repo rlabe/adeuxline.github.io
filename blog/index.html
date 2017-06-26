@@ -1,11 +1,8 @@
 ---
-layout: default
-title: Blog de Romain
+layout: blog
+title: "Blog of Feeling Responsive"
+teaser: "This is the Feeling Responsive Blog Template."
+header:
+    image_fullwidth: "header-bus.jpg"
 ---
-<center><h1>{{ page.title }}</h1></center>
-	<ul class="posts">
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
