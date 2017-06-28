@@ -5,7 +5,7 @@ title: "Liste des pays !"
 subheadline: "Il y en a beaucoup..."
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/countries/"
+permalink: "/countries/europe/"
 ---
 <ul>
     {% for post in site.categories.countries.europe %}
