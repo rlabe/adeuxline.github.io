@@ -8,7 +8,7 @@ breadcrumb: true
 tags:
     - post format
 categories:
-    - country
+    - countries
 image:
     thumb: gallery-example-2-thumb.jpg
     title: gallery-example-2.jpg
