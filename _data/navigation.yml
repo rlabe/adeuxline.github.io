@@ -10,24 +10,24 @@
   url: "/war-diary/"
   side: left
 
-- title: "Monnaies locales"
-  url: "/#/"
-  side: left
-  dropdown:
-  - title: "Europe"
-    url: "/#/"
-  - title: "Asie"
-    url: "/#/"
-  - title: "Amérique du Sud"
-    url: "/#/"
-  - title: "Afrique"
-    url: "/#/"
-  - title: "Océanie"
-    url: "/#/"
-  - title: "Amérique du Nord"
-    url: "/#/"
-  - title: "Autres..."
-    url: "/blog/"
+# - title: "Monnaies locales"
+#   url: "/#/"
+#   side: left
+#   dropdown:
+#   - title: "Europe"
+#     url: "/#/"
+#   - title: "Asie"
+#     url: "/#/"
+#   - title: "Amérique du Sud"
+#     url: "/#/"
+#   - title: "Afrique"
+#     url: "/#/"
+#   - title: "Océanie"
+#     url: "/#/"
+#   - title: "Amérique du Nord"
+#     url: "/#/"
+#   - title: "Autres..."
+#     url: "/blog/"
 
 - title: "Les pays"
   url: "/countries/"
@@ -48,14 +48,14 @@
   - title: "Autres..."
     url: "/#/"
 
-- title: Challenges
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/#/"
-  - title: "Roadmap"
-    url: "/#/"
+# - title: Challenges
+#   url: "/documentation/"
+#   side: left
+#   dropdown:
+#   - title: "Changelog"
+#     url: "/#/"
+#   - title: "Roadmap"
+#     url: "/#/"
 
 - title: Articles
   url: "/blog/"
@@ -68,6 +68,6 @@
   url: "/search/"
   side: right
 
-- title: "Contact"
-  url: "/contact/"
-  side: right
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right
