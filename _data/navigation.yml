@@ -11,21 +11,21 @@
   side: left
 
 - title: "Monnaies locales"
-  url: "/design/"
+  url: "/#/"
   side: left
   dropdown:
   - title: "Europe"
-    url: "/design/grid/"
+    url: "/#/"
   - title: "Asie"
-    url: "/design/typography/typography/"
+    url: "/#/"
   - title: "Amérique du Sud"
-    url: "/design/page/"
+    url: "/#/"
   - title: "Afrique"
-    url: "/design/post-left-sidebar/"
+    url: "/#/"
   - title: "Océanie"
-    url: "/design/post-right-sidebar/"
+    url: "/#/"
   - title: "Amérique du Nord"
-    url: "/design/page-fullwidth/"
+    url: "/#/"
   - title: "Autres..."
     url: "/blog/"
 
@@ -34,28 +34,28 @@
   side: left
   dropdown:
   - title: "Europe"
-    url: "/design/header-full-width-image/"
+    url: "/#/"
   - title: "Asie"
-    url: "/design/header-image-pattern/"
+    url: "/#/"
   - title: "Amérique du Sud"
-    url: "/design/header-image-color/"
+    url: "/#/"
   - title: "Afrique"
-    url: "/design/header-logo-only/"
+    url: "/#/"
   - title: "Amérique du Nord"
-    url: "/design/header-with-text/"
+    url: "/#/"
   - title: "Océanie"
-    url: "/design/no-header/"
+    url: "/#/"
   - title: "Autres..."
-    url: "/design/no-header-but-image/"
+    url: "/#/"
 
 - title: Challenges
   url: "/documentation/"
   side: left
   dropdown:
   - title: "Changelog"
-    url: "/changelog/"
+    url: "/#/"
   - title: "Roadmap"
-    url: "/roadmap/"
+    url: "/#/"
 
 - title: Articles
   url: "/blog/"
