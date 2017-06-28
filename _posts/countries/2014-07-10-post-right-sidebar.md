@@ -1,9 +1,9 @@
 ---
 layout: page
 sidebar: right
-subheadline: Templates
-title:  "Page/Post Right Sidebar"
-teaser: "This is an example of page/post with a sidebar on the right."
+subheadline: Europe
+title:  "Belgique"
+teaser: "Un magnifique pays."
 breadcrumb: true
 tags:
     - post format
