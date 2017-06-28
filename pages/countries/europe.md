@@ -9,7 +9,8 @@ permalink: "/countries/europe/"
 ---
 <ul>
     {% for post in site.categories.countries %}
-    {% if post. %}
+    {% if post.title == "europe" %}
     <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
     {% endfor %}
 </ul>
