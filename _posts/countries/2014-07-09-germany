@@ -1,14 +1,14 @@
 ---
 layout: page
 sidebar: left
-subheadline: Templates
-title:  "Page/Post With Left Sidebar"
-teaser: "This is a example of page/post with a sidebar on the left."
+subheadline: Europe
+title:  "Allemagne"
+teaser: "C'est l'Allemagne."
 breadcrumb: true
 tags:
-    - post format
+    - europe
 categories:
-    - design
+    - countries
 image:
     thumb: gallery-example-3-thumb.jpg
     title: gallery-example-3.jpg
