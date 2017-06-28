@@ -29,8 +29,8 @@
   - title: "Autres..."
     url: "/blog/"
 
-- title: "Le stop"
-  url: "/headers/"
+- title: "Les pays"
+  url: "/countries/"
   side: left
   dropdown:
   - title: "Europe"
