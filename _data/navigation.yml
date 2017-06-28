@@ -34,7 +34,7 @@
   side: left
   dropdown:
   - title: "Europe"
-    url: "/#/"
+    url: "/countries/europe/"
   - title: "Asie"
     url: "/#/"
   - title: "Amérique du Sud"
