@@ -64,6 +64,10 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
+- title: "Statistiques"
+  url: "/stats/"
+  side: right
+
 - title: "Recherche"
   url: "/search/"
   side: right
