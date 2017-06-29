@@ -22,4 +22,4 @@ image:
 
 ## Autres villes de {{ page.subheadline }}
 {: .t60 }
-{% include list-posts category='counties' tag='belgium' %}
+{% include list-posts category='cities' tag='belgium' %}
