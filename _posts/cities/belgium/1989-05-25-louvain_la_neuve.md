@@ -20,6 +20,6 @@ image:
 
 
 
-## Autres villes de {{ page.country }}
+## Autres villes de {{ page.subheadline }}
 {: .t60 }
 {% include list-posts category='counties' tag='belgium' %}
