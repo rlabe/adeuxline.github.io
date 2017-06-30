@@ -8,4 +8,4 @@ header:
 permalink: "/countries/europe/"
 ---
 
-{% include list-posts offset='300' category='countries' tag='europe' %}
+{% include list-posts category='countries' tag='europe' %}
