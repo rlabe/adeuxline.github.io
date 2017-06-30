@@ -7,10 +7,5 @@ header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/countries/europe/"
 ---
-<ul>
-    {% for post in site.categories.countries %}
-    {% if post.subheadline == "europe" %}
-    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
+
+{% include list-posts offset='300' category='countries' tag='europe' %}
