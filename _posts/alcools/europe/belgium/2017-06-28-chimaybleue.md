@@ -1,14 +1,17 @@
 ---
 layout: page
 sidebar: right
-subheadline: Rhum
-title:  "Rhum de Martinique"
+subheadline: Bière trapiste
+title:  "Chimay bleue"
 teaser: "This is the best rhum EVER."
 breadcrumb: true
 tags:
     - belgium
+    - bière
+    - trapiste
 categories:
     - alcools
+country: Belgique
 image:
     thumb: gallery-example-2-thumb.jpg
     title: gallery-example-2.jpg
@@ -28,7 +31,6 @@ If you don't want to show metadata, it's simple again:
 show_meta: false
 ~~~
 
-
-## Autres alcools
+## Autres alcools de {{ page.country }}
 {: .t60 }
 {% include list-posts tag='alcools' %}
