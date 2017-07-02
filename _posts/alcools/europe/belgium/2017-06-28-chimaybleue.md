@@ -13,12 +13,12 @@ categories:
     - alcools
 country: Belgique
 image:
-    thumb: http://chimay.com/wp-content/uploads/2015/01/accord_chimay_bleue_bg.jpg
-    title: http://chimay.com/wp-content/uploads/2015/01/accord_chimay_bleue_bg.jpg
-    caption: chimay.com
-    caption_url: http://chimay.com
+   thumb: gallery-example-2-thumb.jpg
+    title: gallery-example-2.jpg
+    caption: unsplash.com
+    caption_url: http://unsplash.com
 ---
 
 ## Autres alcools de {{ page.country }}
 {: .t60 }
-{% include list-posts tag='alcools' %}
+{% include list-posts category='alcools' %}
