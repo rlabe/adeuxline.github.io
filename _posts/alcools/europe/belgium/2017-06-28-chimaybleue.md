@@ -14,9 +14,9 @@ categories:
 country: Belgique
 image:
    thumb: gallery-example-2-thumb.jpg
-    title: gallery-example-2.jpg
-    caption: unsplash.com
-    caption_url: http://unsplash.com
+   title: gallery-example-2.jpg
+   caption: unsplash.com
+   caption_url: http://unsplash.com
 ---
 
 ## Autres alcools de {{ page.country }}
