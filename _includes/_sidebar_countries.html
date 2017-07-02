@@ -3,17 +3,17 @@
 		<center><h3>NOM DU PAYS</h3></center>
 		<p>
     <ul>
-      <li>Capitale</li>
-      <li>Superficie</li>
-      <li>Population</li>
-      <li>Nombre de jours passés</li>
-      <li>Conducteurs rencontrés</li>
-      <li>Nombre de monnaies locales</li>
+      {% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
+      {% if page.capitale %}<li>Superficie: {{ page.superficie }}</li>{% endif %}
+      {% if page.capitale %}<li>Population: {{ page.population }}</li>{% endif %}
+      {% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
+      {% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
+      {% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
     </ul>
 		</p>
 	</div>
 
-  <img class="b30" src="http://dummyimage.com/303x16:9/df4949/e27b3f.png&amp;text=Ugly+Ad+Space" alt="">
+  <img class="b30" src="https://dummyimage.com/600x400/ff0000/000000&text=Mettre+une+carte+ici" alt="">
 
 
 	<div class="border-dotted radius b30">
