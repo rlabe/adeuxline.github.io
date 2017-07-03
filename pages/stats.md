@@ -9,6 +9,8 @@ header:
 permalink: "/stats/"
 ---
 
+{{'now' | date: "%s" | minus : 604800 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20"}}
+
 <ul>
 <li>Jours de voyage : 50, ce qui signifie 1 an, deux mois et 3 jours.</li>
 <li>Conducteurs rencontrés: 10</li>
