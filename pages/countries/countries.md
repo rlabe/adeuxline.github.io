@@ -15,6 +15,7 @@ permalink: "countries/"
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
 			{% for post in site.posts limit:1000 %}
+				{% if post.categories == 'countries' %}				
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">
@@ -22,6 +23,7 @@ permalink: "countries/"
 					<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a><br><br>
 				</div>
 			</dd>
+			{% endif %}
 			{% assign counter=counter | plus:1 %}
 			{% endfor %}
 		</dl>
