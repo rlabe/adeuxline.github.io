@@ -3,12 +3,12 @@
 		<center><h3>{{ page.title }}</h3></center>
 		<p>
     <ul>
-      {% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
-      {% if page.capitale %}<li>Superficie: {{ page.superficie }}</li>{% endif %}
-      {% if page.capitale %}<li>Population: {{ page.population }}</li>{% endif %}
-      {% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
-      {% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
-      {% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
+		{% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% else %}<li>Capitale: inconnue</li>{% endif %}
+      	{% if page.capitale %}<li>Superficie: {{ page.superficie }}</li>{% else %}<li>Capitale: inconnue</li>{% endif %}
+      	{% if page.capitale %}<li>Population: {{ page.population }}</li>{% else %}<li>Capitale: inconnue</li>{% endif %}
+      	{% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}{% else %}<li>Capitale: inconnue</li></li>{% endif %}
+      	{% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% else %}<li>Capitale: inconnue</li>{% endif %}
+      	{% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% else %}<li>Capitale: inconnue</li>{% endif %}
     </ul>
 		</p>
 	</div>
