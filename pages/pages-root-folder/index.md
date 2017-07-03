@@ -34,7 +34,7 @@ widget3:
 #
 callforaction:
   url: https://tinyletter.com/feeling-responsive
-  text: S'abonner à la newsletter ›
+  text: S'abonner à la newsletter (qui n'existe pas encore) ›
   style: alert
 permalink: /index.html
 #
