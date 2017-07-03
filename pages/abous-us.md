@@ -9,4 +9,4 @@ header:
 permalink: "/about-us/"
 ---
 
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/blog/">Lisez nos articles pour plus d'informations ›</a>
+<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/war-diary/">Lisez notre journal de guerre pour plus d'informations ›</a>
