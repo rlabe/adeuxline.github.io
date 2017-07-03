@@ -3,7 +3,7 @@
 		<center><h3>{{ page.title }}</h3></center>
 		<p>
     <ul>
-				{% if page.capitale %}<li>Capitale: {{ "{{ page.capitale }}" | capitalize }}</li>{% endif %}
+				{% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
 				{% if page.capitale %}<li>Superficie: {{ page.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
       	{% if page.capitale %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
       	{% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
