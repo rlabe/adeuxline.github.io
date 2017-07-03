@@ -13,15 +13,15 @@ widget1:
   image: http://www.levif.be/medias/6982/3574825.jpg
   text: 'Le premier objectif de ce voyage est de faire un tour du monde des monnaies alternatives.'
 widget2:
-  title: "Why use this theme?"
-  url: 'http://adeuxline.github.io/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
+  title: "Pourquoi le stop ?"
+  url: '#'
+  text: 'Le stop est un moyen gratuit de voyager et de faire de merveilleuses rencontres.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
+  title: "Challenges des enfants"
+  url: '#'
   image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. Grab the <a href="https://github.com/Phlow/feeling-responsive/tree/bare-bones-version">Bare-Bones-Version</a> for a fresh start or learn how to use it with the <a href="https://github.com/Phlow/feeling-responsive/tree/gh-pages">education-version</a> with sample posts and images. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+  text: 'Un des objectifs de ce voyage est de faire voyager et rêver les enfants hospitalisés.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -34,7 +34,7 @@ widget3:
 #
 callforaction:
   url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
+  text: S'abonner à la newsletter ›
   style: alert
 permalink: /index.html
 #
