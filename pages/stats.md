@@ -9,7 +9,7 @@ header:
 permalink: "/stats/"
 ---
 
-{{'now' | date: "%s" | minus : 604800 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20"}}
+Je suis parti le {{ "Jan 1, 2017" | date: "%e %B %Y" }}, il y a {{ site.time | date: '%j' }} jours.
 
 <ul>
 <li>Jours de voyage : 50, ce qui signifie 1 an, deux mois et 3 jours.</li>
