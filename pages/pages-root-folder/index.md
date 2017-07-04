@@ -44,6 +44,11 @@ permalink: /index.html
 homepage: true
 ---
 
+{% include google_maps_settings.html %}
+{% include google_maps.html %}
+{% include google_maps_markers.html %}
+{% include google_maps_end.html %}
+
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
