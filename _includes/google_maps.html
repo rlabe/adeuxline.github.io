@@ -1,0 +1,26 @@
+<script>
+	var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	var labelIndex = 0;
+    function initMap() {
+		<!-- Création de la carte -->
+        var map = new google.maps.Map(document.getElementById('map'), {
+        	zoom: {% if include.zoom %}{{ include.zoom }}{% else %}7{% endif %},
+        });
+		
+        <!-- Lancement du service Geocoder -->
+        geocoder = new google.maps.Geocoder();
+		
+		<!-- Localisation du pays -->
+		function getCountry(country) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Centre la carte sur le pays -->
+					map.setCenter(results[0].geometry.location);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis le pays sur lequel centrer la carte -->
+		getCountry('{% if include.country %}{{ include.country }}{% else %}Belgium{% endif %}');
