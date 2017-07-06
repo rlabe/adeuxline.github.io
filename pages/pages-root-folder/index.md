@@ -23,6 +23,16 @@ widget3:
   image: widget-github-303x182.jpg
   text: 'Un des objectifs de ce voyage est de faire voyager et rêver les enfants hospitalisés.'
 #
+# Gallery
+#
+gallery:
+    - image_url: gallery-example-1.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-2.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-3.jpg
+      caption: Great images by Unsplash.com
+
 # Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
@@ -42,13 +52,6 @@ permalink: /index.html
 # this page as active in the topbar navigation
 #
 homepage: true
-gallery:
-    - image_url: gallery-example-1.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-2.jpg
-      caption: Great images by Unsplash.com
-    - image_url: gallery-example-3.jpg
-      caption: Great images by Unsplash.com
 ---
 
 {% include gallery %}
