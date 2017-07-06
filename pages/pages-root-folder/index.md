@@ -32,6 +32,24 @@ gallery:
       caption: Great images by Unsplash.com
     - image_url: gallery-example-3.jpg
       caption: Great images by Unsplash.com
+    - image_url: gallery-example-1.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-2.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-3.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-1.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-2.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-3.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-1.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-2.jpg
+      caption: Great images by Unsplash.com
+    - image_url: gallery-example-3.jpg
+      caption: Great images by Unsplash.com
 
 # Use the call for action to show a button on the frontpage
 #
@@ -53,5 +71,3 @@ permalink: /index.html
 #
 homepage: true
 ---
-
-{% include gallery %}
