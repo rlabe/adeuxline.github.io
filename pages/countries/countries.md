@@ -4,7 +4,7 @@ title: "Liste des pays"
 teaser: "Il y a beaucoup de pays."
 breadcrumb: true
 header:
-   image_fullwidth: header_unsplash_5.jpg
+   image_fullwidth: header_unsplash_1.jpg
 permalink: "countries/"
 ---
 <div id="blog-index" class="row">
