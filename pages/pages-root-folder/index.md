@@ -44,7 +44,3 @@ permalink: /index.html
 homepage: true
 ---
 
-{% include google_maps_settings.html %}
-{% include google_maps.html %}
-{% include google_maps_markers.html %}
-{% include google_maps_end.html %}
