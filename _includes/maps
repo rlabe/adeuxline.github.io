@@ -43,7 +43,7 @@
 			});
 		}
 		getCity(' {{page.capitale}} ');
-		{% if cities %}
+		{% if city %}
 		getCity(' {{city.name}} ');
 		{% endif %}
 	
