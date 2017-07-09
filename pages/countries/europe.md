@@ -7,6 +7,11 @@ header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/countries/europe/"
 ---
+<div class="row">
+	<div class="medium-4 columns t30">
+		{% include _sidebar.html %}
+	</div><!-- /.medium-4.columns -->
+</div><!-- /.row -->
 
 {% assign category = 'countries' %}
 
