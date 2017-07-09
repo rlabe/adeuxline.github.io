@@ -45,7 +45,7 @@
 		getCity(' {{page.capitale}} ');
 		{% if cities %}
 		
-		{% ifend %}
+		{% endif %}
 	
 	}
 	
