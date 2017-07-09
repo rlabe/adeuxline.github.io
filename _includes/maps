@@ -24,10 +24,10 @@
 			});
 			}
   
-		getCountry(page.country);
+		getCountry('Mongolia');
 		
 		function getCity(city) {
-			geocoder.geocode( { 'address': city.name }, function(results, status) {
+			geocoder.geocode( { 'address': city }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
