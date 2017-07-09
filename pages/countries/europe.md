@@ -8,12 +8,6 @@ header:
 permalink: "/countries/europe/"
 sidebar: right
 ---
-<div class="row">
-	<div class="medium-4 columns t30">
-		{% include _sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
-
 {% assign category = 'countries' %}
 
  {% if category %}
