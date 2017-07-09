@@ -1,16 +1,16 @@
 <body>
 	<div id="map" style="height: 400px; width: 100%"></div>
-  <script>
-  	var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	<script>
+		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		var labelIndex = 0;
-  	function initMap() {
-  		var map = new google.maps.Map(document.getElementById('map'), {
-  			zoom: 4,
+  		function initMap() {
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 4,
   		});
   
 	geocoder = new google.maps.Geocoder();
         
-  function getCountry(country) {
+	function getCountry(country) {
 		geocoder.geocode( { 'address': country }, function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {
 				
