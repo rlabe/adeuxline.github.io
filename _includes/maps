@@ -5,7 +5,7 @@
 		var labelIndex = 0;
   		function initMap() {
 			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: 5,
+				zoom: {% if page.zoom %}{{ page.zoom }}{% else %}5{% endif %},
 			});
   
 		geocoder = new google.maps.Geocoder();
