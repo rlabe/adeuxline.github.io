@@ -43,9 +43,9 @@
 			});
 		}
 		getCity(' {{page.capitale}} ');
-		{% if city %}
-		getCity(' {{city.name}} ');
-		{% endif %}
+
+		getCity('Songino, Mongolia');
+
 	
 	}
 	
