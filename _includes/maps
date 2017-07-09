@@ -24,7 +24,7 @@
 			});
 			}
   
-		getCountry('Mongolia');
+		getCountry( {{page.title}} );
 		
 		function getCity(city) {
 			geocoder.geocode( { 'address': city }, function(results, status) {
