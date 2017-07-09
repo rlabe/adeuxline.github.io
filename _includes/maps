@@ -1,29 +1,33 @@
 <body>
-var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var labelIndex = 0;
-<div id="map" style="height: 400px; width: 100%"></div>
-    <script>
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-        });
-        geocoder = new google.maps.Geocoder();
+	<div id="map" style="height: 400px; width: 100%"></div>
+  <script>
+  	var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		var labelIndex = 0;
+  	function initMap() {
+  		var map = new google.maps.Map(document.getElementById('map'), {
+  			zoom: 4,
+  		});
+  
+	geocoder = new google.maps.Geocoder();
         
-        function getCountry(country) {
-			geocoder.geocode( { 'address': country }, function(results, status) {
-				if (status == google.maps.GeocoderStatus.OK) {
-					<!-- Centre la carte sur le pays -->
-					map.setCenter(results[0].geometry.location);
-					<!-- Si jamais ça plante... -->
-				} else {
-					alert("Geocode was not successful for the following reason: " + status);
-				}
-			});
-		}
-        getCountry('Mongolia');
-      }
-    </script>
-    <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap">
-</script>
+  function getCountry(country) {
+		geocoder.geocode( { 'address': country }, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+				
+				<!-- Centre la carte sur le pays -->
+				map.setCenter(results[0].geometry.location);
+				
+				<!-- Si jamais ça plante... -->
+			} else {
+				alert("Geocode was not successful for the following reason: " + status);
+			}
+		});
+	}
+  
+	getCountry('Mongolia');
+	
+	}
+	
+	</script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap"></script>
 </body>
