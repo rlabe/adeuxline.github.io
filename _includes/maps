@@ -24,7 +24,7 @@
 			});
 			}
   
-		getCountry( '{{page.title}}' );
+		getCountry( '{{page.country}}' );
 		
 		function getCity(city) {
 			geocoder.geocode( { 'address': city }, function(results, status) {
