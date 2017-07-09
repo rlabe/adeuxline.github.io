@@ -24,9 +24,8 @@
 			});
 			}
   
-		getCountry('Mongolia');
+		getCountry(page.country);
 		
-		{% for city in page.cities %}
 		function getCity(city) {
 			geocoder.geocode( { 'address': city.name }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
@@ -43,7 +42,7 @@
 				}
 			});
 		}
-		{% endfor %}
+		getCity('Oulan-Bator');
 	
 	}
 	
