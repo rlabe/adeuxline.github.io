@@ -26,8 +26,6 @@
   
 	getCountry('Mongolia');
 	
-	}
-	
 	function getCity(city) {
 			geocoder.geocode( { 'address': city }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
@@ -60,6 +58,8 @@
 		}
 		<!-- Choisis les villes à localiser sur la carte -->
 		getCity('Ulaanbaatar');
+	
+	}
 	
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap"></script>
