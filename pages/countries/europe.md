@@ -6,6 +6,7 @@ subheadline: "Il y en a beaucoup..."
 header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/countries/europe/"
+sidebar: right
 ---
 <div class="row">
 	<div class="medium-4 columns t30">
