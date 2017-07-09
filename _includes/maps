@@ -1,72 +1,31 @@
-<!-- Paramètres du <div> de la carte -->
-<div id="map" style="
-    width:75%;
-    height:400px;
-    float:left
-"></div>
-
-<script>
-	var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	var labelIndex = 0;
-    function initMap() {
-		<!-- Création de la carte -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
         var map = new google.maps.Map(document.getElementById('map'), {
-        	zoom: 7,
+          zoom: 4,
+          center: uluru
         });
-		
-        <!-- Lancement du service Geocoder -->
-        geocoder = new google.maps.Geocoder();
-		
-		<!-- Localisation du pays -->
-		function getCountry(country) {
-			geocoder.geocode( { 'address': country }, function(results, status) {
-				if (status == google.maps.GeocoderStatus.OK) {
-					<!-- Centre la carte sur le pays -->
-					map.setCenter(results[0].geometry.location);
-					<!-- Si jamais ça plante... -->
-				} else {
-					alert("Geocode was not successful for the following reason: " + status);
-				}
-			});
-		}
-		<!-- Choisis le pays sur lequel centrer la carte -->
-		getCountry('Belgium');
-    
-    <!-- Placement des marqueurs avec Geocoder -->
-		function getCity(city) {
-			geocoder.geocode( { 'address': city }, function(results, status) {
-				if (status == google.maps.GeocoderStatus.OK) {
-					<!-- Crée le marqueur -->
-					var marker = new google.maps.Marker({
-						position: results[0].geometry.location,
-						label: labels[labelIndex++ % labels.length],
-						map: map
-					});
-					
-					<!-- Création d une fenêtre au dessus du marqueur -->
-					<!--
-					var infowindow = new google.maps.InfoWindow({
-					content: "Test"
-					});
-					infowindow.open(map,marker);
-					{% endif %}
-					-->
-					var infowindow = new google.maps.InfoWindow({
-					content: "Louvain-la-Neuve"
-					});
-					infowindow.open(map,marker);
-					<!-- Si jamais ça plante... -->
-				} else {
-					alert("Geocode was not successful for the following reason: " + status);
-				}
-			});
-		}
-		<!-- Choisis les villes à localiser sur la carte -->
-		getCity('Louvain-la-Neuve');
-    
-    }
-</script>
-
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap">
-</script>
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>
