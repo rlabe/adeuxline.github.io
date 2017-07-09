@@ -5,7 +5,7 @@
 		var labelIndex = 0;
   		function initMap() {
 		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 4,
+			zoom: 5,
   		});
   
 	geocoder = new google.maps.Geocoder();
@@ -27,6 +27,38 @@
 	getCountry('Mongolia');
 	
 	}
+	
+	function getCity(city) {
+			geocoder.geocode( { 'address': city }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
+					<!-- Crée le marqueur -->
+					var marker = new google.maps.Marker({
+						position: results[0].geometry.location,
+						label: labels[labelIndex++ % labels.length],
+						map: map
+					});
+					
+					<!-- Création d une fenêtre au dessus du marqueur -->
+					<!--
+					{% if include.text %}
+					var infowindow = new google.maps.InfoWindow({
+					content: "{{ include.text }}"
+					});
+					infowindow.open(map,marker);
+					{% endif %}
+					-->
+					var infowindow = new google.maps.InfoWindow({
+					content: "Ulaanbaatar"
+					});
+					infowindow.open(map,marker);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
+		}
+		<!-- Choisis les villes à localiser sur la carte -->
+		getCity('Ulaanbaatar');
 	
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s&callback=initMap"></script>
