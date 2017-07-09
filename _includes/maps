@@ -42,7 +42,10 @@
 				}
 			});
 		}
-		getCity('Oulan-Bator');
+		getCity(' {{page.capitale}} ');
+		{% if cities %}
+		
+		{% ifend %}
 	
 	}
 	
