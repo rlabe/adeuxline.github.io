@@ -25,9 +25,10 @@
 			}
   
 		getCountry('Mongolia');
-	
+		
+		{% for city in page.cities %}
 		function getCity(city) {
-			geocoder.geocode( { 'address': city }, function(results, status) {
+			geocoder.geocode( { 'address': city.name }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
@@ -42,8 +43,6 @@
 				}
 			});
 		}
-		<!-- Choisis les villes à localiser sur la carte -->
-		getCity('Ulaanbaatar');
 	
 	}
 	
