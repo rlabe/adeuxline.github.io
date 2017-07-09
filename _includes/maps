@@ -4,29 +4,29 @@
 		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		var labelIndex = 0;
   		function initMap() {
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 5,
-  		});
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 5,
+			});
   
-	geocoder = new google.maps.Geocoder();
+		geocoder = new google.maps.Geocoder();
         
-	function getCountry(country) {
-		geocoder.geocode( { 'address': country }, function(results, status) {
-			if (status == google.maps.GeocoderStatus.OK) {
+		function getCountry(country) {
+			geocoder.geocode( { 'address': country }, function(results, status) {
+				if (status == google.maps.GeocoderStatus.OK) {
 				
-				<!-- Centre la carte sur le pays -->
-				map.setCenter(results[0].geometry.location);
+					<!-- Centre la carte sur le pays -->
+					map.setCenter(results[0].geometry.location);
 				
-				<!-- Si jamais ça plante... -->
-			} else {
-				alert("Geocode was not successful for the following reason: " + status);
+					<!-- Si jamais ça plante... -->
+				} else {
+					alert("Geocode was not successful for the following reason: " + status);
+				}
+			});
 			}
-		});
-	}
   
-	getCountry('Mongolia');
+		getCountry('Mongolia');
 	
-	function getCity(city) {
+		function getCity(city) {
 			geocoder.geocode( { 'address': city }, function(results, status) {
 				if (status == google.maps.GeocoderStatus.OK) {
 					<!-- Crée le marqueur -->
@@ -35,20 +35,6 @@
 						label: labels[labelIndex++ % labels.length],
 						map: map
 					});
-					
-					<!-- Création d une fenêtre au dessus du marqueur -->
-					<!--
-					{% if include.text %}
-					var infowindow = new google.maps.InfoWindow({
-					content: "{{ include.text }}"
-					});
-					infowindow.open(map,marker);
-					{% endif %}
-					-->
-					var infowindow = new google.maps.InfoWindow({
-					content: "Ulaanbaatar"
-					});
-					infowindow.open(map,marker);
 					
 					<!-- Si jamais ça plante... -->
 				} else {
