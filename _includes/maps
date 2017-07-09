@@ -44,12 +44,12 @@
 					});
 					infowindow.open(map,marker);
 					{% endif %}
-					
+					-->
 					var infowindow = new google.maps.InfoWindow({
 					content: "Ulaanbaatar"
 					});
 					infowindow.open(map,marker);
-					-->
+					
 					<!-- Si jamais ça plante... -->
 				} else {
 					alert("Geocode was not successful for the following reason: " + status);
