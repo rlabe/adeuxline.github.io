@@ -1,5 +1,5 @@
 <body>
-	<div id="map" style="height: 400px; width: 100%"></div>
+	<div id="map" style="height: {% if height %}{{ page.height }}{% else %}200{% endif %}px; width: 100%"></div>
 	<script>
 		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		var labelIndex = 0;
