@@ -2,23 +2,18 @@
 	<div class="panel radius">
 		<center><h3>{{ page.title }}</h3></center>
 		<p>
-    <ul>
+			<ul>
 				{% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
 				{% if page.capitale %}<li>Superficie: {{ page.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
-      	{% if page.capitale %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
-      	{% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
-      	{% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
-      	{% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
-    </ul>
+				{% if page.capitale %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
+				{% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
+				{% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
+				{% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
+			</ul>
 		</p>
 	</div>
 
-<div>
 	{% include maps %}
-</div>
-
-  <img class="b30" src="https://dummyimage.com/600x400/ff0000/000000&text=Mettre+une+carte+ici" alt="">
-
 
 	<div class="border-dotted radius b30">
 		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
