@@ -4,21 +4,48 @@
 		<p>
 			<ul>
 				{% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
-				{% if page.capitale %}<li>Superficie: {{ page.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
-				{% if page.capitale %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
-				{% if page.capitale %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
-				{% if page.capitale %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
-				{% if page.capitale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
+				{% if page.superficie %}<li>Superficie: {{ page.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
+				{% if page.population %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
+				{% if page.jourpasses %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
+				{% if page.drivers %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
+				{% if page.monnaielocale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
 			</ul>
 		</p>
 	</div>
 
 	{% include maps %}
 
-	<div class="border-dotted radius b30">
-		<img src="http://placekitten.com/271/270" alt="uh, Placekitten">
-		<p class="text-left">
-			This is an advertisment with a crazy cat! <a href="http://placekitten.com/">More cats, please!</a>
+	<div class="panel radius">
+		<center><h3>Légende de la carte</h3></center>
+		<p>
+			<ul>
+				{% if page.capitale %}<li>A: {{ page.capitale }}</li>{% endif %}
+				{% if page.cityb %}<li>B: {{ page.cityb }}</li>{% endif %}
+				{% if page.cityc %}<li>C: {{ page.cityc }}</li>{% endif %}
+				{% if page.cityd %}<li>D: {{ page.cityd }}</li>{% endif %}
+				{% if page.citye %}<li>E: {{ page.citye }}</li>{% endif %}
+				{% if page.cityf %}<li>F: {{ page.cityf }}</li>{% endif %}
+				{% if page.cityg %}<li>G: {{ page.cityg }}</li>{% endif %}
+				{% if page.cityh %}<li>H: {{ page.cityh }}</li>{% endif %}
+				{% if page.cityi %}<li>I: {{ page.cityi }}</li>{% endif %}
+				{% if page.cityj %}<li>J: {{ page.cityj }}</li>{% endif %}
+				{% if page.cityk %}<li>K: {{ page.cityk }}</li>{% endif %}
+				{% if page.cityl %}<li>L: {{ page.cityl }}</li>{% endif %}
+				{% if page.citym %}<li>M: {{ page.citym }}</li>{% endif %}
+				{% if page.cityn %}<li>N: {{ page.cityn }}</li>{% endif %}
+				{% if page.cityo %}<li>O: {{ page.cityo }}</li>{% endif %}
+				{% if page.cityp %}<li>P: {{ page.cityp }}</li>{% endif %}
+				{% if page.cityq %}<li>Q: {{ page.cityq }}</li>{% endif %}
+				{% if page.cityr %}<li>R: {{ page.cityr }}</li>{% endif %}
+				{% if page.citys %}<li>S: {{ page.citys }}</li>{% endif %}
+				{% if page.cityt %}<li>T: {{ page.cityt }}</li>{% endif %}
+				{% if page.cityu %}<li>U: {{ page.cityu }}</li>{% endif %}
+				{% if page.cityv %}<li>V: {{ page.cityv }}</li>{% endif %}
+				{% if page.cityw %}<li>W: {{ page.cityw }}</li>{% endif %}
+				{% if page.cityx %}<li>X: {{ page.cityx }}</li>{% endif %}
+				{% if page.cityy %}<li>Y: {{ page.cityy }}</li>{% endif %}
+				{% if page.cityz %}<li>Z: {{ page.cityz }}</li>{% endif %}
+			</ul>
 		</p>
 	</div>
 </aside>
