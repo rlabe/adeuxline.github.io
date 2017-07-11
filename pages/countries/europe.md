@@ -7,6 +7,7 @@ header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/countries/europe/"
 sidebar: right
+capitale: Europe
 ---
 {% assign category = 'countries' %}
 {% assign tag = 'europe' %}
