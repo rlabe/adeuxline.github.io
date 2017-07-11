@@ -28,10 +28,10 @@ sidebar: right
   </div><!-- /.row -->
     {% endfor %}
 
-  {% elsif tag %}
+ {% else %}{% if tag %}
 
     {% for post in site.categories.[tag] %}
-    <div class="row">
+<div class="row">
     <div class="small-12 columns b60">
       <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
@@ -44,7 +44,5 @@ sidebar: right
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->
     {% endfor %}
-
-  {% endif %}
 
   {% endif %}
