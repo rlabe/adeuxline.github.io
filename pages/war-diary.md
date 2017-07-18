@@ -8,10 +8,10 @@ header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/war-diary/"
 ---
-
+{% comment %}
 {% include alert warning='This is a warning.' %}
 
-{% include alert info='An info box.' %}
+{% include alert info='<center>Attention</center>' %}
 
 {% include alert success='Yeah, you made it!' %}
 
@@ -20,3 +20,5 @@ permalink: "/war-diary/"
 {% include alert terminal='jekyll -serve' %}
 
 {% include alert text='Just a note!' %}
+{% endcomment %}
+{% include alert info='<center>Attention, certaines informations pourraient choquer les personnes sensibles</center>' %}
