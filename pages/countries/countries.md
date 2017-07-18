@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_countries
 title: "Liste des pays"
 teaser: "Il y a beaucoup de pays."
 breadcrumb: true
