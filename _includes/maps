@@ -42,7 +42,9 @@
 				}
 			});
 		}
+		{% if page.capitale %}
 		getCity(' {{page.capitale}} ');
+		{% endif %}
 
 	
 	}
