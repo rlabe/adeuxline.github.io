@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_countries
 show_meta: false
 title: "Europe"
 subheadline: "Il y en a beaucoup..."
