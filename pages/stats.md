@@ -9,24 +9,19 @@ header:
 permalink: "/stats/"
 ---
 
-Je suis parti le {{ "Jan 1, 2017" | date: "%e %B %Y" }}, il y a {{ site.time | date: '%j' }} jours.
+Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }}, il y a {{ site.time | date: '%j' }} jours.
 
 <ul>
-<li>Jours de voyage : 50, ce qui signifie 1 an, deux mois et 3 jours.</li>
-<li>Conducteurs rencontrés: 10</li>
-<li>Km parcourus
+<li>Conducteurs rencontrés: 0</li>
+<li>Km parcourus: 
 <ul>
-<li>en voiture</li>
-<li>en camion</li>
-<li>en bateau</li>
+<li>en voiture: 0</li>
+<li>en camion: 0</li>
 </ul>
 </li>
-<li>Villes visitées</li>
-<li>Attente la plus longue</li>
-<li>Distance maximum dans le même véhicule</li>
-<li>Cachets sur mon passeport</li>
-<li>Monnaies locales</li>
-<li>Challenges accomplis</li>
-<li>Cartes postales envoyées</li>
-<li>Nuits dehors</li>
+<li>Villes visitées: 0</li>
+<li>Attente la plus longue: 0</li>
+<li>Distance maximum dans le même véhicule: 0</li>
+<li>Cartes postales envoyées: 0</li>
+<li>Nuits dehors: 0</li>
 </ul>
