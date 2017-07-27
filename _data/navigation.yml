@@ -29,9 +29,9 @@
 #   - title: "Autres..."
 #     url: "/blog/"
 
-- title: "Les pays"
-  url: "/countries/"
-  side: left
+#  - title: "Les pays"
+#    url: "/countries/"
+#    side: left
 #   dropdown:
 #   - title: "Europe"
 #     url: "/countries/europe/"
@@ -68,9 +68,9 @@
   url: "/stats/"
   side: right
 
-- title: "Recherche"
-  url: "/search/"
-  side: right
+# - title: "Recherche"
+#   url: "/search/"
+#   side: right
 
 # - title: "Contact"
 #   url: "/contact/"
