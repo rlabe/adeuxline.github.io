@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: http://longscourriers.fr/wp-content/uploads/2014/02/DSC_0337.jpg
+  image: http://longscourriers.fr/wp-content/uploads/2014/02/DSC_0337.jpg
 # widget1:
 #  title: "Monnaies locales"
 #  url: 'http://adeuxline.github.io/blog/'
