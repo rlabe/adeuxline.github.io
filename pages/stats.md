@@ -9,7 +9,7 @@ header:
 permalink: "/stats/"
 ---
 
-Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }}, il y a {{ site.time | date: '%j' }} jours.
+Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }}.
 
 <ul>
 <li>Conducteurs rencontrés: 0</li>
