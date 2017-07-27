@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image: header_roadmap_2.jpg
+  image_fullwidth: header-bus.jpg
 # widget1:
 #  title: "Monnaies locales"
 #  url: 'http://adeuxline.github.io/blog/'
