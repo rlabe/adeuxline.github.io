@@ -5,7 +5,7 @@ title: "Statistiques"
 subheadline: "Quelques stats"
 teaser: "Quelques chiffres..."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/stats/"
 ---
 
