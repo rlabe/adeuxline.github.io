@@ -61,8 +61,8 @@ gallery:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: S'abonner à la newsletter (qui n'existe pas encore) ›
+  url: http://tinyletter.com/OnceAPonyTime
+  text: S'abonner à la newsletter (qui n'existe pas encore)
   style: alert
 permalink: /index.html
 #
