@@ -57,16 +57,16 @@
 #   - title: "Roadmap"
 #     url: "/#/"
 
-- title: Articles
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+# - title: Articles
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
 
 - title: "Statistiques"
   url: "/stats/"
-  side: right
+  side: left
 
 # - title: "Recherche"
 #   url: "/search/"
