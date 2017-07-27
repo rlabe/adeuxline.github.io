@@ -5,7 +5,7 @@ title: "Journal de guerre"
 subheadline: "La survie..."
 teaser: "La grande aventure est à venir."
 header:
-   image_fullwidth: "header_homepage_13.jpg"
+   image_fullwidth: "header_unsplash_8.jpg"
 permalink: "/war-diary/"
 ---
 {% comment %}
