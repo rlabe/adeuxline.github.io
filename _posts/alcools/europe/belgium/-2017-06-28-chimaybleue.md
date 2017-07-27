@@ -8,7 +8,7 @@ breadcrumb: true
 tags:
     - belgium
     - bière
-    - trapiste
+    - trappiste
 categories:
     - alcools
 country: Belgique
