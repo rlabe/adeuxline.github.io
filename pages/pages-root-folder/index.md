@@ -63,6 +63,7 @@ permalink: /index.html
 # this page as active in the topbar navigation
 #
 homepage: true
+comments: true
 ---
 
 <h1>Marie et Romain partent en voyage... </h1>
