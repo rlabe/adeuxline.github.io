@@ -28,7 +28,7 @@ Depart de Louvain la neuve vers 19h00. Nous faisons du stop a l'entrée de l'aut
 
 
 ## 29 juillet 2017
-Reveil tôt avec le soleil, donc nuit courte. Nous voyons Thabo débarquer avec deux cafés ♥. Il nous dépose à la pompe à essence la mieux placée pour atteindre Munich. 3/4 d'heure plus tard, nous sommes emmenés par <b>Kai</b> à bord de son bolide de course. Il aime la vitesse et râle quand quelqu'un roule à 160. Il est policier. Nous atteignons la vitresse de <abbr="Achievement !">215km/h<abbr> ! Chouette musique, chouette conversation, il nous dépose 20 minutes en avance sur son GPS au Nord de Munich.
+Reveil tôt avec le soleil, donc nuit courte. Nous voyons Thabo débarquer avec deux cafés ♥. Il nous dépose à la pompe à essence la mieux placée pour atteindre Munich. 3/4 d'heure plus tard, nous sommes emmenés par <b>Kai</b> à bord de son bolide de course. Il aime la vitesse et râle quand quelqu'un roule à 160. Il est policier. Nous atteignons la vitresse de <abbr="Achievement !">215km/h</abbr> ! Chouette musique, chouette conversation, il nous dépose 20 minutes en avance sur son GPS au Nord de Munich.
 
 Arrivée à 2h00 dans une ville bien animée.
 
