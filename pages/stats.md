@@ -17,13 +17,14 @@ Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }}.
 <ul>
 <li>en voiture: 1500</li>
 <li>en camion: 0</li>
-<li>en train: 400 </li>
+<li>en train: 670 </li>
 </ul>
 </li>
-<li>Villes visitées: 1</li>
+<li>Villes visitées: 2</li>
 <li>Attente la plus longue: 2h30</li>
-<li>Distance maximum dans le même véhicule: 700km</li>
+<li>Distance maximum dans le même véhicule sur route: 700km</li>
 <li>Vitesse maximum atteinte: 215km/h</li>
+<li>Temps passé dans un train: 11h</li>
 <li>Cartes postales envoyées: 0</li>
 <li>Nuits dehors: 1</li>
 </ul>
