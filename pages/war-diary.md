@@ -23,10 +23,45 @@ permalink: "/war-diary/"
 {% endcomment %}
 
 {% include alert info='<center>Attention, certaines informations pourraient choquer les personnes sensibles</center>' %}
-## 8 aout
-Réveil difficile à l'auberge de jeunesse: nous avons quand même traversé 6 fuseaux horaires en quelques jours, et nous avons vécu dans le train à l'heure de Moscou, donc nous sommes pas mal décalés. Mais nous voulons profiter de cette journée pour visiter Ulan-Ude, et surtout un monastère bouddhiste pas loin. Nous y sommes donc allés en compagnie de Marion, notre amie québécoise. Très impressionnant de voir des constructions purement bouddhistes (donc dans un style thibétain) entouré de chalets russes ! Nous rentrons ensuite à Ulan-Ude pour anger et boire des verres :) encore un long voyage à prévoir le lendemain !
+## 22 aout 2017
+Lever difficile pour Romain, qui n'a pas énormément dormi les deux dernieres nuits. Heureusement, l'eau est chaude dans la douche ! 
+## 21 aout 2017
+Trajet de Ulan-Oude à Irkoutsk.
 
-## 4 aout - 7 aout
+## 20 aout 2017
+Trajet de Oulan-Bator à Ulan-Oude.
+
+## 19 aout 2017
+Journée shopping a Oulan-Bator.
+
+## 18 aout 2017
+Repos et shopping.
+
+## 17 aout 2017
+Poney.
+
+## 16 aout 2017
+
+## 15 aout 2017
+
+## 14 aout 2017
+
+## 13 aout 2017
+
+## 12 aout 2017
+Poney.
+
+## 11 aout 2017
+
+## 10 aout 2017
+
+## 9 aout 2017
+
+## 8 aout 2017
+<i>par Marie</i>
+Réveil difficile à l'auberge de jeunesse: nous avons quand même traversé 6 fuseaux horaires en quelques jours, et nous avons vécu dans le train à l'heure de Moscou, donc nous sommes pas mal décalés. Mais nous voulons profiter de cette journée pour visiter Ulan-Ude, et surtout un monastère bouddhiste pas loin. Nous y sommes donc allés en compagnie de Marion, notre amie québécoise. Très impressionnant de voir des constructions purement bouddhistes (donc dans un style thibétain) entouré de chalets russes ! Nous rentrons ensuite à Ulan-Ude pour manger et boire des verres :) encore un long voyage à prévoir le lendemain !
+
+## 4 aout - 7 aout2017
 Nous vivons donc pendant 84 heures au ralenti, à dormir (surtout Marie), à lire, à mager des nouilles instantanées pour Marie, des biscuits et des concombres pour Romain (#végé). À cause du manque du compréhension au guichet de Moscou, nous ne sommes pas en 3e classe comme nous voulions au début, mais en 2e (d'ailleurs notre train n'a pas de 3e classe. Cela signifie un compartiment de 4 lits et non pas juste un grand wagon de 54 personnes. Nous sommes donc, au début de la prenière journée, en compagnie d'un vieil homme qui essaie tant bien que mal de nous expliquer, avec le peu d'anglais qu'il connaît et le livre dont nous disposons, des idées de randonnées en Russie. Nous n'avons toujours pas bien compris, mais c'était gentil d'essayer :p . Nous sommes ensuite seuls dans le compartiment jusqu'aux dernières 36 heures, où une femme russe et sa fille nous rejoignent. C'est une présence tout de suite mois sympqthique, puisqu'elle refuse de nous adresser la parole, et nous fait assez explicitement comprendre qu'on sent mauvais (logique, après deux jours et demi sans douche et dans un compartiment fermé, dont on ne peut pas ouvrir la fenêtre...). C'est donc un dernier jour assez difficile et un soulagement quand nous arrivons à Ulan-Ude, à quelques heures à peine de la frontière Mogole. 
 Nous filons directement vers là où nous pensions trouver des billets de bus pour Ulanbataar, pour ensuite vite prendre une douche dans l'hôtel que nous avions réservé. En arrivant à l'endroit prévu, on nous indique de chercher nos billets autre part. Par contre, l'auberge de jeunesse que nous trouvons là est très accueuillante, alors nous décidons d'annuler notre première réservation pour passer deux nuits là. Nous rencontrons tout de suite des gens avec aui nous passons la soirés autour de bières et autre alcool québécois, à discuter de voyages passés et futurs. Nous décidons également de ne pas prendre de bus direct vers Ulanbataar, ces derniers étant peu fréquents et avec des places trop limitées que pour avoir un trajet rapidement. Nous prendrons donc, le surlendemain, un bus local jusque la frontière avec Marion, une québécoise rencontrée à l'auberge, et de là, nous aviserons. C'est apparemment quelque chose qui se fait régulièrement par des clients de l'auberge et ce n'est pas très compliqué. On verra; en tout casm c'est toujours plus agréable de le faire à plusieurs :)
 
