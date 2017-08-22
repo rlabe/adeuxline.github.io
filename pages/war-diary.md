@@ -58,7 +58,7 @@ Poney.
 ## 9 aout 2017
 
 ## 8 aout 2017
-<i>par Marie</i>
+<i>par Marie</i><br/>
 Réveil difficile à l'auberge de jeunesse: nous avons quand même traversé 6 fuseaux horaires en quelques jours, et nous avons vécu dans le train à l'heure de Moscou, donc nous sommes pas mal décalés. Mais nous voulons profiter de cette journée pour visiter Ulan-Ude, et surtout un monastère bouddhiste pas loin. Nous y sommes donc allés en compagnie de Marion, notre amie québécoise. Très impressionnant de voir des constructions purement bouddhistes (donc dans un style thibétain) entouré de chalets russes ! Nous rentrons ensuite à Ulan-Ude pour manger et boire des verres :) encore un long voyage à prévoir le lendemain !
 
 ## 4 aout - 7 aout2017
