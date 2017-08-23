@@ -23,8 +23,10 @@ permalink: "/war-diary/"
 {% endcomment %}
 
 {% include alert info='<center>Attention, certaines informations pourraient choquer les personnes sensibles</center>' %}
+## 23 aout 2017
+Premiere journée dans le train.
 ## 22 aout 2017
-Lever difficile pour Romain, qui n'a pas énormément dormi les deux dernieres nuits. Heureusement, l'eau est chaude dans la douche ! 
+Lever difficile pour Romain, qui n'a pas énormément dormi les deux dernieres nuits. Heureusement, l'eau est chaude dans la douche ! Nous partons vers la gare des bus pour trouver un moyen de rejoindre le lac Baïkal. Un article de blog sur internet nous aide à reconnaitre le vehicule. Coïncidence troublante : le véhicule pris en photo pour le blog a la meme plaque d'immatriculation que le nôtre. Le chauffeur semble ravi et très fier !
 ## 21 aout 2017
 Trajet de Ulan-Oude à Irkoutsk.
 ## 20 aout 2017
@@ -36,14 +38,21 @@ Repos et shopping.
 ## 17 aout 2017
 Poney.
 ## 16 aout 2017
+Poney.
 ## 15 aout 2017
+Poney.
 ## 14 aout 2017
+Poney.
 ## 13 aout 2017
+Poney.
 ## 12 aout 2017
 Poney.
 ## 11 aout 2017
+Trek d'une journee dans les steppes et la forêt au sud de la ville.
 ## 10 aout 2017
+Visite d'Oulan-Bator.
 ## 9 aout 2017
+Trajet de Oulan-Ude jusqu'à Oulan-Bator.
 ## 8 aout 2017
 <i>par Marie</i><br/>
 Réveil difficile à l'auberge de jeunesse: nous avons quand même traversé 6 fuseaux horaires en quelques jours, et nous avons vécu dans le train à l'heure de Moscou, donc nous sommes pas mal décalés. Mais nous voulons profiter de cette journée pour visiter Ulan-Ude, et surtout un monastère bouddhiste pas loin. Nous y sommes donc allés en compagnie de Marion, notre amie québécoise. Très impressionnant de voir des constructions purement bouddhistes (donc dans un style thibétain) entouré de chalets russes ! Nous rentrons ensuite à Ulan-Ude pour manger et boire des verres :) encore un long voyage à prévoir le lendemain !
