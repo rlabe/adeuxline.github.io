@@ -39,17 +39,7 @@ Derniere journee en Mongolie, mais egalement derniere journee en compagnie de no
 ## 18 aout 2017
 Nous sommes donc finalement arrives a l'auberge de jeunesse vers 7h du matin, creves et tellement contents d'y retrouver un lit sec et chaud, meme si ce n'est que pour quelaues heures et pas vraiment pour dormir (l'auberge se reveille deja et ca fait du bruit). Pour la deuxieme fois, Uyanga, de l'auberge, a attendu notre retour avec beaucoup d'inquietude :/. Nous lui racontons nos aventures en mageant  un petit dejeuner bien merite, et elle et Bagi (les hotes, donc) nous annoncent qu'ils attendaient notre retour pour faire un barbecue mongol qu'ils avaient promis a notre depart, et aue cela se fera le soir meme. Nous sommes ravis! Nous partons en attendant vers le centre, pour acheter nos billets pour le lac Baikal (et oui, c'est deja le trajet de retour...) et faire un peu de shopping. On nous avait beaucoup parle du black market de l'autre cote de la ville, mais nous choisissons d'aller plutot a un autre juste a cote de la gare des bus. Pour les billets de bus, pas  de chance: nous voulions partir le lendemain pour profiter au maximum du lac Baikal, mais l'uniaue bus journalier est deja complet. Nous prenons donc celui du jour d'apres, contents malgre tout de pouvoir prendre du temps pour acheter des souvenirs aux quatre coins d'Oulan-Bator. Nous restons donc dans les parages, au black market, puis nous demarrons pour le barbecue, hors de la ville.
 Les Mongols ont decidement une drole de conception de petit barbecue, puisau'on nous fait traverser une riviere a pied pour arriver au lieu convenu.  Mais c'est bien une ambiance chaleureuse qui nous attend, avec une quinzaine de clients les plus assidus de l'auberge, et de tous les horizons: britaniques, neo-zelandais, russes, francais, ... Tres chouette soiree, 
-## 17 aout 2017
-Poney.
-## 16 aout 2017
-Poney.
-## 15 aout 2017
-Poney.
-## 14 aout 2017
-Poney.
-## 13 aout 2017
-Poney.
-## 12 aout 2017
+## 12 aout - 17 aout 2017
 Poney.
 ## 11 aout 2017
 Trek d'une journee dans les steppes et la forêt au sud de la ville.
