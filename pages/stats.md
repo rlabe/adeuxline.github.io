@@ -25,6 +25,6 @@ Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }}.
 <li>Vitesse maximum atteinte: 215km/h (Kai)</li>
 <li>Temps passé dans un train: 112h</li>
 <li>Temps maximum passé dans le même train: 82h (Moscou - Oulan-Oudé)</li>
-<li>Cartes postales envoyées: 33</li>
+<li>Cartes postales envoyées: 89</li>
 <li>Nuits dehors: 1</li>
 </ul>
