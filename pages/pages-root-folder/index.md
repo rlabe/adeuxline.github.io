@@ -66,8 +66,8 @@ homepage: true
 comments: true
 ---
 
-<h1>Marie et Romain partent en voyage... </h1>
+<h1>Marie et Romain partent en voyage... et sont revenus !</h1>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1skHHzBmdLP9NezA3nv35GBj3tGg&hl=fr" width="960" height="640"></iframe>
-
-N'hesitez pas a cliquer sur les differents points pour avoir plus d'informations :)
+<br/><br/>
+### N'hesitez pas a cliquer sur les differents points pour avoir plus d'informations :)
