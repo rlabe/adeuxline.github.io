@@ -1,11 +1,9 @@
 <body>
 	<div id="map" style="height: {% if height %}{{ page.height }}{% else %}200{% endif %}px; width: 100%"></div>
 	<script>
-		var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		var labelIndex = 0;
   		function initMap() {
 			var map = new google.maps.Map(document.getElementById('map'), {
-				zoom: {% if page.zoom %}{{ page.zoom }}{% else %}5{% endif %},
+				zoom: 1,
 			});
   
 		geocoder = new google.maps.Geocoder();
@@ -24,7 +22,7 @@
 			});
 			}
   
-		getCountry( '{{page.country}}' );
+		getCountry( ' Belgique ' );
 		
 		function getCity(city) {
 			geocoder.geocode( { 'address': city }, function(results, status) {
@@ -32,20 +30,19 @@
 					<!-- Crée le marqueur -->
 					var marker = new google.maps.Marker({
 						position: results[0].geometry.location,
-						label: labels[labelIndex++ % labels.length],
 						map: map
 					});
-					
+          var infowindow = new google.maps.InfoWindow({
+          content: '{{ page.capitale }}'
+        	});
+          infowindow.open(map, marker);
 					<!-- Si jamais ça plante... -->
 				} else {
-					alert("Geocode was not successful for the following reason: " + status);
+					console.log("Geocode was not successful for the following reason: " + status);
 				}
 			});
 		}
-		{% if page.capitale %}
-		getCity(' {{page.capitale}} ');
-		{% endif %}
-
+		getCity(' {{ page.capitale }} ');    
 	
 	}
 	
