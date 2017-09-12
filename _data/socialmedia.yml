@@ -23,10 +23,10 @@
 #   class: icon-googleplus
 #   title: "YouTube Google+"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+- name: Facebook
+  url: http://www.facebook.com/laberomain
+  class: icon-facebook
+  title: "Pour me suivre sur Facebook"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
