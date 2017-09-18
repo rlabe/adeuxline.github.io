@@ -83,6 +83,7 @@
 </div>
 
 </body>
+{% comment %}
 <div>
 	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
 		{% for item in page.gallery %}
@@ -93,3 +94,4 @@
 		{% endfor %}
 	</ul>
 </div>
+{% endcomment %}
