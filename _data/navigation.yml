@@ -49,7 +49,7 @@
 #     url: "/#/"
 
 - title: Challenges
-  url: "/documentation/"
+  url: "#"
   side: left
 #   dropdown:
 #   - title: "Changelog"
