@@ -1,5 +1,5 @@
 ---
-layout: blog_countries
+layout: blog
 show_meta: false
 title: "Le Transsibérien"
 subheadline: "Loooong trajet"
