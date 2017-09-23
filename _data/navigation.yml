@@ -11,7 +11,7 @@
   side: left
 
 - title: "Monnaies locales"
-  url: "/#/"
+  url: "#"
   side: left
 #   dropdown:
 #   - title: "Europe"
@@ -69,8 +69,10 @@
   side: right
   
 - title: "Voyages précédents"
-  url: "#"
   side: left
+  dropdown:
+  - Transsibérien et Mongolie
+    url: "#"
 
 # - title: "Recherche"
 #   url: "/search/"
