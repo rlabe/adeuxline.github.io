@@ -1,4 +1,4 @@
-{% assign category = 'countries' %}
+{% assign category = include.category %}
 {% assign tag = include.tag %}
 
 {% if category %}
