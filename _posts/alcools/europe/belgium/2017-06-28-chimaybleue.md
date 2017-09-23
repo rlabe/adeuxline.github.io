@@ -1,7 +1,7 @@
 ---
 layout: page
 sidebar: right
-subheadline: Bière trapiste
+subheadline: Bière trappiste
 title:  "Chimay bleue"
 teaser: "This is the best beer EVER."
 breadcrumb: true
