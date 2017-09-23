@@ -1,3 +1,5 @@
+{% assign sidebar = page.sidebar %}
+{% if sidebar != 'no' %}
 <aside>
 	<div class="panel radius">
 		<h3><a href='/countries/'>Pays</a> par continent</h3>
@@ -13,3 +15,4 @@
 		
 	</div>
 </aside>
+{% endif %}
