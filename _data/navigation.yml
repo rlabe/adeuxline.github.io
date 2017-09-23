@@ -10,9 +10,9 @@
   url: "/war-diary/"
   side: left
 
-# - title: "Monnaies locales"
-#   url: "/#/"
-#   side: left
+- title: "Monnaies locales"
+  url: "/#/"
+  side: left
 #   dropdown:
 #   - title: "Europe"
 #     url: "/#/"
@@ -29,9 +29,9 @@
 #   - title: "Autres..."
 #     url: "/blog/"
 
-#  - title: "Les pays"
-#    url: "/countries/"
-#    side: left
+- title: "Les pays"
+  url: "/countries/"
+  side: left
 #   dropdown:
 #   - title: "Europe"
 #     url: "/countries/europe/"
@@ -48,9 +48,9 @@
 #   - title: "Autres..."
 #     url: "/#/"
 
-# - title: Challenges
-#   url: "/documentation/"
-#   side: left
+- title: Challenges
+  url: "/documentation/"
+  side: left
 #   dropdown:
 #   - title: "Changelog"
 #     url: "/#/"
