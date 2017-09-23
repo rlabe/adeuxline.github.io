@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog_countries
 show_meta: false
 title: "Asie"
 subheadline: "Il y en a beaucoup..."
