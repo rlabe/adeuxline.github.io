@@ -7,3 +7,5 @@ header:
    image_fullwidth: header_unsplash_1.jpg
 permalink: "countries/"
 ---
+
+{% include list-articles category='countries' %}
