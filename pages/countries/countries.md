@@ -7,9 +7,3 @@ header:
    image_fullwidth: header_unsplash_1.jpg
 permalink: "countries/"
 ---
-
-TEST
-
-{% include list-posts category='alcools'%}
-
-{% include list-articles category='alcools' %}
