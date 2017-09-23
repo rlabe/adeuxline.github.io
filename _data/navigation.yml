@@ -58,8 +58,8 @@
 #     url: "/#/"
 
 - title: Articles
- url: "/blog/"
- side: left
+  url: "/blog/"
+  side: left
 #   dropdown:
 #   - title: "Blog Archive"
 #     url: "/blog/archive/"
@@ -68,7 +68,7 @@
   url: "/stats/"
   side: right
   
-  - title: "Voyages précédents"
+- title: "Voyages précédents"
   url: "#"
   side: left
 
