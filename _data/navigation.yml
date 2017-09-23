@@ -71,7 +71,7 @@
 - title: "Voyages précédents"
   side: left
   dropdown:
-  - Transsibérien et Mongolie
+  - title: "Transsibérien et Mongolie"
     url: "#"
 
 # - title: "Recherche"
