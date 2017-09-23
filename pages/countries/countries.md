@@ -8,4 +8,4 @@ header:
 permalink: "countries/"
 ---
 
-{% include list-articles category='alcools' %}
+{% include list-articles tag='europe' %}
