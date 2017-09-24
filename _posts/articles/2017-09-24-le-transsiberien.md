@@ -5,7 +5,7 @@ title:  "Le transsiberien"
 subheadline:  "Quand l'aventure va bon train"
 teaser: "Les bons plans pour le transsibérien. <br/><i>par <a href='#'>Marie</a></i>"
 categories:
-    - articles
+    - article
 tags:
     - transsiberien
 header:
