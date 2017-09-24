@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: blog
 author: marie
 title:  "Le transsiberien"
 subheadline:  "Quand l'aventure va bon train"
