@@ -9,10 +9,9 @@ categories:
 tags:
     - transsiberien
 header:
-    image: transsiberien_01.jpg
+    image: transsiberien_01.JPG
     pattern: pattern_concrete.jpg
-    caption: Lac Baïkal
-    caption_url: https://unsplash.com/
+    caption: Lac Baïkal, ancien trajet du transsibérien
 permalink: '/articles/transsiberien/'
 ---
 
