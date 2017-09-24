@@ -9,7 +9,7 @@ categories:
 tags:
     - transsiberien
 header:
-    image: https://drive.google.com/file/d/0BxHAB8N9WNLrUjRWUGZhMGRlWHc/view?usp=sharing
+    image: transsiberien_01.jpg
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal
     caption_url: https://unsplash.com/
