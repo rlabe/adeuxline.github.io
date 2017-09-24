@@ -10,9 +10,9 @@
   url: "/war-diary/"
   side: left
 
-- title: "Monnaies locales"
-  url: "#"
-  side: left
+# - title: "Monnaies locales"
+#   url: "#"
+#   side: left
 #   dropdown:
 #   - title: "Europe"
 #     url: "/#/"
