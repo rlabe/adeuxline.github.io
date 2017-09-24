@@ -9,9 +9,9 @@ categories:
 tags:
     - transsiberien
 header:
-    image: header_unsplash_2-970x.jpg
+    image: https://drive.google.com/file/d/0BxHAB8N9WNLrUjRWUGZhMGRlWHc/view?usp=sharing
     pattern: pattern_concrete.jpg
-    caption: This is a caption for the header image with link
+    caption: Lac Baïkal
     caption_url: https://unsplash.com/
 permalink: '/articles/transsiberien/'
 ---
