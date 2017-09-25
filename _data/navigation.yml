@@ -2,8 +2,8 @@
   url: "/"
   side: left
 
-- title: "Qui sommes-nous ?"
-  url: "/about-us/"
+- title: "Ils parlent de nous !"
+  url: "/news/"
   side: left
   
 - title: "Journal de guerre"
@@ -48,9 +48,9 @@
 #   - title: "Autres..."
 #     url: "/#/"
 
-- title: Challenges
-  url: "#"
-  side: left
+# - title: Challenges
+#   url: "#"
+#   side: left
 #   dropdown:
 #   - title: "Changelog"
 #     url: "/#/"
@@ -78,6 +78,6 @@
 #   url: "/search/"
 #   side: right
 
-- title: "Contact"
-  url: "/contact/"
-  side: right
+# - title: "Contact"
+#   url: "/contact/"
+#   side: right
