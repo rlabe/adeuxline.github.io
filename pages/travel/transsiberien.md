@@ -11,4 +11,4 @@ sidebar: right
 capitale: Europe
 ---
 
-{% include list-articles category='travel' tag='transsiberien' %}
+{% include list-articles tag='transsiberien' %}
