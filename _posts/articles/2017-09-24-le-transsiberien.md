@@ -9,7 +9,8 @@ categories:
 tags:
     - transsiberien
 header:
-    image: transsiberien_01.JPG
+    title: Une belle voie ferrée
+    image_fullwidth: transsiberien_01.JPG
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal, ancien trajet du transsibérien
 permalink: '/articles/transsiberien/'
