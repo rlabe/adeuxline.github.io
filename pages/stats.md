@@ -22,12 +22,11 @@ Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes rev
 
 
 
-Conducteurs rencontrés: 7
-Km parcourus:
-
-en voiture: 1500
-en train: 12400
-en bus : 4000
+- Conducteurs rencontrés: 7
+- Km parcourus:
+  * en voiture: 1500
+  * en train: 12400
+  * en bus : 4000
 
 
 Villes visitées: 7
