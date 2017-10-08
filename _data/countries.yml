@@ -1,31 +1,75 @@
-# Template:
-#     capitale:
-#     drivers:
-#     jourpasses:
-#     monnaielocale:
-#     population:
-#     superficie:
+{% comment %}
+Pays:
+    capitale: Moscou
+    monnaielocale: 
+    population: 
+    superficie: 
+    jourspasses:
+    conducteurs: 
+    attente_record:
+    distance:
+    km_voiture:
+    km_voiture_record:
+    km_camion:
+    km_camion_record:
+    km_bateau:
+    km_bateau_record:
+    cartes_postales:
+    nuits_dehors:
+{% endcomment %}
 
 Allemagne:
     capitale: Berlin
-    drivers: 43
-    jourpasses: 5453453
     monnaielocale: EUR
-    population: 3 peys
+    population: 3
     superficie: 10
+    jourspasses:
+    conducteurs: 43
+    attente_record:
+    distance:
+    km_voiture:
+    km_voiture_record:
+    km_camion:
+    km_camion_record:
+    km_bateau:
+    km_bateau_record:
+    cartes_postales:
+    nuits_dehors:
+    
 
 Mongolie:
     capitale: Oulan-Bator
-    drivers:
-    jourpasses:
-    monnaielocale:
-    population:
-    superficie: 1000
+    monnaielocale: 
+    population: 
+    superficie: 
+    jourspasses:
+    conducteurs: 
+    attente_record:
+    distance:
+    km_voiture:
+    km_voiture_record:
+    km_camion:
+    km_camion_record:
+    km_bateau:
+    km_bateau_record:
+    cartes_postales:
+    nuits_dehors:
 
 Russie:
     capitale: Moscou
-    drivers:
-    jourpasses:
-    monnaielocale:
-    population:
-    superficie: 100000
+    monnaielocale: 
+    population: 
+    superficie: 
+    jourspasses:
+    conducteurs: 
+    attente_record:
+    distance:
+    km_voiture:
+    km_voiture_record:
+    km_camion:
+    km_camion_record:
+    km_bateau:
+    km_bateau_record:
+    cartes_postales:
+    nuits_dehors:
+    
