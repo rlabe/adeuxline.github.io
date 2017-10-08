@@ -1,0 +1,31 @@
+# Template:
+#     capitale:
+#     drivers:
+#     jourpasses:
+#     monnaielocale:
+#     population:
+#     superficie:
+
+Allemagne:
+    capitale: Berlin
+    drivers: 43
+    jourpasses: 5453453
+    monnaielocale: EUR
+    population: 3 peys
+    superficie: 45
+
+Mongolie:
+    capitale: Oulan-Bator
+    drivers:
+    jourpasses:
+    monnaielocale:
+    population:
+    superficie:
+
+Russie:
+    capitale: Moscou
+    drivers:
+    jourpasses:
+    monnaielocale:
+    population:
+    superficie:
