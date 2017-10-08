@@ -12,7 +12,7 @@ Allemagne:
     jourpasses: 5453453
     monnaielocale: EUR
     population: 3 peys
-    superficie: 45
+    superficie: 10
 
 Mongolie:
     capitale: Oulan-Bator
@@ -20,7 +20,7 @@ Mongolie:
     jourpasses:
     monnaielocale:
     population:
-    superficie:
+    superficie: 1000
 
 Russie:
     capitale: Moscou
@@ -28,4 +28,4 @@ Russie:
     jourpasses:
     monnaielocale:
     population:
-    superficie:
+    superficie: 100000

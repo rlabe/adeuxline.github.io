@@ -9,11 +9,21 @@ header:
 permalink: "/stats/"
 ---
 
+
+<!-- Calculs -->
+{% assign sum_superficie = 0 %}
+{% for pays in site.data.countries %}
+    {% assign sum_superficie = sum_superficie | plus: pays[1].superficie %}
+{% endfor %}
+
+
+<!-- Rendu -->
 Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes revenus le {{ "Aug 31, 2017" | date: "%e %B %Y" }}.
+
 
 <ul>
 <li>Conducteurs rencontrés: 7</li>
-<li>Km parcourus: 
+<li>Km parcourus:
 <ul>
 <li>en voiture: 1500</li>
 <li>en train: 12400</li>
@@ -30,4 +40,5 @@ Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes rev
 <li>Temps maximum passé dans le même bus: 12h (Oulan-Bator - Oulan-Oude)</li>
 <li>Cartes postales envoyées: 89</li>
 <li>Nuits dehors: 5</li>
+<li>Superficie totale: {{ sum_superficie }}</li>
 </ul>
