@@ -1,22 +1,24 @@
 <aside>
+	{% assign pays = site.data.countries[pays.title] %}
 	<div class="panel radius">
-		<center><h3>{{ page.title }}</h3></center>
+		<center><h3>{{ pays.title }}</h3></center>
 		<p>
 			<ul>
-				{% if page.capitale %}<li>Capitale: {{ page.capitale }}</li>{% endif %}
-				{% if page.superficie %}<li>Superficie: {{ page.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
-				{% if page.population %}<li>Population: {{ page.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
-				{% if page.jourpasses %}<li>Nombre de jours passés: {{ page.jourspasses }}</li>{% endif %}
-				{% if page.drivers %}<li>Conducteurs rencontrés: {{ page.drivers }}</li>{% endif %}
-				{% if page.monnaielocale %}<li>Nombre de monnaies locales: {{ page.monnaielocale }}</li>{% endif %}
+				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
+				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
+				{% if pays.population %}<li>Population: {{ pays.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
+				{% if pays.jourpasses %}<li>Nombre de jours passés: {{ pays.jourspasses }}</li>{% endif %}
+				{% if pays.drivers %}<li>Conducteurs rencontrés: {{ pays.drivers }}</li>{% endif %}
+				{% if pays.monnaielocale %}<li>Nombre de monnaies locales: {{ pays.monnaielocale }}</li>{% endif %}
 			</ul>
 		</p>
+
 	</div>
-	
+
 	<div class="panel radius">
 
 	{% include maps %}
-	
+
 	</div>
 	<br>
 </aside>
