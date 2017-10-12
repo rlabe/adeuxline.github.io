@@ -72,7 +72,7 @@
   side: left
   dropdown:
   - title: "Transsibérien et Mongolie"
-    url: "/travel/transsiberien/"
+    url: "/voyage/transsiberien/"
 
 # - title: "Recherche"
 #   url: "/search/"
