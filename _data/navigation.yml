@@ -30,13 +30,13 @@
 #     url: "/blog/"
 
 - title: "Les pays"
-  url: "/countries/"
+  url: "/pays/"
   side: left
-#   dropdown:
-#   - title: "Europe"
-#     url: "/countries/europe/"
-#   - title: "Asie"
-#     url: "/countries/asia/"
+  dropdown:
+  - title: "Europe"
+    url: "/pays/europe/"
+  - title: "Asie"
+    url: "/pays/asia/"
 #   - title: "Amérique du Sud"
 #     url: "/#/"
 #   - title: "Afrique"
