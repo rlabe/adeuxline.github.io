@@ -6,7 +6,7 @@ sidebar: no
 subheadline: "Loooong trajet"
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/travel/transsiberien/"
+permalink: "/voyage/transsiberien/"
 sidebar: right
 capitale: Europe
 ---
