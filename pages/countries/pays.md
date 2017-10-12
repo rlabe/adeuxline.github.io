@@ -5,7 +5,7 @@ teaser: "Il y a beaucoup de pays."
 breadcrumb: true
 header:
    image_fullwidth: header_unsplash_1.jpg
-permalink: "countries/"
+permalink: "pays/"
 ---
 
 {% include list-articles category='countries' %}
