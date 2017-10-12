@@ -5,7 +5,7 @@ title: "Afrique"
 subheadline: "Il y en a beaucoup..."
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/countries/africa/"
+permalink: "/pays/afrique/"
 ---
 <ul>
     {% for post in site.categories.countries.europe %}
