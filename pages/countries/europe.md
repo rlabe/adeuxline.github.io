@@ -5,7 +5,7 @@ title: "Europe"
 subheadline: "Il y en a beaucoup..."
 header:
    image_fullwidth: "header_unsplash_5.jpg"
-permalink: "/countries/europe/"
+permalink: "/pays/europe/"
 sidebar: right
 capitale: Europe
 ---
