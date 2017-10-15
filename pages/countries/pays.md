@@ -8,4 +8,4 @@ header:
 permalink: "pays/"
 ---
 
-{% include list-articles category='countries' %}
+{% include list-articles category='pays' %}
