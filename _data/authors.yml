@@ -7,12 +7,13 @@
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 adeuxline: # replace this with your info
   name: "Romain"
-  siterole: "webmaster, developer, copywriter, designer"
+  siterole: "webmaster, blogueur"
   uri: 
   email:
   twitter: ""
 marie:
   name: "Marie"
+  siterole: "blogueuse"
 raphael:
   name: "Raphaël"
 # you can add more authors here
