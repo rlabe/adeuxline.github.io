@@ -7,7 +7,7 @@ header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/newsletter/"
 ---
-
+Vous avez des questions ?
 <iframe id="forum_embed"
   src="javascript:void(0)"
   scrolling="no"
@@ -17,7 +17,7 @@ permalink: "/newsletter/"
 </iframe>
 <script type="text/javascript">
   document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=tag/onceaponytime/newsletter'
+     'https://groups.google.com/forum/embed/?place=forum/onceaponytime'
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
