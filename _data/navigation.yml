@@ -5,10 +5,6 @@
 - title: "Ils parlent de nous !"
   url: "/news/"
   side: left
-  
-- title: "Journal de guerre"
-  url: "/war-diary/"
-  side: left
 
 # - title: "Monnaies locales"
 #   url: "#"
@@ -78,6 +74,6 @@
 #   url: "/search/"
 #   side: right
 
-# - title: "Contact"
-#   url: "/contact/"
-#   side: right
+- title: "Contact"
+  url: "/contact/"
+  side: right
