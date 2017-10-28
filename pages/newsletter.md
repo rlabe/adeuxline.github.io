@@ -17,7 +17,7 @@ Vous avez des questions ?
 </iframe>
 <script type="text/javascript">
   document.getElementById('forum_embed').src =
-     'https://groups.google.com/forum/embed/?place=forum/onceaponytime'
+     'https://groups.google.com/forum/embed/?place=forum/onceaponytimenewsletter'
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
 </script>
