@@ -9,12 +9,10 @@ permalink: "/voyage/transsiberien/"
 sidebar: right
 ---
 
-<h1>Marie et Romain partent en voyage... et sont revenus !</h1>
+<h1>35 jours de voyage</h1>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1skHHzBmdLP9NezA3nv35GBj3tGg&hl=fr" width="90%" height="400"></iframe>
-<br/><br/>
-
-### N'hesitez pas a cliquer sur les differents points pour avoir plus d'informations :)
+<br/>
 
 ## 31 aout 2017
 Au milieu de la nuit, surprise: nous devons changer de bus et ne comprenons rien aux instructions des deux chauffeurs. Il nous faut prendre nos sacs et les mettre dans le nouveau de bus, sans savoir lequel va dans notre direction. Heureusement, nous sommes pleins d'anglophones et parvenons tant bien que mal à nous en sortir. Démarrage de Berlin à 10h00, et arrivée à Bruxelles Nord à 21h30. Dernier train pour atteindre Beauvechain chez les parents de Romain. Ceci signe donc la fin de notre périple.
