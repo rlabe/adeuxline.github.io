@@ -23,26 +23,6 @@ header:
 #  image: widget-github-303x182.jpg
 #  text: 'Un des objectifs de ce voyage est de faire voyager et rêver les enfants hospitalisés.'
 
-#
-# Gallery
-#
-# gallery:
-#    - image_url: gallery-example-1.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-2.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-3.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-1.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-2.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-3.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-1.jpg
-#      caption: Great images by Unsplash.com
-#    - image_url: gallery-example-2.jpg
-#      caption: Great images by Unsplash.com
 
 # Use the call for action to show a button on the frontpage
 #
@@ -53,21 +33,14 @@ header:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-# callforaction:
-#   url: http://tinyletter.com/OnceAPonyTime
-#   text: S'abonner à la newsletter (qui n'existe pas encore)
-#   style: alert
+callforaction:
+  url: http://tinyletter.com/OnceAPonyTime
+  text: S'abonner à la newsletter (qui n'existe pas encore)
+  style: alert
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
 # this page as active in the topbar navigation
 #
 homepage: true
-comments: true
 ---
-
-<h1>Marie et Romain partent en voyage... et sont revenus !</h1>
-
-<iframe src="https://www.google.com/maps/d/embed?mid=1skHHzBmdLP9NezA3nv35GBj3tGg&hl=fr" width="90%" height="640"></iframe>
-<br/><br/>
-### N'hesitez pas a cliquer sur les differents points pour avoir plus d'informations :)
