@@ -34,8 +34,8 @@ header:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: http://tinyletter.com/OnceAPonyTime
-  text: S'abonner à la newsletter (qui n'existe pas encore)
+  url: https://adeuxline.github.io/newsletter/
+  text: S'abonner à la newsletter
   style: alert
 permalink: /index.html
 #
