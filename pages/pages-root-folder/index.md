@@ -7,21 +7,21 @@
 layout: frontpage
 header:
   image_fullwidth: header-bus.jpg
-# widget1:
-#  title: "Monnaies locales"
-#  url: 'http://adeuxline.github.io/blog/'
-#  image: http://www.levif.be/medias/6982/3574825.jpg
-#  text: 'Le premier objectif de ce voyage est de faire un tour du monde des monnaies alternatives.'
-# widget2:
-#  title: "Pourquoi le stop ?"
-#  url: '#'
-#  text: 'Le stop est un moyen gratuit de voyager et de faire de merveilleuses rencontres.'
-#  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-# widget3:
-#  title: "Challenges des enfants"
-#  url: '#'
-#  image: widget-github-303x182.jpg
-#  text: 'Un des objectifs de ce voyage est de faire voyager et rêver les enfants hospitalisés.'
+widget1:
+ title: "Monnaies locales"
+ url: 'http://adeuxline.github.io/blog/'
+ image: http://www.levif.be/medias/6982/3574825.jpg
+ text: 'Le premier objectif de ce voyage est de faire un tour du monde des monnaies alternatives.'
+widget2:
+ title: "Pourquoi le stop ?"
+ url: '#'
+ text: 'Le stop est un moyen gratuit de voyager et de faire de merveilleuses rencontres.'
+ video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
+widget3:
+ title: "Le transsibérien"
+ url: 'http://adeuxline.github.io/voyage/transsiberien/'
+ image: transsiberien_01.JPG
+ text: 'Plus de 200h de train à travers la Hongrie, l'Ukraine et la Russie...'
 
 
 # Use the call for action to show a button on the frontpage
