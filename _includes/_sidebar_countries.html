@@ -20,10 +20,11 @@
 	{% include maps %}
 
 	</div>
-
+	{% if pays.video %}
 	<div class="panel radius">
 	<iframe width="100%" height="200" src="https://www.youtube.com/embed/{{ pays.video }}">
 	</iframe>
 	</div>
+	{% endif %}
 	<br>
 </aside>
