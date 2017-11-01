@@ -4,6 +4,8 @@ sidebar: right
 subheadline: Europe
 title: "Allemagne"
 breadcrumb: true
+image:
+    thumb: gallery-example-2-thumb.jpg
 tags:
     - europe
 categories:
