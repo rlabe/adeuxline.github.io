@@ -1,12 +1,12 @@
 - menu_name: "Autres..."
 
-- name: "Journaux"
+- name: "Coupures de presse"
   url: "/news/"
-  title: "Coupures de presse"
+  title: "Journaux"
 
-# - name: "Sponsors"
-#   url: "/feed.xml"
-#   title: "Subscribe to RSS Feed"
+- name: "Newsletter"
+  url: "/newsletter/"
+  title: "Newsletter"
 
 # - name: "Atom"
 #   url: "/atom.xml"
