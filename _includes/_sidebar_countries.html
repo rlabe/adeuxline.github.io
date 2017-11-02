@@ -1,7 +1,6 @@
 <aside>
 	{% assign pays = site.data.countries[page.title] %}
 	<div class="panel radius">
-		<center><h3>{{ page.title }}</h3></center>
 		<p>
 			<ul>
 				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
@@ -26,6 +25,7 @@
 	</iframe>
 	</div>
 	{% endif %}
+	
 	
 	<div class="panel radius">
 	<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/adeuxline/26231177169"><img src="https://farm5.staticflickr.com/4483/26231177169_5d51cd11cf_k.jpg" width="100%" height="200"></a>
