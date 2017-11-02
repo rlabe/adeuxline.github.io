@@ -1,20 +1,21 @@
 Allemagne:
     capitale: Berlin
-    monnaielocale: EUR
+    monnaie: EUR
     population: 3
     superficie: 10
-    jourspasses:
+    monnaies_locales: 5
+    jourspasses: 10
     conducteurs: 43
-    attente_record:
-    distance:
-    km_voiture:
-    km_voiture_record:
-    km_camion:
-    km_camion_record:
-    km_bateau:
-    km_bateau_record:
-    cartes_postales:
-    nuits_dehors:
+    attente_record: 2h30
+    distance: 5000
+    km_voiture: 4000
+    km_voiture_record: 600
+    km_camion: 1000
+    km_camion_record: 800
+    km_bateau: 0
+    km_bateau_record: 0
+    cartes_postales: 17
+    nuits_dehors: 2
     video: xYEZmZx6d3E
 
 Mongolie:
