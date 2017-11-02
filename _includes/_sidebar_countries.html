@@ -1,17 +1,24 @@
 <aside>
 	{% assign pays = site.data.countries[page.title] %}
 	<div class="panel radius">
-		<p>
 			<ul>
 				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
 				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
 				{% if pays.population %}<li>Population: {{ pays.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
 				{% if pays.jourpasses %}<li>Nombre de jours passés: {{ pays.jourpasses }}</li>{% endif %}
-				{% if pays.drivers %}<li>Conducteurs rencontrés: {{ pays.drivers }}</li>{% endif %}
-				{% if pays.monnaielocale %}<li>Nombre de monnaies locales: {{ pays.monnaielocale }}</li>{% endif %}
+				{% if pays.conducteurs %}<li>Conducteurs rencontrés: {{ pays.conducteurs }}</li>{% endif %}
+				{% if attente_record %}<li>Attente la plus longue: {{ pays.attente_record }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
+				{% if pays.monnaie %}<li>Nombre de monnaies locales: {{ pays.monnaie }}</li>{% endif %}
 			</ul>
-		</p>
-
 	</div>
 
 	<div class="panel radius">
