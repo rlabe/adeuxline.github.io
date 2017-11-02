@@ -70,26 +70,26 @@ format: frontpage
     <div class="row">
         <div class="medium-6 columns">
             <p><strong>Derniers pays visités</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts category='pays' entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
 
 
         <div class="medium-6 columns">
             <p><strong>Derniers articles</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts category='article' entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 	
     <div class="row">
         <div class="medium-6 columns">
             <p><strong>Derniers défis</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts category='defi' entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
 
 
         <div class="medium-6 columns">
             <p><strong>Derniers projets</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts category='projet' entries='3' offset='1' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
