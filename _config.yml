@@ -11,7 +11,7 @@
 title: 'Once A Pony Time'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A cool slogan'
+slogan: 'The world is magic'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: '<b><i>Once a Pony Time</i></b> est un blog de voyage créé par Romain et Marie, leur permettant de raconter leurs aventures.'
@@ -205,7 +205,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+disqus_shortname: Once a Pony Time
 
 
 #      _____
