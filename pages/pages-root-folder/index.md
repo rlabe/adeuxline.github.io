@@ -44,4 +44,4 @@ permalink: /index.html
 homepage: true
 ---
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1YQP7yRmnUaHvffX7bDnXEreLCLY" width="100%" height="600"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1YQP7yRmnUaHvffX7bDnXEreLCLY" width="100%" height="370"></iframe>
