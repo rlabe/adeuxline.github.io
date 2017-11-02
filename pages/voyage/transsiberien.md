@@ -15,17 +15,20 @@ sidebar: right
 <br/>
 
 <div class="panel radius">
-        <center><h2>Quelques statistiques...</h2></center>
-        <div class="row t30">
-            <div class="medium-4 columns">
-                <center><b>km parcourus</b></center>
-                <ul>
-                    <li>en voiture: 1500</li>
-                    <li>en train: 12400</li>
-                    <li>en bus: 4000</li>
-                </ul>
-        </div> 
-</div>
+	<center><h2>Quelques statistiques...</h2></center>
+	<div class="row t30">
+		<div class="medium-4 columns">
+			<center><b>km parcourus</b></center>
+			<ul>
+				<li>en voiture: 1500</li>
+				<li>en train: 12400</li>
+				<li>en bus: 4000</li>
+			</ul>
+		</div>
+		<div class="medium-4 columns">
+			<center><b>À compléter.</b></center>
+		</div>
+	</div>
 </div>
 
 ## 28 juillet 2017
