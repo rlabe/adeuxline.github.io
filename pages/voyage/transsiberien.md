@@ -13,6 +13,20 @@ sidebar: right
 
 <center><iframe src="https://www.google.com/maps/d/embed?mid=1skHHzBmdLP9NezA3nv35GBj3tGg&hl=fr" width="90%" height="400"></iframe></center>
 <br/>
+
+<div class="panel radius">
+        <center><h2>Quelques statistiques...</h2></center>
+        <div class="row t30">
+            <div class="medium-4 columns">
+                <center><b>km parcourus</b></center>
+                <ul>
+                    <li>en voiture: 1500</li>
+                    <li>en train: 12400</li>
+                    <li>en bus: 4000</li>
+                </ul>
+        </div> 
+</div>
+
 ## 28 juillet 2017
 <div>
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/adeuxline/26231177819/in/datetaken-public/" title="Première tentative de stop"><img src="https://farm5.staticflickr.com/4459/26231177819_aba1e76ddc_n.jpg" width="240" height="320" alt="Première tentative de stop" style="float:left;margin-bottom:3px; margin-right:3px;"></a>
