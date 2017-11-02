@@ -11,7 +11,6 @@ permalink: "/stats/"
 
 
 <!-- Calculs -->
-<!-- Calculs -->
 {% assign sum_superficie = 0 %}
 {% for pays in site.data.countries %}
     {% assign sum_superficie = sum_superficie | plus: pays[1].superficie %}
@@ -80,4 +79,3 @@ Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes rev
 - Temps maximum passé dans le même bus: 12h (Oulan-Bator - Oulan-Oude)
 - Cartes postales envoyées: 89
 - Nuits dehors: 5
-- Superficie totale: {{ sum_superficie }}
