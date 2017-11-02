@@ -1,12 +1,12 @@
-# - menu_name: "Services"
+- menu_name: "Autres..."
 
-# - name: "Contact"
-#  url: "/contact/"
-#  title: "Contact"
+- name: "Journaux"
+  url: "/news/"
+  title: "Coupures de presse"
 
-# - name: "RSS"
-#  url: "/feed.xml"
-#  title: "Subscribe to RSS Feed"
+# - name: "Sponsors"
+#   url: "/feed.xml"
+#   title: "Subscribe to RSS Feed"
 
 # - name: "Atom"
 #   url: "/atom.xml"
