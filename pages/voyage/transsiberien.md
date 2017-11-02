@@ -26,6 +26,7 @@ sidebar: right
                 </ul>
         </div> 
 </div>
+</div>
 
 ## 28 juillet 2017
 <div>
