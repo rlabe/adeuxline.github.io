@@ -2,8 +2,8 @@
   url: "/"
   side: left
 
-- title: "Ils parlent de nous !"
-  url: "/news/"
+- title: "Projets"
+  url: "/projets/"
   side: left
 
 # - title: "Monnaies locales"
@@ -64,8 +64,8 @@
   url: "/stats/"
   side: right
   
-- title: "Voyages précédents"
-  side: left
+- title: "Archives"
+  side: right
   dropdown:
   - title: "Transsibérien et Mongolie"
     url: "/voyage/transsiberien/"
