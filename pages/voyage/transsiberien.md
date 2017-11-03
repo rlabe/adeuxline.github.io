@@ -36,15 +36,11 @@ sidebar: right
 		</div>
 		<div class="medium-4 columns">
 			<center><b>À compléter.</b></center>
-			<i class="material-icons" style="font-size:24px">directions_car</i> 1500<br/>
-			<i class="material-icons" style="font-size:24px">directions_railway</i> 12400<br/>
-			<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
+
 		</div>
 		<div class="medium-4 columns">
 			<center><b>À compléter.</b></center>
-			<i class="material-icons" style="font-size:24px">directions_car</i> 1500<br/>
-			<i class="material-icons" style="font-size:24px">directions_railway</i> 12400<br/>
-			<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
+			
 		</div>
 	</div>
 </div>
