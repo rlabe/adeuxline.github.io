@@ -20,9 +20,9 @@ sidebar: right
 		<div class="medium-4 columns">
 			<center><b>km parcourus</b></center>
 			<ul>
-				<li>en voiture: 1500</li>
-				<li>en train: 12400</li>
-				<li>en bus: 4000</li>
+				<i class="fa fa-car" style="font-size:24px"></i> 1500<br/>
+				<i class="material-icons" style="font-size:24px">train</i> 12400<br/>
+				<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
 			</ul>
 		</div>
 		<div class="medium-4 columns">
