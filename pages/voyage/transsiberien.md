@@ -18,15 +18,33 @@ sidebar: right
 	<center><h2>Quelques statistiques...</h2></center>
 	<div class="row t30">
 		<div class="medium-4 columns">
-			<center><b>km parcourus</b></center>
-			<ul>
-				<i class="material-icons" style="font-size:24px">directions_car</i> 1500<br/>
-				<i class="material-icons" style="font-size:24px">directions_railway</i> 12400<br/>
-				<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
-			</ul>
+			<div class="medium-3 columns">
+				<i class="material-icons" style="font-size:24px">directions_car</i><br/>
+				<i class="material-icons" style="font-size:24px">directions_railway</i><br/>
+				<i class="material-icons" style="font-size:24px">directions_bus</i><br/> 
+			</div>
+			<div class="medium-6 columns">
+				1500<br/>
+				12400<br/>
+				4000<br/>
+			</div>
+			<div class="medium-3 columns">
+				km<br/>
+				km<br/>
+				km<br/>
+			</div>
 		</div>
 		<div class="medium-4 columns">
 			<center><b>À compléter.</b></center>
+			<i class="material-icons" style="font-size:24px">directions_car</i> 1500<br/>
+			<i class="material-icons" style="font-size:24px">directions_railway</i> 12400<br/>
+			<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
+		</div>
+		<div class="medium-4 columns">
+			<center><b>À compléter.</b></center>
+			<i class="material-icons" style="font-size:24px">directions_car</i> 1500<br/>
+			<i class="material-icons" style="font-size:24px">directions_railway</i> 12400<br/>
+			<i class="material-icons" style="font-size:24px">directions_bus</i> 4000<br/>
 		</div>
 	</div>
 </div>
