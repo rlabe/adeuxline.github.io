@@ -23,12 +23,12 @@ sidebar: right
 				<i class="material-icons" style="font-size:18px">directions_railway</i><br/>
 				<i class="material-icons" style="font-size:18px">directions_bus</i><br/> 
 			</div>
-			<div class="medium-6 columns" align="left">
+			<div class="medium-2 columns" align="right">
 				1500<br/>
 				12400<br/>
 				4000<br/>
 			</div>
-			<div class="medium-3 columns">
+			<div class="medium-1 columns" align="left">
 				km<br/>
 				km<br/>
 				km<br/>
