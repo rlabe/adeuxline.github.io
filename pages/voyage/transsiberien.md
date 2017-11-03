@@ -18,12 +18,12 @@ sidebar: right
 	<center><h2>Quelques statistiques...</h2></center>
 	<div class="row t30">
 		<div class="medium-4 columns">
-			<div class="medium-3 columns">
-				<i class="material-icons" style="font-size:24px">directions_car</i><br/>
-				<i class="material-icons" style="font-size:24px">directions_railway</i><br/>
-				<i class="material-icons" style="font-size:24px">directions_bus</i><br/> 
+			<div class="medium-1 columns">
+				<i class="material-icons" style="font-size:18px">directions_car</i><br/>
+				<i class="material-icons" style="font-size:18px">directions_railway</i><br/>
+				<i class="material-icons" style="font-size:18px">directions_bus</i><br/> 
 			</div>
-			<div class="medium-6 columns">
+			<div class="medium-6 columns" align="left">
 				1500<br/>
 				12400<br/>
 				4000<br/>
@@ -35,12 +35,10 @@ sidebar: right
 			</div>
 		</div>
 		<div class="medium-4 columns">
-			<center><b>À compléter.</b></center>
 
 		</div>
 		<div class="medium-4 columns">
-			<center><b>À compléter.</b></center>
-			
+
 		</div>
 	</div>
 </div>
