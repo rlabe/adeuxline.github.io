@@ -28,8 +28,7 @@ categories:
 				{% endif %}
 
 				<div itemprop="name">
-					{% assign pays = site.data.countries[page.title] %}
-					{% if pays.continent %}<p class="subheadline">{{ pays.continent }}</p>{% endif %}
+					{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
 					<h1>{{ page.title }}</h1>
 				</div>
 			</header>
