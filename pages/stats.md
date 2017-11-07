@@ -65,6 +65,11 @@ permalink: "/stats/"
   {% endif %}
 {% endfor %}
 
+{% assign pays_traverses = 0 %}
+{% for pays in site.data.countries %}
+  {% if pays[1].attente %} {% assign pays_traverses = pays_traverses | plus:1 %} {% endif %}
+{% endfor %}
+
 
 <!-- Rendu -->
 Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes revenus le {{ "Aug 31, 2017" | date: "%e %B %Y" }}.
