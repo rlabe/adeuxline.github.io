@@ -1,25 +1,25 @@
 <aside>
 	{% assign pays = site.data.countries[page.title] %}
 	<div class="panel radius">
-			<ul>
-				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
-				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
-				{% if pays.population %}<li>Population: {{ pays.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
-				{% if pays.monnaie %}<li>Devise utilisée: {{ pays.monnaie }}</li>{% endif %}
-				{% if pays.jourpasses %}<li>Nombre de jours passés: {{ pays.jourpasses }}</li>{% endif %}
-				{% if pays.monnaies_locales %}<li>Nombre de monnaies locales: {{ pays.monnaies_locales }}</li>{% endif %}
-				{% if pays.conducteurs %}<li>Conducteurs rencontrés: {{ pays.conducteurs }}</li>{% endif %}
-				{% if attente_record %}<li>Attente la plus longue: {{ pays.attente_record }}</li>{% endif %}
-				{% if pays.distance %}<li>Distance totale parcourue: {{ pays.distance }}</li>{% endif %}
-				{% if pays.km_voiture %}<li>Km parcourus en voiture: {{ pays.km_voiture }}</li>{% endif %}
-				{% if pays.km_voiture_record %}<li>Record en une voiture: {{ pays.km_voiture_record }}</li>{% endif %}
-				{% if pays.km_camion %}<li>Km parcourus en camion: {{ pays.km_camion }}</li>{% endif %}
-				{% if pays.km_camion_record %}<li>Record en un camion: {{ pays.km_camion_record }}</li>{% endif %}
-				{% if pays.km_bateau %}<li>Km parcourus en bateau: {{ pays.km_bateau }}</li>{% endif %}
-				{% if pays.km_bateau_record %}<li>Record en un bateau: {{ pays.km_bateau_record }}</li>{% endif %}
-				{% if pays.cartes_postales %}<li>Cartes postales envoyées: {{ pays.cartes_postales }}</li>{% endif %}
-				{% if pays.nuits_dehors %}<li>Nuits passées dehors: {{ pays.nuits_dehors }}</li>{% endif %}
-			</ul>
+			
+				{% if pays.capitale %}- Capitale: {{ pays.capitale }}{% endif %}
+				{% if pays.superficie %}- Superficie: {{ pays.superficie }} <abbr title='kilomètres carrés'>km²</abbr>{% endif %}
+				{% if pays.population %}- [Icone personne]: {{ pays.population }} <abbr title='habitants'>hab.</abbr>{% endif %}
+				{% if pays.monnaie %}- [Icone monnaie]: {{ pays.monnaie }}{% endif %}
+				{% if pays.jourpasses %}- [Icone calendrier]: {{ pays.jourpasses }}{% endif %}
+				{% if pays.monnaies_locales %}- Nombre de monnaies locales: {{ pays.monnaies_locales }}{% endif %}
+				{% if pays.conducteurs %}- Conducteurs rencontrés: {{ pays.conducteurs }}{% endif %}
+				{% if attente_record %}- [Icone horloge]: {{ pays.attente_record }}{% endif %}
+				{% if pays.distance %}- Distance totale parcourue: {{ pays.distance }}{% endif %}
+				{% if pays.km_voiture %}- [Icone voiture]: {{ pays.km_voiture }}{% endif %}
+				{% if pays.km_voiture_record %}- Record en une voiture: {{ pays.km_voiture_record }}{% endif %}
+				{% if pays.km_camion %}- [Icone camion]: {{ pays.km_camion }}{% endif %}
+				{% if pays.km_camion_record %}- Record en un camion: {{ pays.km_camion_record }}{% endif %}
+				{% if pays.km_bateau %}- [Icone bateau]: {{ pays.km_bateau }}{% endif %}
+				{% if pays.km_bateau_record %}- Record en un bateau: {{ pays.km_bateau_record }}{% endif %}
+				{% if pays.cartes_postales %}- [Icone cartes] {{ pays.cartes_postales }}{% endif %}
+				{% if pays.nuits_dehors %}- [Icone lune]: {{ pays.nuits_dehors }}{% endif %}
+			
 	</div>
 
 	<div class="panel radius">

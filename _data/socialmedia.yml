@@ -33,10 +33,10 @@
 #   class: icon-soundcloud
 #   title: ""
 
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
+- name: Instagram
+  url: '#'
+  class: icon-instagram
+  title: "Pour voir les photos Instagram"
 
 # - name: Pinterest
 #   url: http://www.pinterest.com/

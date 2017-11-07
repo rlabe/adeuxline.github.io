@@ -1,5 +1,6 @@
 Allemagne:
     traverse: oui
+    continent: Europe
     capitale: Berlin
     monnaie: EUR
     population: 3
@@ -21,6 +22,7 @@ Allemagne:
 
 Mongolie:
     traverse: oui
+    continent: Asie
     capitale: Oulan-Bator
     monnaielocale: 
     population: 
@@ -40,7 +42,8 @@ Mongolie:
     video: 
 
 Russie:
-    traverse:
+    traverse: oui
+    continent: Asie
     capitale: Moscou
     monnaielocale: 
     population: 

@@ -2,7 +2,7 @@
 layout: countries
 subheadline: Asie
 sidebar: right
-title: "Mongolie"
+title: "Thaïlande"
 breadcrumb: true
 categories:
     - pays

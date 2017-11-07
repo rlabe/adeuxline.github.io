@@ -56,6 +56,15 @@ permalink: "/stats/"
     {% assign total_nuits_dehors = total_nuits_dehors | plus: pays[1].nuits_dehors %}
 {% endfor %}
 
+{% assign compteur_attente = 0 %}
+{% assign pays_attente = 0 %}
+{% for pays in site.data.countries %}
+  {% if pays[1].attente > compteur attente %}
+    {% assign compteur_attente = pays[1].attente %}
+    {% assign pays_attente = pays %}
+  {% endif %}
+{% endfor %}
+
 
 <!-- Rendu -->
 Nous sommes partis le {{ "Jul 28, 2017" | date: "%e %B %Y" }} et nous sommes revenus le {{ "Aug 31, 2017" | date: "%e %B %Y" }}.
