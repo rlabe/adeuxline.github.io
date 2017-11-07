@@ -2,6 +2,7 @@
 - changer la favicon
 - changer les images de thumb des pays et des articles
 - changer les images de header du site
+- automatiser le caroussel de chaque pays
 
 # PAYS
 - compléter le fichier des données de pays
@@ -21,3 +22,4 @@
 - page des statistiques
 - page des informations
 - les widgets de la page index
+- créer et compléter les cartes mymaps des différents pays
