@@ -14,8 +14,8 @@ Allemagne:
     km_voiture_record: 600
     km_camion: 1000
     km_camion_record: 800
-    km_bateau: 0
-    km_bateau_record: 0
+    km_bateau: 250
+    km_bateau_record: 10
     cartes_postales: 17
     nuits_dehors: 2
     video: xYEZmZx6d3E
