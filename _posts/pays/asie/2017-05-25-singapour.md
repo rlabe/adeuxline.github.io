@@ -2,6 +2,7 @@
 layout: countries
 subheadline: Asie
 title: "Singapour"
+teaser: 
 tags:
     - asie
 image:

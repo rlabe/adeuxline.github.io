@@ -2,6 +2,7 @@
 layout: countries
 subheadline: Asie
 title: "Indonésie"
+teaser: 
 tags:
     - asie
 image:

@@ -2,8 +2,9 @@
 layout: countries
 subheadline: Europe
 title: "Allemagne"
-image:
-    thumb: gallery-example-2-thumb.jpg
+teaser: 
 tags:
     - europe
+image:
+    thumb: gallery-example-2-thumb.jpg
 ---

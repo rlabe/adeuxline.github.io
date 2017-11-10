@@ -1,0 +1,32 @@
+---
+layout: default
+format: blog-index
+# Don't index these pages dear Google.
+noindex: true
+---
+<div class="panel radius">
+	<div>
+	<div class="medium-3 columns t30">
+		<b>INSÉRER IMAGE RONDE ICI</b>
+	</div>
+	<div class="medium-6 columns t30">
+		<center><b>{{ page.title }}</b></center>
+	</div>
+	<div class="medium-3 columns t30">
+		<b>INSÉRER IMAGE RONDE ICI</b>
+	</div>
+	</div>
+	<div itemprop="name">
+		{% if page.subheadline %}<p class="subheadline"><center>{{ page.subheadline }}</center></p>{% endif %}
+		<center><h1>{{ page.title }}</h1></center>
+	</div>
+
+</div>
+
+<div class="row">
+	<div class="medium-12 columns t30">
+	
+	{{ content }}
+	
+	</div><!-- /.medium-12.columns.t30 -->
+</div><!-- /.row -->
