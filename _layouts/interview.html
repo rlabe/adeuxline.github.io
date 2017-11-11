@@ -12,15 +12,14 @@ categories:
 			<b>INSÉRER IMAGE RONDE ICI</b>
 		</div>
 		<div class="medium-6 columns">
-			<center><b>{{ page.title }}</b></center>
+			<div itemprop="name">
+				{% if page.subheadline %}<p class="subheadline"><center>{{ page.subheadline }}</center></p>{% endif %}
+				<center><h1>{{ page.title }}</h1></center>
+			</div>
 		</div>
 		<div class="medium-3 columns">
 			<b>INSÉRER IMAGE RONDE ICI</b>
 		</div>
-	</div>
-	<div itemprop="name">
-		{% if page.subheadline %}<p class="subheadline"><center>{{ page.subheadline }}</center></p>{% endif %}
-		<center><h1>{{ page.title }}</h1></center>
 	</div>
 
 </div>
