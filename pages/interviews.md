@@ -1,11 +1,11 @@
 ---
 layout: page
 show_meta: false
-title: "Statistiques"
-subheadline: "Quelques stats"
+title: "Interviews"
+subheadline: "Quelques interviews"
 header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/interviews/"
 ---
 
-{% include list-articles category='inerview' %}
+{% include list-articles category='interview' %}
