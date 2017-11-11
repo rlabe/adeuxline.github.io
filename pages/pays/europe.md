@@ -9,4 +9,4 @@ permalink: "/pays/europe/"
 sidebar: right
 ---
 
-{% include list-articles tag='europe' %}
+{% include list-articles categories='pays' tag='europe' %}
