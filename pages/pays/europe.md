@@ -7,7 +7,6 @@ header:
    image_fullwidth: "header_unsplash_5.jpg"
 permalink: "/pays/europe/"
 sidebar: right
-capitale: Europe
 ---
 
 {% include list-articles tag='europe' %}
