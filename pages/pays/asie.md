@@ -1,5 +1,5 @@
 ---
-layout: blog_countries
+layout: page
 show_meta: false
 breadcrumb: true
 sidebar: right

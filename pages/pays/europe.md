@@ -1,5 +1,5 @@
 ---
-layout: blog_countries
+layout: page
 show_meta: false
 breadcrumb: true
 sidebar: right
@@ -10,4 +10,4 @@ header:
 permalink: "/pays/europe/"
 ---
 
-{% include list-articles category='pays' tag='europe' %}
+{% include list-articles categories='pays' tag='europe' %}
