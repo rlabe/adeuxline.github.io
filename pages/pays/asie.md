@@ -9,4 +9,4 @@ permalink: "/pays/asie/"
 sidebar: right
 ---
 
-{% include list-articles tag='asie' %}
+{% include list-articles category='pays' tag='asie' %}
