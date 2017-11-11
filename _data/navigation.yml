@@ -60,6 +60,10 @@
 #   - title: "Blog Archive"
 #     url: "/blog/archive/"
 
+- title: Interviews
+  url: "/interviews/"
+  side: left
+
 - title: "Archives"
   side: right
   dropdown:
