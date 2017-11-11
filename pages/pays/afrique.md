@@ -1,6 +1,8 @@
 ---
 layout: page
 show_meta: false
+breadcrumb: true
+sidebar: right
 title: "Afrique"
 subheadline: "Il y en a beaucoup..."
 header:
