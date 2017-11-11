@@ -8,4 +8,4 @@ header:
 permalink: "/pays/oceanie/"
 ---
 
-{% include list-articles tag='oceanie' %}
+{% include list-articles categories='pays' tag='oceanie' %}

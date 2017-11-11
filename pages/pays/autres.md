@@ -8,4 +8,4 @@ header:
 permalink: "/pays/autres/"
 ---
 
-{% include list-articles tag='autres' %}
+{% include list-articles categories='pays' tag='autres' %}
