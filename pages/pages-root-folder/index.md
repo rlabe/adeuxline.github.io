@@ -12,7 +12,7 @@ widget1:
   title: "Pourquoi le stop ?"
   url: 'http://adeuxline.github.io/about/'
   image: widget-1-302x182.jpg
-  text: 'Le stop permet de voyager à moindre coup, de faire des rencontres et de découvrir de la culture locale plus facilement.'
+  text: 'Le stop permet de voyager à moindre coût, de faire des rencontres et de découvrir de la culture locale plus facilement.'
 widget2:
   title: "Les monnaies locales"
   url: 'http://adeuxline.github.io/'

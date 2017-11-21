@@ -14,6 +14,8 @@ header:
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal, ancien trajet du transsibérien
 permalink: '/articles/transsiberien/'
+image:
+    thumb: gallery-example-2-thumb.jpg
 ---
 
 À venir !

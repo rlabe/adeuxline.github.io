@@ -16,10 +16,14 @@
 	- défis
 	- interview
 - sidebar countries: afficher les icônes
+- un module de NEWS à mettre sur la pafge d'accueil, avec les dernières nouvelles ne nécessitant pas d'article
 
 # À COMPLÉTER
 - migrer les stats du transsibérien sur la bonne page
 - page des statistiques
 - page des informations
-- les widgets de la page index
+- les widgets de la page index:
+	- HURDEF
+	- Ecole Chapelle aux champs
+	- Pourquoi le stop
 - créer et compléter les cartes mymaps des différents pays
