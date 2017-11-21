@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Pourquoi le stop ?"
-subheadline:  "Le pouce en avant !"
 teaser: "Les joies de l'attente et de l inconnu"
 categories:
     - article
@@ -12,7 +11,6 @@ header:
     image_fullwidth: transsiberien_01.JPG
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal, ancien trajet du transsibérien
-permalink: '/articles/transsiberien/'
 image:
     thumb: gallery-example-2-thumb.jpg
 ---
