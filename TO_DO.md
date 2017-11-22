@@ -5,7 +5,7 @@
 - automatiser le caroussel de chaque pays
 
 # PAYS
-- compléter le fichier des données de pays
+- compléter le fichier des données de pays (peut-être via un script en python sous forme de QR?)
 
 # À DÉVELOPPER
 - affichage de la chaîne humaine
@@ -27,3 +27,5 @@
 	- Ecole Chapelle aux champs
 	- Pourquoi le stop
 - créer et compléter les cartes mymaps des différents pays
+- Corriger la page "pays" qui n'affiche plus rien du tout
+- sidebar countries: rendre 'active' le lien de la page courante
