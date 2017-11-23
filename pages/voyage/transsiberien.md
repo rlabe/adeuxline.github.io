@@ -17,32 +17,47 @@ sidebar: right
 <div class="panel radius">
 	<center><h2>Quelques statistiques...</h2></center>
 	<div class="row t30">
-		<div class="medium-3 columns">
+		<center><h3>Transport</h3></center>
+		<div class="medium-4 columns">
         	<ul>
-				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_car</i></abbr> 1500 km</li>
-				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_railway</i></abbr> 12400 km</li>
-				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_bus</i></abbr> 4000 km</li> 
+        		<li><i class="material-icons" style="font-size:18px">person_pin</i> 7 conducteurs</li>
+				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 4h30</li>
+				<li><i class="material-icons" style="font-size:18px">slow_motion_video</i> 215km/h</li>
         	</ul>
 		</div>
-		<div class="medium-3 columns">
+		<div class="medium-4 columns">
         	<ul>
-				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 202 h</li>
 				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
         	</ul>
 		</div>
-		<div class="medium-3 columns">
+		<div class="medium-4 columns">
         	<ul>
-				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 72 h</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 4000 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12 h</li>
         	</ul>
 		</div>
-		<div class="medium-3 columns">
+
+	</div>
+	<div class="row t30">
+	<center><h3>Pour le fun</h3></center>
+		<div class="medium-4 columns">
         	<ul>
-				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+				<li><i class="material-icons" style="font-size:18px">my_location</i> 7 villes</li>
+				 
+        	</ul>
+		</div>
+		<div class="medium-4 columns">
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">my_location</i> 89 cartes postales</li>
+        	</ul>
+		</div>
+		<div class="medium-4 columns">
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">my_location</i> 7 villes</li>
         	</ul>
 		</div>
 	</div>
