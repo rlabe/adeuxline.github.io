@@ -16,7 +16,7 @@ widget1:
 widget2:
   title: "L'école primaire"
   url: 'http://adeuxline.github.io/'
-  text: 'Grâce au soutien des enseignants, les enfants pourront découvrir et parcourir le monde avec moi.
+  text: 'Grâce au soutien des enseignants, les enfants pourront découvrir et parcourir le monde avec moi.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "L'hôpital Reine Fabiola"
