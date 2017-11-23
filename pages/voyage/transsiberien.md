@@ -19,9 +19,9 @@ sidebar: right
 	<div class="row t30">
 		<div class="medium-3 columns">
         	<ul>
-				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_car</i></abbr> 1500 km</li>
+				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_railway</i></abbr> 12400 km</li>
+				<li><abbr title='kilomètres parcourus en voiture'><i class="material-icons" style="font-size:18px">directions_bus</i></abbr> 4000 km</li> 
         	</ul>
 		</div>
 		<div class="medium-3 columns">
