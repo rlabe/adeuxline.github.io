@@ -12,7 +12,7 @@ widget1:
   title: "Pourquoi le stop ?"
   url: 'http://adeuxline.github.io/about/'
   image: widget-1-302x182.jpg
-  text: "Le stop permet de développer différentes thématiques:<br/>1. Le côté économique<br/>2. Le côté social<br/>3. Le côté écologique<br/>4. Le facteur humain"
+  text: "Le stop permet de voyager à moindre coût, de faire des rencontres insolites de de découvrir la culture locale."
 widget2:
   title: "L&apos;école primaire"
   url: 'http://adeuxline.github.io/'
@@ -21,7 +21,7 @@ widget2:
 widget3:
   title: "L&apos;hôpital Reine Fabiola"
   url: 'https://adeuxline.github.io/voyage/transsiberien/'
-  image: transsiberien_01.JPG
+  image: widget-1-302x182.jpg
   text: "La mascotte de l&apos;hôpital m'accompagnera pendant tout le trajet et visitera les endroits insolites du monde."
 # Use the call for action to show a button on the frontpage
 #
