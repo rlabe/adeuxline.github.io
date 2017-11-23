@@ -17,7 +17,28 @@ sidebar: right
 <div class="panel radius">
 	<center><h2>Quelques statistiques...</h2></center>
 	<div class="row t30">
-		<div class="medium-4 columns">
+		<div class="medium-3 columns">
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+        	</ul>
+		</div>
+		<div class="medium-3 columns">
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+        	</ul>
+		</div>
+		<div class="medium-3 columns">
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+        	</ul>
+		</div>
+		<div class="medium-3 columns">
         	<ul>
 				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
 				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
