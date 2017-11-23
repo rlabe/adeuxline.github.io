@@ -12,17 +12,17 @@ widget1:
   title: "Pourquoi le stop ?"
   url: 'http://adeuxline.github.io/about/'
   image: widget-1-302x182.jpg
-  text: 'Le stop permet de voyager à moindre coût, de faire des rencontres et de découvrir de la culture locale plus facilement.'
+  text: 'Le stop permet de développer différentes thématiques:<br/>1. Le côté économique<br/>2. Le côté social<br/>3. Le côté écologique<br/>4. Le facteur humain'
 widget2:
-  title: "Les monnaies locales"
+  title: "L'école primaire"
   url: 'http://adeuxline.github.io/'
-  text: 'Les <em>monnaies locales</em> sont une alternative économique intéressante à découvrir à travers le monde.'
+  text: 'Grâce au soutien des enseignants, les enfants pourront découvrir et parcourir le monde avec moi.
   video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Le transsiberien"
+  title: "L'hôpital Reine Fabiola"
   url: 'https://adeuxline.github.io/voyage/transsiberien/'
   image: transsiberien_01.JPG
-  text: 'Plus de 200h de train à travers la Hongrie, l&#39;Ukraine et la Russie... Un long voyage !'
+  text: 'La mascotte de l'hôpital m'accompagnera pendant tout le trajet et visitera les endroits insolites du monde.'
 # Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
