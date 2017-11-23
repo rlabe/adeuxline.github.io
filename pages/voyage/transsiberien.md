@@ -18,11 +18,11 @@ sidebar: right
 	<center><h2>Quelques statistiques...</h2></center>
 	<div class="row t30">
 		<div class="medium-4 columns">
-			<div class="medium-1 columns" style="text-align: left;">
-				<i class="material-icons" style="font-size:18px">directions_car</i> 1500 km<br/>
-				<i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km<br/>
-				<i class="material-icons" style="font-size:18px">directions_bus</i> 4000 k<br/> 
-			</div>
+        	<ul>
+				<li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
+				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li> 
+        	</ul>
 		</div>
 	</div>
 </div>
