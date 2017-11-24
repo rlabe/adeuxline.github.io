@@ -30,14 +30,14 @@ sidebar: right
         	<ul>
 				<li><i class="material-icons" style="font-size:18px">schedule</i> 202 h</li>
 				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12400 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 82 h</li>
+				<li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 82 h</li>
         	</ul>
 		</div>
 		<div class="medium-4 columns">
         	<ul>
 				<li><i class="material-icons" style="font-size:18px">schedule</i> 72 h</li>
 				<li><i class="material-icons" style="font-size:18px">directions_bus</i> 4000 km</li>
-				<li><i class="material-icons" style="font-size:18px">directions_railway</i> 12 h</li>
+				<li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 12 h</li>
         	</ul>
 		</div>
 	<center><h3>Pour le fun</h3></center>
