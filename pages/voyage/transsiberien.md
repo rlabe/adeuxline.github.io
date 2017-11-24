@@ -40,6 +40,8 @@ sidebar: right
 				<li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 12 h</li>
         	</ul>
 		</div>
+	</div>
+	<div class="row t30">
 		<center><h3>Pour le fun</h3></center>
 		<div class="medium-4 columns">
         	<ul>
