@@ -19,7 +19,6 @@
 - un module de NEWS à mettre sur la pafge d'accueil, avec les dernières nouvelles ne nécessitant pas d'article
 
 # À COMPLÉTER
-- migrer les stats du transsibérien sur la bonne page
 - page des statistiques
 - page des informations
 - créer et compléter les cartes mymaps des différents pays

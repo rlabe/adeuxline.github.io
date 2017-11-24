@@ -40,7 +40,7 @@ sidebar: right
 				<li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 12 h</li>
         	</ul>
 		</div>
-	<center><h3>Pour le fun</h3></center>
+		<center><h3>Pour le fun</h3></center>
 		<div class="medium-4 columns">
         	<ul>
 				<li><i class="material-icons" style="font-size:18px">my_location</i> 7 villes</li>

@@ -1,10 +1,12 @@
 <aside>
 	{% assign pays = site.data.countries[page.title] %}
 	<div class="panel radius">
+		<div class="row t30">
+			<div class="medium-12 columns">
 			<ul>
 				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
-				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} <abbr title='kilomètres carrés'>km²</abbr></li>{% endif %}
-				{% if pays.population %}<li><i class="material-icons">&#xe7fb;</i>: {{ pays.population }} <abbr title='habitants'>hab.</abbr></li>{% endif %}
+				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} km²</li>{% endif %}
+				{% if pays.population %}<li><i class="material-icons">&#xe7fb;</i>: {{ pays.population }} hab.</li>{% endif %}
 				{% if pays.monnaie %}<li><i class="material-icons">&#xe227;</i>: {{ pays.monnaie }}</li>{% endif %}
 				{% if pays.jourpasses %}<li><i class="material-icons">&#xe878;</i>: {{ pays.jourpasses }}</li>{% endif %}
 				{% if pays.monnaies_locales %}<li>Nombre de monnaies locales: {{ pays.monnaies_locales }}</li>{% endif %}
@@ -21,6 +23,8 @@
 				{% if pays.nuits_dehors %}<li><i class="material-icons">&#x263E;</i>: {{ pays.nuits_dehors }}</li>{% endif %}
 			</ul>
 	</div>
+</div>
+</div>
 
 	<div class="panel radius">
 
