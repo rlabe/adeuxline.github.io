@@ -76,11 +76,11 @@ Affichage des statistiques à venir...
 
 <div class="panel radius">
   <center><h2>Quelques statistiques...</h2></center>
-  <div class="row t30">
+  <div class="row">
     <center><h3>Transport</h3></center>
     <div class="medium-4 columns">
       <ul>
-        <li><i class="material-icons" style="font-size:18px">person_pin</i> 7 conducteurs</li>
+        <li><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</li>
         <li><i class="material-icons" style="font-size:18px">directions_car</i> 1500 km</li>
         <li><i class="material-icons" style="font-size:18px">hourglass_empty</i> 4h30</li>
         <li><i class="material-icons" style="font-size:18px">network_check</i> 215 km/h</li>
@@ -101,7 +101,7 @@ Affichage des statistiques à venir...
           </ul>
     </div>
   </div>
-  <div class="row t30">
+  <div class="row">
     <center><h3>Pour le fun</h3></center>
     <div class="medium-4 columns">
           <ul>

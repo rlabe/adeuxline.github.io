@@ -16,7 +16,7 @@ sidebar: right
 
 <div class="panel radius">
 	<center><h2>Quelques statistiques...</h2></center>
-	<div class="row t30">
+	<div class="row">
 		<center><h3>Transport</h3></center>
 		<div class="medium-4 columns">
         	<ul>
@@ -41,7 +41,7 @@ sidebar: right
         	</ul>
 		</div>
 	</div>
-	<div class="row t30">
+	<div class="row">
 		<center><h3>Pour le fun</h3></center>
 		<div class="medium-4 columns">
         	<ul>
