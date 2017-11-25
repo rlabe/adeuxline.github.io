@@ -1,0 +1,35 @@
+{% comment %}
+*
+*   Possible parameter for this loop:
+*
+*    › entries
+*    › offset
+*    › category
+*    › tag
+*
+*   Example for Category: {% include list-posts entries='3' offset='1' category='design' %}
+*
+*   Example for Tag: {% include list-posts entries='5' tag='terminal' %}
+*
+*
+*   This loop works like this:
+*
+*   1. First we check if there was given a category for filtering › if include.categories == NULL
+*   2. If no category is given for filtering do a general loop.
+*   3. If a category/tag was given, assign category/tag to the variable category/tag › assign category = include.categories
+*
+{% endcomment %}
+
+
+<p><strong>Les dernières news</strong></p>
+<ul class="side-nav">
+
+		{% for post in site.data.news limit:include.entries offset:include.offset %}
+			<li>{{ post.date }} - {{ post. title }}<br/>
+				{% if post.teaser %}{{ post.teaser }} {% endif %}{% if post.lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}{{ post.lien }}"><strong>Plus d'infos</strong></a>{% endif %}
+			</li>
+		{% endfor %}
+			{% if post.lien %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>{% endif %}
+
+	{% endif %}
+</ul>
