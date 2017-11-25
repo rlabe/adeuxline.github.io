@@ -75,6 +75,7 @@ permalink: "/stats/"
 Affichage des statistiques à venir...
 
 <div class="panel radius">
+  <center><h2>Quelques statistiques...</h2></center>
   <div class="row">
     <center><h3>Transport</h3></center>
     <div class="medium-4 columns">
