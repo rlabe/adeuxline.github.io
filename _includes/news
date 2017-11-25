@@ -24,7 +24,7 @@
 <p><strong>Les dernières news</strong></p>
 <ul class="side-nav">
 
-		{% for post in site.data.news limit:include.entries offset:include.offset %}
+		{% for post in site.data.news %}
 			<li>{{ post.date }} - {{ post. title }}<br/>
 				{% if post.teaser %}{{ post.teaser }} {% endif %}{% if post.lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}{{ post.lien }}"><strong>Plus d'infos</strong></a>{% endif %}
 			</li>
