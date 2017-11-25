@@ -29,6 +29,18 @@
 				{% if post.teaser %}{{ post.teaser }} {% endif %}{% if post.lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}{{ post.lien }}"><strong>Plus d'infos</strong></a>{% endif %}
 			</li>
 		{% endfor %}
-			{% if post.lien %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>{% endif %}
+			<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>
 
 </ul>
+
+<!-- <ul class="side-nav">
+
+		{% for news in site.data.news %}
+		{% assign post = site.data.news[news] %}
+			<li>{{ post.date }} - {{ post.title }}<br/>
+				{% if post.teaser %}{{ post.teaser }} {% endif %}{% if post.lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}{{ post.lien }}"><strong>Plus d'infos</strong></a>{% endif %}
+			</li>
+		{% endfor %}
+			{% if post.lien %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>{% endif %}
+
+</ul> -->
