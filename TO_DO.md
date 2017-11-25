@@ -1,6 +1,6 @@
 # IMAGES
 - changer la favicon
-- changer les images de thumb des pays et des articles
+- changer les images de thumb des pays (mettre un drapeau ! ) et des articles
 - changer les images de header du site
 - automatiser le caroussel de chaque pays
 
@@ -18,6 +18,7 @@
 	- interview
 - sidebar countries: afficher les icônes
 - un module de NEWS à mettre sur la pafge d'accueil, avec les dernières nouvelles ne nécessitant pas d'article
+- changer la sidebar de la page des pays. La remplacer par des liens dans le titre ?
 
 # À COMPLÉTER
 - page des statistiques

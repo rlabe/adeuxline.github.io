@@ -2,8 +2,6 @@
 layout: page
 show_meta: false
 title: "Statistiques"
-subheadline: "Quelques stats"
-teaser: "Quelques chiffres..."
 header:
    image_fullwidth: "header_roadmap_3.jpg"
 permalink: "/stats/"
@@ -71,8 +69,6 @@ permalink: "/stats/"
 {% endfor %}
 
 <!-- Rendu -->
-
-Affichage des statistiques à venir...
 
 <div class="panel radius">
   <center><h2>Quelques statistiques...</h2></center>
