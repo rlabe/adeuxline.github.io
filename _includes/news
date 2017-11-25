@@ -20,16 +20,15 @@
 *
 {% endcomment %}
 
-{% assign post = site.data.news %}
-
 <p><strong>Les dernières news</strong></p>
 <ul class="side-nav">
 
 		{% for news in site.data.news %}
-			<li>{{ post[news].date }} - {{ post[news].title }}<br/>
-				{% if post[news].teaser %}{{ post[news].teaser }} {% endif %}{% if post[news].lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post[news].url }}{{ post[news].lien }}"><strong>Plus d'infos</strong></a>{% endif %}
+		{% assign post = site.data.news[news] %}
+			<li>{{ post.date }} - {{ post.title }}<br/>
+				{% if post.teaser %}{{ post.teaser }} {% endif %}{% if post.lien %}<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}{{ post.lien }}"><strong>Plus d'infos</strong></a>{% endif %}
 			</li>
 		{% endfor %}
-			{% if post[news].lien %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>{% endif %}
+			{% if post.lien %}<li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/#/"><strong>Plus de news</strong></a></li>{% endif %}
 
 </ul>
