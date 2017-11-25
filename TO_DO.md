@@ -6,6 +6,7 @@
 
 # PAYS
 - compléter le fichier des données de pays (via le script)
+- mettre les listes des pays sur deux colonnes (small 6 au lieu de 12) -> changer le div class=raw
 
 # À DÉVELOPPER
 - affichage de la chaîne humaine
