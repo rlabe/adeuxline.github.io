@@ -4,7 +4,7 @@
 		<div class="row t30">
 			<div class="medium-12 columns">
 			<ul>
-				{% if pays.capitale %}<li>Capitale: {{ pays.capitale }}</li>{% endif %}
+				{% if pays.capitale %}<li><i class="material-icons">star</i> {{ pays.capitale }}</li>{% endif %}
 				{% if pays.superficie %}<li>Superficie: {{ pays.superficie }} km²</li>{% endif %}
 				{% if pays.population %}<li><i class="material-icons">&#xe7fb;</i>: {{ pays.population }} hab.</li>{% endif %}
 				{% if pays.monnaie %}<li><i class="material-icons">&#xe227;</i>: {{ pays.monnaie }}</li>{% endif %}
