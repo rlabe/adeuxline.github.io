@@ -5,7 +5,7 @@
 - automatiser le caroussel de chaque pays
 
 # PAYS
-- compléter le fichier des données de pays (peut-être via un script en python sous forme de QR?)
+- compléter le fichier des données de pays (via le script)
 
 # À DÉVELOPPER
 - affichage de la chaîne humaine
