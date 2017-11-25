@@ -8,3 +8,5 @@ tags:
 image:
     thumb: gallery-example-2-thumb.jpg
 ---
+
+{% include news %}
