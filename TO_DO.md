@@ -19,3 +19,9 @@
 # À COMPLÉTER
 - page des statistiques
 - page des informations
+
+# Table des matières
+Générer une table des matières pour:
+ - les news (mois - années)
+ - les articles
+ - les pays
