@@ -2,7 +2,6 @@
 layout: page
 show_meta: false
 breadcrumb: true
-sidebar: right
 title: "Europe"
 subheadline: "Il y en a beaucoup..."
 header:
@@ -10,4 +9,4 @@ header:
 permalink: "/pays/europe/"
 ---
 
-{% include list-articles categories='pays' tag='europe' %}
+{% include list-pays categories='pays' tag='europe' %}
