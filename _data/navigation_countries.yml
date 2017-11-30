@@ -1,18 +1,18 @@
 - title: "Europe"
-  url: "/"
+  url: "/pays/europe"
   side: left
 - title: "Asie"
-  url: "/"
+  url: "/pays/asie"
   side: left
 - title: "Amérique"
-  url: "/"
+  url: "/pays/amerique"
   side: left
 - title: "Océanie"
-  url: "/"
+  url: "/pays/oceanie"
   side: left
 - title: "Afrique"
-  url: "/"
+  url: "/pays/afrique"
   side: left
 - title: "Autres..."
-  url: "/"
+  url: "/pays/autres"
   side: left
