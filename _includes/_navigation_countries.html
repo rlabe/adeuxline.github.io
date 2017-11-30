@@ -7,8 +7,8 @@
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Nav</span></a></li>
     </ul>
-    <section class="top-bar-section">
-      <ul class="center">
+    <center><section class="top-bar-section">
+      <ul class="left">
         {% for link in site.data.navigation_countries %}
 
               {% if link.url contains 'http' %}
@@ -53,6 +53,6 @@
         {% endfor %}
         {% comment %}   Second loop finished   {% endcomment %}
       </ul>
-    </section>
+      </section></center>
   </nav>
 </div><!-- /#navigation -->
