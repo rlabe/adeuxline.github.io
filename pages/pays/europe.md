@@ -10,4 +10,4 @@ header:
 permalink: "/pays/europe/"
 ---
 
-{% include list-articles categories='pays' tag='europe' %}
+{% include list-pays categories='pays' tag='europe' %}
