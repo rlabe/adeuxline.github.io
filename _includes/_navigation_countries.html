@@ -19,7 +19,7 @@
 
 {% endcomment %}
       <ul class="right">
-        {% for link in site.data.navigation %}
+        {% for link in site.data.navigation_countries %}
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
@@ -73,7 +73,7 @@
 
 {% endcomment %}
       <ul class="left">
-        {% for link in site.data.navigation %}
+        {% for link in site.data.navigation_countries %}
 
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
