@@ -60,7 +60,7 @@
 #   - title: "Blog Archive"
 #     url: "/blog/archive/"
 
-- title: "Archives"
+- title: "Voyages précédents"
   side: right
   dropdown:
   - title: "Transsibérien et Mongolie"
