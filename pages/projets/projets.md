@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_projets
 title: "Projets de voyage"
 permalink: "/projets/"
 ---
