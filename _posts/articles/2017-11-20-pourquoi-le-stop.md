@@ -24,6 +24,7 @@ Le stop est un moyen gratuit de bouger d'un point A en direction d'un point B. I
 C'est vrai, le stop peut être risqué. Malgré tout, les risques sont minimes pour moi, garçon en (plus ou moins) bonne forme physique.
 
 ## Tu ne sais jamais quand tu vas arriver !
-C'est ça qui est fabuleux. 
+C'est ça qui est fabuleux. :-)
 
 ## Et si tu ne trouves personne ?
+L'attente fait partie intégrante du stop. J'ai de la lecture et les paysages sont magnifiques !
