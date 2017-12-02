@@ -2,8 +2,9 @@
 {% assign tag = include.tag %}
 <div class="container">
 {% if category and tag %}
+	<ul class="small-block-grid-3">
 	{% for post in site.categories.[category] %}
-		<div class="medium-4">
+		<li>
 		{% if post in page.tags.[tag] == tag %}
 			<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
@@ -12,8 +13,9 @@
 		{% endif %}
 		</p>
 		{% endif %}
-		</div>
+		</li>
 	{% endfor %}
+	</ul>
 
 {% elsif category %}
 	{% for post in site.categories.[category] %}
