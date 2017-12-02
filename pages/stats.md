@@ -121,20 +121,10 @@ permalink: "/stats/"
 
 <div class="panel radius">
   <div class="row">
-  <div class="twelve columns">
-    .twelve
-    <div class="row">
-      <div class="four columns">.four</div>
-      <div class="four columns">
-        .four
-        <div class="row">
-          <div class="four columns">.four</div>
-          <div class="four columns">.four</div>
-          <div class="four columns">.four</div>
-        </div>
-      </div>
-      <div class="four columns">.four</div>
+    <div class="medium-9 large-centered columns">
+      <div class="medium-4 columns">TEST 1</div>
+      <div class="medium-4 columns">TEST 2</div>
+      <div class="medium-4 columns">TEST 3</div>
     </div>
   </div>
-</div>
 </div>
