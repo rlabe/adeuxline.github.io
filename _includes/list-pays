@@ -34,15 +34,16 @@
 {% elsif tag %}
 
 	{% for post in site.tags.[tag] %}
-		<div class="row">
-		<div class="small-4 columns">
+		<ul class="small-block-grid-3">
+		<li>
 		<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
-			{% if post.image.thumb %}
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="100" alt="{{ page.title cape_once }}"></a>
-			{% endif %}
+		{% if post.image.thumb %}
+			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="100" alt="{{ page.title escape_once }}"></a>
+		{% endif %}
 		</p>
-		</div></div>
+		</li>
+	</ul>
 	{% endfor %}
 {% endif %}
 </div><!-- /.row -->
