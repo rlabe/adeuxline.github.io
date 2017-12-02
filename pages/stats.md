@@ -72,7 +72,7 @@ permalink: "/stats/"
 
 <div class="panel radius">
   <div class="row">
-    <center><h3>Transport</h3></center>
+    <center><h3>Transports</h3></center>
     <div class="medium-4 columns">
       <ul>
         <li><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</li>
@@ -117,4 +117,16 @@ permalink: "/stats/"
           </ul>
     </div>
   </div>
+</div>
+
+<div class="panel radius">
+  <div class="row">
+    <div class="nine columns centered">
+      <div class="row">
+        <div class="four columns">TEST 1</div>
+        <div class="four columns">TEST 2</div>
+        <div class="four columns">TEST 3</div>
+      </div>
+    </div>
+</div>
 </div>
