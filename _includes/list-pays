@@ -18,8 +18,8 @@
 	</ul>
 
 {% elsif category %}
+	<ul class="small-block-grid-3">
 	{% for post in site.categories.[category] %}
-		<ul class="small-block-grid-3">
 		<li>
 		<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
@@ -28,13 +28,11 @@
 		{% endif %}
 		</p>
 		</li>
-	</ul>
 	{% endfor %}
-
+	</ul>
 {% elsif tag %}
-
+	<ul class="small-block-grid-3">
 	{% for post in site.tags.[tag] %}
-		<ul class="small-block-grid-3">
 		<li>
 		<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
@@ -43,7 +41,7 @@
 		{% endif %}
 		</p>
 		</li>
-	</ul>
 	{% endfor %}
+	</ul>
 {% endif %}
 </div><!-- /.row -->
