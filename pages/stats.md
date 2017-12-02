@@ -121,10 +121,11 @@ permalink: "/stats/"
 
 <div class="panel radius">
   <div class="row">
-    <div class="medium-9 large-centered columns">
-      <div class="medium-4 columns">TEST 1</div>
-      <div class="medium-4 columns">TEST 2</div>
-      <div class="medium-4 columns">TEST 3</div>
+    <center><h3>Transports</h3></center>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"></div>
+      <div class="medium-4 columns"></div>
     </div>
   </div>
 </div>
