@@ -24,22 +24,22 @@ Mongolie:
     traverse: oui
     continent: Asie
     capitale: Oulan-Bator
-    monnaielocale: 
-    population: 
-    superficie: 
-    jourspasses:
-    conducteurs: 
-    attente_record:
-    distance:
-    km_voiture:
-    km_voiture_record:
-    km_camion:
-    km_camion_record:
-    km_bateau:
-    km_bateau_record:
-    cartes_postales:
-    nuits_dehors:
-    video: 
+    monnaielocale: EUR
+    population: 100
+    superficie: 100
+    jourspasses: 100
+    conducteurs: 100
+    attente_record: 10h
+    distance: 100
+    km_voiture: 100
+    km_voiture_record: 100
+    km_camion: 100
+    km_camion_record: 19
+    km_bateau: 100
+    km_bateau_record: 100
+    cartes_postales: 100
+    nuits_dehors: 100
+    video: xYEZmZx6d3E
 
 Russie:
     traverse: oui
