@@ -1,23 +1,8 @@
 {% assign category = include.category %}
 {% assign tag = include.tag %}
 <div class="container">
-{% if category and tag %}
-	<ul class="small-block-grid-3">
-	{% for post in site.categories.[category] %}
-		<li>
-		{% if post in page.tags.[tag] == tag %}
-			<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		<p>
-		{% if post.image.thumb %}
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="100" alt="{{ page.title escape_once }}"></a>
-		{% endif %}
-		</p>
-		{% endif %}
-		</li>
-	{% endfor %}
-	</ul>
 
-{% elsif category %}
+{% if category %}
 	<ul class="small-block-grid-3">
 	{% for post in site.categories.[category] %}
 		<li>
@@ -30,6 +15,7 @@
 		</li>
 	{% endfor %}
 	</ul>
+
 {% elsif tag %}
 	<ul class="small-block-grid-3">
 	{% for post in site.tags.[tag] %}
@@ -44,4 +30,4 @@
 	{% endfor %}
 	</ul>
 {% endif %}
-</div><!-- /.row -->
+</div><!-- /.container -->
