@@ -7,4 +7,15 @@ header:
    image_fullwidth: header_unsplash_1.jpg
 permalink: "pays/"
 ---
-{% include list-pays categories='pays' %}
+
+## Europe
+
+{% include list-pays categories='pays' tag='europe' %}
+
+## Asie
+
+{% include list-pays categories='pays' tag='asie' %}
+
+## Afrique
+
+{% include list-pays categories='pays' tag='afrique' %}
