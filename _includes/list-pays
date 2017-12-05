@@ -8,9 +8,7 @@
 		<li>
 		<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
-		{% if post.image.thumb %}
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" style="width:150px; height:100px;" alt="{{ page.title escape_once }}"></a>
-		{% endif %}
+			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}drapeaux/{{post.title}}.png" style="width:150px; height:100px;" alt="{{ post.title escape_once }}"></a>
 		</p>
 		</li>
 	{% endfor %}
@@ -22,9 +20,7 @@
 		<li>
 		<h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 		<p>
-		{% if post.image.thumb %}
-			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="100" alt="{{ page.title escape_once }}"></a>
-		{% endif %}
+			<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}drapeaux/{{ post.title }}.png" class="alignleft" width="150" height="100" alt="{{ page.title escape_once }}"></a>
 		</p>
 		</li>
 	{% endfor %}
