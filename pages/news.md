@@ -1,13 +1,16 @@
 ---
 layout: page
 show_meta: false
-title: "Ils parlent de nous !"
-subheadline: "Liste des coupures de presse"
+title: "Toutes les nouvelles !"
 header:
    image_fullwidth: "header_homepage_13.jpg"
 permalink: "/news/"
 ---
 
-<h2>Ils rejoignent la Mongolie rien qu’en auto-stop, bus et train</h2>
+<ul class="side-nav">
 
-<a href='http://brabant-wallon.lacapitale.be/124358/article/2017-09-11/ils-rejoignent-la-mongolie-rien-quen-auto-stop-bus-et-train'>http://brabant-wallon.lacapitale.be/124358/article/2017-09-11/ils-rejoignent-la-mongolie-rien-quen-auto-stop-bus-et-train</a>
+		{% for new in site.data.news %}
+			<strong>{{ new.date }}</strong> - {{ new.title }} - {% if new.teaser %}{{ new.teaser }}{% endif %}{% if new.lien %} - <a href="{{ site.url }}{{ site.baseurl }}/#/">Plus d'infos</a>{% endif %}<br/>
+		{% endfor %}
+
+</ul>
