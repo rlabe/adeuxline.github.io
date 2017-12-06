@@ -11,17 +11,17 @@ header:
 widget1:
   title: "Pourquoi le stop ?"
   url: '/article/pourquoi-le-stop/'
-  image: widget-1-302x182.jpg
+  image: widget1.jpg
   text: "Le stop permet de voyager à moindre coût, de faire des rencontres insolites de de découvrir la culture locale."
 widget2:
   title: "L&apos;école primaire"
   url: '/article/partenariat-ecole-chapelle-aux-champs/'
+  image: widget2.png
   text: "Grâce au soutien des enseignants, les enfants pourront découvrir et parcourir le monde avec moi."
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget3:
   title: "L&apos;hôpital Reine Fabiola"
   url: '/article/partenariat-hopital-reine-fabiola/'
-  image: widget-1-302x182.jpg
+  image: widget3.png
   text: "La mascotte de l&apos;hôpital m'accompagnera pendant tout le trajet et visitera les endroits insolites du monde."
 # Use the call for action to show a button on the frontpage
 #
