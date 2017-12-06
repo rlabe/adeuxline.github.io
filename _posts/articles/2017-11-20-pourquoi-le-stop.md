@@ -15,16 +15,12 @@ image:
     thumb: gallery-example-2-thumb.jpg
 ---
 
-Beaucoup de personnes me posent cette question. Selon eux, le stop est un moyen incertain, risqué, vers l'inconnu. Je vais tenter de répondre à quelques-unes de ces questions, et complèterai cet article au fur et à mesure de mon voyage.
+Le stop est un moyen gratuit de bouger d'un point A en direction d'un point B. Ce n'est pas ma première pensée quand je fais du stop, et c'est pour ça que je commence par là ! Comme ça c'est dit, et on en parle plus !
 
-## Pourquoi le stop ?
-Le stop est un moyen gratuit de bouger d'un point A en direction d'un point B. Il favorise les rencontres, les découvertes, l'observation des paysages et l'intégration. En quelques minutes, la conversation s'enclenche et nous devenons tantôt le confident, tantôt l'animateur de la voiture.
+Mais, le stop c'est surtout l'inconnu, l'aventure, l'attente, l'espoir, le jeu de regard avec les automobilistes et finalement l'explosion de bonheur quand on monte dans une voiture ! C'est un défi constant, réussir à atteindre un objectif sans le confort d'un bus ou d'un avion et <b>surtout</b> vivre des aventures insolites, inoubliables et improbables. Je pense notamment à cette soirée de stop avec Marie où Thabo, notre conducteur, nous a proposé de dormir dans sa voiture. Ou encore ce chef de cuisine qui m'a pris pendant 15h de route pour me ramener de Bilbao (Espagne) à Namur (Belgique).
 
-## Le stop est risqué !
-C'est vrai, le stop peut être risqué. Malgré tout, les risques sont minimes pour moi, garçon en (plus ou moins) bonne forme physique.
+Le stop, c'est faire des rencontres, des découvertes. Dites vous que la personne qui vous prend en stop est forcément sympathique, et qu'elle attend de vous de l'être aussi. Nous sommes donc (minimum) deux personnes sympathiques dans la même voiture, cela ne peut que bien se passer.
 
-## Tu ne sais jamais quand tu vas arriver !
-C'est ça qui est fabuleux. :-)
+Le stop, c'est aussi un moyen de découvrir le pays, la culture, les gens. Avec ce moyen de locomotion, fini les guides touristiques: les bons plans viennent des conducteurs. Ils sont tous bavards, et nous apprennent mieux que n'importe quel guide la réalité de leur pays, ses difficultés, ses atouts. Besoin d'un bon resto, d'une auberge, d'un endroit inoubliable à voir ? Ils ont tous des choses à raconter !
 
-## Et si tu ne trouves personne ?
-L'attente fait partie intégrante du stop. J'ai de la lecture et les paysages sont magnifiques !
+Je n'en ai pas encore parlé, et c'est un tort, mais le stop est également un moyen écologique de voyager. Il reste de la place dans la voiture, autant la remplir en prenant quelqu'un. Le bus pollue moins que la voiture, certes, mais la voiture ira quand même vers sa destination, et quelqu'un d'autre pourra prendre le bus à notre place :-).

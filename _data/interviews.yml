@@ -1,0 +1,11 @@
+interview1:
+  - intervenant: Marie
+  - photo:
+  - endroit: France
+  - musique: Test
+  - interview:
+    - question: "Tu crois que... ?"
+      reponse: "Je crois que !"
+    - question: "Nooon ?"
+      reponse: "Siiiii !"
+
