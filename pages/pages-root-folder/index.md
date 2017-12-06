@@ -11,17 +11,17 @@ header:
 widget1:
   title: "Pourquoi le stop ?"
   url: '/article/pourquoi-le-stop/'
-  image: widget1.jpg
+  image: /widgets/widget1.png
   text: "Le stop permet de voyager à moindre coût, de faire des rencontres insolites de de découvrir la culture locale."
 widget2:
   title: "L&apos;école primaire"
   url: '/article/partenariat-ecole-chapelle-aux-champs/'
-  image: widget2.png
+  image: /widgets/widget2.png
   text: "Grâce au soutien des enseignants, les enfants pourront découvrir et parcourir le monde avec moi."
 widget3:
   title: "L&apos;hôpital Reine Fabiola"
   url: '/article/partenariat-hopital-reine-fabiola/'
-  image: widget3.png
+  image: /widgets/widget3.png
   text: "La mascotte de l&apos;hôpital m'accompagnera pendant tout le trajet et visitera les endroits insolites du monde."
 # Use the call for action to show a button on the frontpage
 #
