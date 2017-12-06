@@ -8,7 +8,6 @@ header:
 permalink: "/voyage/transsiberien/"
 sidebar: right
 ---
-
 <iframe width="100%" height="640" src="https://www.polarsteps.com/OnceAPonyTime/322754-transsiberien-mongolie-2017?embed=true"></iframe>
 
 <center><h1>35 jours de voyage</h1></center>
