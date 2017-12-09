@@ -61,3 +61,63 @@ Russie:
     cartes_postales:
     nuits_dehors:
     video:
+Belgique:
+    continent: Europe
+    capitale: Bruxelles
+    monnaie: EUR
+    population: 10.000.000
+    superficie: 31.000
+    monnaies_locales: 6
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Autriche:
+    continent: Europe
+    capitale: Vienne
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+France:
+    continent: Europe
+    capitale: Paris
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
