@@ -1,0 +1,33 @@
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        'mapsApiKey': 'AIzaSyCAyZPF-oG9ODz-KNImGAg4po4yq7rGn2s'
+      });
+	google.charts.setOnLoadCallback(drawMarkersMap);
+
+      function drawMarkersMap() {
+      var data = google.visualization.arrayToDataTable([
+        ['City',   'Jours passés'],
+        ['Bruxelles',      10],
+        ['Liège',     1],
+        ['Namur',    2],
+        ['Anvers',     3],
+        ['Hasselt',   4],
+      ]);
+
+      var options = {
+        region: 'BE',
+        displayMode: 'markers',
+        colorAxis: {colors: ['green', 'blue']}
+      };
+
+      var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+      chart.draw(data, options);
+    };
+</script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 100%; height: 500px;"></div>
+  </body>
