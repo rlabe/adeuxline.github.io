@@ -53,29 +53,50 @@ permalink: "/stats/"
     {% assign total_nuits_dehors = total_nuits_dehors | plus: pays[1].nuits_dehors %}
 {% endfor %}
 
-{% assign compteur_attente = 0 %}
-{% assign pays_attente = 0 %}
-{% for pays in site.data.countries %}
-  {% if pays[1].attente > compteur attente %}
-    {% assign compteur_attente = pays[1].attente %}
-    {% assign pays_attente = pays %}
-  {% endif %}
-{% endfor %}
-
-{% assign pays_traverses = 0 %}
-{% for pays in site.data.countries %}
-  {% if pays[1].attente %} {% assign pays_traverses = pays_traverses | plus:1 %} {% endif %}
-{% endfor %}
-
 <!-- Rendu -->
-
 <div class="panel radius">
   <div class="row">
     <center><h3>Transports</h3></center>
     <div class="medium-12 large-centered columns">
       <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"></div>
-      <div class="medium-4 columns"></div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+    </div>
+    <div class="medium-12 large-centered columns">
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
     </div>
   </div>
 </div>
+

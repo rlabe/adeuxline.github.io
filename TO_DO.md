@@ -30,4 +30,12 @@ Générer une table des matières pour:
  - Maps me
  - polarsteps
  - flickr
- - 
+
+# Articles
+ - Sauvegarde des documents photos et video
+ - Contenu du sac à dos
+
+# Video
+ - Contenu du sac à dos
+ - Les enfants de première primaire
+ - Les enfants de 4 ème primaire

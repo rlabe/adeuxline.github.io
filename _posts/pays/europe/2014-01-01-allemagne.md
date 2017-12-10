@@ -1,10 +1,9 @@
 ---
 layout: countries
 subheadline: Europe
-title: "Autriche"
-mymaps: 
+title: "Allemagne"
 image:
-    thumb: /drapeaux/autriche.png
+    thumb: /drapeaux/allemagne.md
 categories:
     - pays
 tags:
