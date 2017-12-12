@@ -25,7 +25,9 @@ permalink: "/stats/"
 
 {% assign totale_distance = 0 %}
 {% for pays in site.data.countries %}
-    {% assign totale_distance = totale_distance | plus: pays[1].distance %}
+    {% assign totale_distance = totale_distance | plus: pays[1].km_voiture %}
+    {% assign totale_distance = totale_distance | plus: pays[1].km_camion %}
+    {% assign totale_distance = totale_distance | plus: pays[1].km_bateau %}
 {% endfor %}
 
 {% assign km_voiture = 0 %}
@@ -53,49 +55,33 @@ permalink: "/stats/"
     {% assign total_nuits_dehors = total_nuits_dehors | plus: pays[1].nuits_dehors %}
 {% endfor %}
 
+{: #toc }
+*  TOC
+{:toc}
+
+{% include _map_global.html %}
+
 <!-- Rendu -->
-<div class="panel radius">
+<div class="panel">
   <div class="row">
     <center><h3>Transports</h3></center>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_distance }} km</div>
     </div>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_voiture }} km</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_camion }} km</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_bateau }} km</div>
     </div>
+  </div>
+</div>
+<div class="panel">    
+  <div class="row">
+    <center><h3>Pour le fun</h3></center>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-    </div>
-    <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-    </div>
-    <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-    </div>
-    <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-    </div>
-    <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-    </div>
-    <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_cartes }} cartes postales</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_nuits_dehors }} nuits dehors</div>
     </div>
   </div>
 </div>
