@@ -39,3 +39,7 @@ Générer une table des matières pour:
  - Contenu du sac à dos
  - Les enfants de première primaire
  - Les enfants de 4 ème primaire
+
+# Défis
+- compter
+- dire bonjour
