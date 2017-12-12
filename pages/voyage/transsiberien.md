@@ -65,7 +65,7 @@ sidebar: right
 
 ## 28 juillet 2017
 <div>
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/adeuxline/26231177819/in/datetaken-public/" title="Première tentative de stop"><img src="https://farm5.staticflickr.com/4459/26231177819_aba1e76ddc_n.jpg" width="240" height="320" alt="Première tentative de stop" style="float:left;margin-bottom:3px; margin-right:3px;"></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/adeuxline/26231177819/in/datetaken-public/" title="Première tentative de stop"><img src="https://farm5.staticflickr.com/4459/26231177819_aba1e76ddc_n.jpg" width="240" height="320" alt="Première tentative de stop" style="float:right;margin-bottom:3px; margin-right:3px;"></a>
 Départ de Louvain la neuve vers 19h00. Nous faisons du stop à l'entrée de l'autoroute. Nous sommes rapidement pris par <b>Milan</b> jusqu'à Bouge, suite à un petit détour de sa part pour nous laisser sur l'autoroute du Luxembourg (merci encore !). 15 minutes plus tard, nous sommes embarqués par <b>Thabo</b>, sud-africain parlant allemand mais habitant à Canterbury, qui propose de nous déposer au Luxembourg directement. La discussion s'engage et il se trouve qu'il continue sa route jusqu'à Ulm, en Allemagne, pile dans notre direction. Nous sommes donc partis pour faire plus de 500km en sa compagnie :) Ça tombe bien car Thabo est très sympathique et a beaucoup d'histoires, de voyages et d'anecdotes hilarantes à partager. Arrivée vers 2h00 sur place, il nous propose de dormir dans sa voiture pour nous déposer à une pompe à essence le lendemain matin. Nous acceptons, il faut avouer que la voiture est très confortable.
 </div>
 ## 29 juillet 2017
