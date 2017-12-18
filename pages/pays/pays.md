@@ -16,6 +16,3 @@ permalink: "pays/"
 
 {% include list-pays categories='pays' tag='asie' %}
 
-## Afrique
-
-{% include list-pays categories='pays' tag='afrique' %}
