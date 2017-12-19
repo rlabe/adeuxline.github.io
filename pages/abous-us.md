@@ -9,4 +9,4 @@ header:
 permalink: "/about-us/"
 ---
 
-{% include about-us.html  %}
+{% include about-us-max.html  %}
