@@ -12,7 +12,7 @@ header:
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal, ancien trajet du transsibérien
 image:
-    thumb: gallery-example-2-thumb.jpg
+    thumb: widgets/widget2.png
 ---
 
 Suite à ma réunion avec la directrice de l'école, Isabelle, il y a quelques semaines, certains professeurs se sont révélés intéressés par le projet. Reste à savoir dans quelle mesure et de quelle manière.
