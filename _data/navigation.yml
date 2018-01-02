@@ -5,13 +5,13 @@
 - title: "Projets"
   url: "/projets/"
   side: left
-  dropdown:
-  - title: "HUDERF"
-    url: "/projets/huderf/"
-  - title: "Nathalie"
-    url: "/projets/nathalie/"
-  - title: "Magali"
-    url: "/projets/magali/"
+#  dropdown:
+#  - title: "HUDERF"
+#    url: "/projets/huderf/"
+#  - title: "Nathalie"
+#    url: "/projets/nathalie/"
+#  - title: "Magali"
+#    url: "/projets/magali/"
 
 # - title: "Monnaies locales"
 #   url: "#"
