@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 show_meta: false
 title: "Toutes les nouvelles !"
 header:
@@ -7,10 +7,27 @@ header:
 permalink: "/news/"
 ---
 
-<ul class="side-nav">
-
-		{% for new in site.data.news %}
-			<strong>{{ new.date }}</strong> - {{ new.title }} - {% if new.teaser %}{{ new.teaser }}{% endif %}{% if new.lien %} - <a href="{{ site.url }}{{ site.baseurl }}/#/">Plus d'infos</a>{% endif %}<br/>
-		{% endfor %}
-
-</ul>
+<center><div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Titre</th>
+        <th>Teaser</th>
+	<th>Article</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+	{% for new in site.data.news %}
+	<tr>	
+		<td> {{new.date}}</td>
+		<td> {{new.title}}</td>
+		<td> {{new.teaser}} </td>
+		<td>{% if new.lien %} <a href="{{new.lien}}>"Lire l'article</a>{% endif %}</td>
+	</tr>
+	{% endfor %}
+      
+    </tbody>
+  </table>
+</div></center>
