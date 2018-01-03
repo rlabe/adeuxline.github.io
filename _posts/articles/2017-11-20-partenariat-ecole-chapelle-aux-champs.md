@@ -7,10 +7,10 @@ categories:
 tags:
     - main
 header:
-    title: Une belle voie ferrée
-    image_fullwidth: transsiberien_01.JPG
+    title: École chapelle aux champs
+    image_fullwidth: unsplash_brooklyn-bridge_header.JPG
     pattern: pattern_concrete.jpg
-    caption: Lac Baïkal, ancien trajet du transsibérien
+    caption: 
 image:
     thumb: widgets/widget2.png
 ---
