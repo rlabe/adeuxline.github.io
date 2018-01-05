@@ -8,6 +8,10 @@ header:
 permalink: "/journaux/"
 ---
 
+## On part à l'aventure, avec Romain, il part mardi direction l'Australie... en stop !
+#### 4 janvier 2017 - BelRTL
+<a href='http://www.rtl.be/belrtl/Video/655904.aspx'>http://www.rtl.be/belrtl/Video/655904.aspx</a>
+
 ## Beauvechain: en stop vers l'Australie pour venir en aide aux enfants
 #### 2 janvier 2017 - Le Soir
 <a href='plus.lesoir.be/131955/2018-01-02/beauvechain-en-stop-pour-venir-en-aide-aux-enfants'>plus.lesoir.be/131955/2018-01-02/beauvechain-en-stop-vers-laustralie-pour-venir-en-aide-aux-enfants</a>
