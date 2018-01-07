@@ -23,12 +23,6 @@ permalink: "/stats/"
     {% assign total_conducteurs = total_conducteurs | plus: pays[1].conducteurs %}
 {% endfor %}
 
-{% assign totale_distance = 0 %}
-{% for pays in site.data.countries %}
-    {% assign totale_distance = totale_distance | plus: pays[1].km_voiture %}
-    {% assign totale_distance = totale_distance | plus: pays[1].km_camion %}
-    {% assign totale_distance = totale_distance | plus: pays[1].km_bateau %}
-{% endfor %}
 
 {% assign km_voiture = 0 %}
 {% for pays in site.data.countries %}
@@ -45,6 +39,11 @@ permalink: "/stats/"
     {% assign km_bateau = km_bateau | plus: pays[1].km_bateau %}
 {% endfor %}
 
+{% assign totale_distance = 0 %}
+{% assign totale_distance = totale_distance | plus: km_voiture %}
+{% assign totale_distance = totale_distance | plus: km_camion %}
+{% assign totale_distance = totale_distance | plus: km_bateau %}
+
 {% assign total_cartes = 0 %}
 {% for pays in site.data.countries %}
     {% assign total_cartes = total_cartes | plus: pays[1].cartes_postales %}
@@ -55,10 +54,6 @@ permalink: "/stats/"
     {% assign total_nuits_dehors = total_nuits_dehors | plus: pays[1].nuits_dehors %}
 {% endfor %}
 
-{: #toc }
-*  TOC
-{:toc}
-
 {% include _map_global.html %}
 
 <!-- Rendu -->
@@ -67,12 +62,12 @@ permalink: "/stats/"
     <center><h3>Transports</h3></center>
     <div class="medium-12 large-centered columns">
       <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_distance }} km</div>
+      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> 0 km</div>
     </div>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_voiture }} km</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_camion }} km</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_bateau }} km</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_voiture }} km en voiture</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_camion }} km en camion</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_bateau }} km en bateau</div>
     </div>
   </div>
 </div>
