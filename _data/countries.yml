@@ -39,3 +39,24 @@ Belgique:
     cartes_postales: 
     nuits_dehors: 
     video: 
+France:
+    traverse: oui
+    continent: Europe
+    capitale: Paris
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
