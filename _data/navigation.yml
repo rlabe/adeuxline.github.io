@@ -61,9 +61,14 @@
 - title: Articles
   url: "/blog/"
   side: left
+
 #   dropdown:
 #   - title: "Blog Archive"
 #     url: "/blog/archive/"
+
+- title: "Faire un don"
+  side: right
+  url: "https://www.tipeee.com/romainvoyage"
 
 - title: "Voyages précédents"
   side: right
