@@ -10,9 +10,9 @@ permalink: "pays/"
 
 ## Europe
 
-{% include list-pays categories='pays' tag='europe' %}
+{% include list-pays category='europe' %}
 
 ## Asie
 
-{% include list-pays categories='pays' tag='asie' %}
+{% include list-pays category='asie' %}
 

@@ -8,4 +8,4 @@ header:
 permalink: "/pays/asie/"
 ---
 
-{% include list-pays categories='pays' tag='asie' %}
+{% include list-pays category='asie' %}
