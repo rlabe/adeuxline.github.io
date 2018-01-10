@@ -8,9 +8,11 @@ permalink: "/stats/"
 ---
 
 <!-- Calculs -->
-{% assign sum_superficie = 0 %}
+{% assign total_pays = 0 %}
 {% for pays in site.data.countries %}
-    {% assign sum_superficie = sum_superficie | plus: pays[1].superficie %}
+    {% if pays.traverse %}
+    {% assign sum_superficie = sum_superficie | plus: 1 %}
+    {% endif %}
 {% endfor %}
 
 {% assign total_jours = 0 %}
@@ -62,7 +64,7 @@ permalink: "/stats/"
     <center><h3>Transports</h3></center>
     <div class="medium-12 large-centered columns">
       <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> 0 km</div>
+      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_pays }} km</div>
     </div>
     <div class="medium-12 large-centered columns">
       <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_voiture }} km en voiture</div>
