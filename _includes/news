@@ -1,7 +1,7 @@
 <ul class="side-nav">
 
 		{% for new in site.data.news limit:5 %}
-			<strong>{{ new.date }}</strong> - {{ new.title }} - {% if new.teaser %}{{ new.teaser }}{% endif %}{% if new.lien %} - <a href="{{ site.url }}{{ site.baseurl }}/#/">Plus d'infos</a>{% endif %}<br/>
+			<strong>{{ new.date }}</strong> - {{ new.title }} {% if new.teaser %} - {{ new.teaser }}{% endif %}{% if new.lien %} - <a href="{{ site.url }}{{ site.baseurl }}/#/">Plus d'infos</a>{% endif %}<br/>
 		{% endfor %}
 			<li class="text-left"><a href="{{ site.url }}{{ site.baseurl }}/news/"><strong>Plus de news</strong></a></li>
 
