@@ -2,12 +2,8 @@
 layout: page
 title:  "Pourquoi le stop ?"
 teaser: "Les joies de l'attente et de l inconnu"
-categories:
-    - article
-tags:
-    - main
 header:
-    title: Une belle voie ferrée
+    title: Pourquoi le stop ?
     image_fullwidth: transsiberien_01.JPG
     pattern: pattern_concrete.jpg
     caption: Lac Baïkal, ancien trajet du transsibérien
@@ -24,3 +20,7 @@ Le stop, c'est faire des rencontres, des découvertes. Dites vous que la personn
 Le stop, c'est aussi un moyen de découvrir le pays, la culture, les gens. Avec ce moyen de locomotion, fini les guides touristiques: les bons plans viennent des conducteurs. Ils sont tous bavards, et nous apprennent mieux que n'importe quel guide la réalité de leur pays, ses difficultés, ses atouts. Besoin d'un bon resto, d'une auberge, d'un endroit inoubliable à voir ? Ils ont tous des choses à raconter !
 
 Je n'en ai pas encore parlé, et c'est un tort, mais le stop est également un moyen écologique de voyager. Il reste de la place dans la voiture, autant la remplir en prenant quelqu'un. Le bus pollue moins que la voiture, certes, mais la voiture ira quand même vers sa destination, et quelqu'un d'autre pourra prendre le bus à notre place :-).
+
+{% include alert info='<center> </center>' %}
+
+Faire du stop vous tente ? Plus d'infos pour vous lancer ici : 

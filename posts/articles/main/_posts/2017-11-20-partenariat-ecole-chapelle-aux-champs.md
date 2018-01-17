@@ -2,10 +2,6 @@
 layout: page
 title:  "Partenariat avec l'école primaire"
 teaser: "Des enfants avides de découvertes"
-categories:
-    - article
-tags:
-    - main
 header:
     title: École chapelle aux champs
     image_fullwidth: unsplash_brooklyn-bridge_header.JPG
