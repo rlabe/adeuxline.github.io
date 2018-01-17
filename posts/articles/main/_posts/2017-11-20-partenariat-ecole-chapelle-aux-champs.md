@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Partenariat avec l'école primaire"
+titre:  "Partenariat avec l'école primaire"
 teaser: "Des enfants avides de découvertes"
 header:
     title: École chapelle aux champs
@@ -10,6 +10,8 @@ header:
 
 image:
     thumb: widgets/widget2.png
+tags:
+  - main
 ---
 
 C'est avec un grand plaisir que je parraine trois classes de primaire. Merci Cindy, Magali et Nathalie de participer au projet ! <br/>

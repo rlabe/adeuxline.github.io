@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Pourquoi le stop ?"
+titre:  "Pourquoi le stop ?"
 teaser: "Les joies de l'attente et de l inconnu"
 header:
     title: Pourquoi le stop ?
@@ -9,6 +9,8 @@ header:
     caption: Lac Baïkal, ancien trajet du transsibérien
 image:
     thumb: widgets/widget1.png
+tags:
+  - main
 ---
 
 Le stop est un moyen gratuit de bouger d'un point A en direction d'un point B. Ce n'est pas ma première pensée quand je fais du stop, et c'est pour ça que je commence par là ! Comme ça c'est dit, et on en parle plus !
