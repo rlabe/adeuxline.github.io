@@ -24,7 +24,7 @@ permalink: "/news/"
 		<td> {{new.date}}</td>
 		<td> {{new.title}}</td>
 		<td> {{new.teaser}} </td>
-		<td>{% if new.lien %} <a href="{{new.lien}}>"Lire l'article</a>{% endif %}</td>
+		<td>{% if new.lien %} <a href="{{new.lien}}">Lire l'article</a>{% endif %}</td>
 	</tr>
 	{% endfor %}
       
