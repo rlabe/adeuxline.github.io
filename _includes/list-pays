@@ -7,7 +7,7 @@
 		<li>
 		<center><h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2></center>
 		<p>
-			<center><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}drapeaux/{{post.title}}.png" width="150" height="100" alt="{{ post.title escape_once }}"></a></center>
+			<center><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}drapeaux/{{post.code}}.png" width="150" height="100" alt="{{ post.title escape_once }}"></a></center>
 		</p>
 		</li>
 	{% endfor %}
