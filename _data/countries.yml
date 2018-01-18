@@ -28,7 +28,7 @@ Belgique:
     monnaies_locales: 6
     jourspasses: 1
     conducteurs: 5
-    attente_record: 
+    attente_record: 20min
     distance: 130
     km_voiture: 130
     km_voiture_record: 
@@ -44,6 +44,132 @@ France:
     continent: Europe
     capitale: Paris
     monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 8 
+    conducteurs: 8
+    attente_record: 1h
+    distance: 1900
+    km_voiture: 1900
+    km_voiture_record: 730
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 10
+    nuits_dehors: 1
+    video: 
+Italie:
+    traverse: oui
+    continent: Europe
+    capitale: Rome
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Suisse:
+    traverse: oui
+    continent: Europe
+    capitale: Bern
+    monnaie: CFH
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Autriche:
+    traverse: oui
+    continent: EUrope
+    capitale: Vienne
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Monaco:
+    traverse: oui
+    continent: Europe
+    capitale: Monaco
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Hongrie:
+    traverse: 
+    continent: Europe
+    capitale: Budapest
+    monnaie: 
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 
+    conducteurs: 
+    attente_record: 
+    distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Roumanie:
+    traverse: 
+    continent: Europe
+    capitale: Bucharest
+    monnaie: 
     population: 
     superficie: 
     monnaies_locales: 
