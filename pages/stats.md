@@ -42,9 +42,9 @@ permalink: "/stats/"
 {% endfor %}
 
 {% assign totale_distance = 0 %}
-{% assign totale_distance = totale_distance | plus: km_voiture %}
-{% assign totale_distance = totale_distance | plus: km_camion %}
-{% assign totale_distance = totale_distance | plus: km_bateau %}
+{% for pays in site.data.countries %}
+    {% assign total_distance = total_distance | plus: pays[1].distance %}
+{% endfor %}
 
 {% assign total_cartes = 0 %}
 {% for pays in site.data.countries %}
@@ -64,12 +64,12 @@ permalink: "/stats/"
     <center><h3>Transports</h3></center>
     <div class="medium-12 large-centered columns">
       <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_conducteurs }} conducteurs</div>
-      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_pays }} km</div>
+      <div class="medium-6 columns"><i class="material-icons" style="font-size:18px">near_me</i> {{ total_distance }} km</div>
     </div>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_voiture }} km en voiture</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_camion }} km en camion</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ km_bateau }} km en bateau</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">time_to_leave</i> {{ km_voiture }} km en voiture</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">local_shipping</i> {{ km_camion }} km en camion</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">directions_boat</i> {{ km_bateau }} km en bateau</div>
     </div>
   </div>
 </div>
@@ -77,8 +77,8 @@ permalink: "/stats/"
   <div class="row">
     <center><h3>Pour le fun</h3></center>
     <div class="medium-12 large-centered columns">
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_cartes }} cartes postales</div>
-      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">person_pin</i> {{ total_nuits_dehors }} nuits dehors</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">local_post_office</i> {{ total_cartes }} cartes postales</div>
+      <div class="medium-4 columns"><i class="material-icons" style="font-size:18px">brightness_2</i> {{ total_nuits_dehors }} nuits dehors</div>
     </div>
   </div>
 </div>

@@ -68,17 +68,17 @@ Italie:
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
-    conducteurs: 
+    jourspasses: 1
+    conducteurs: 1
     attente_record: 
-    distance: 
+    distance: 80 
     km_voiture: 
     km_voiture_record: 
-    km_camion: 
+    km_camion: 320
     km_camion_record: 
     km_bateau: 
     km_bateau_record: 
-    cartes_postales: 
+    cartes_postales: 6
     nuits_dehors: 
     video: 
 Suisse:
@@ -89,10 +89,10 @@ Suisse:
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
+    jourspasses: 1
     conducteurs: 
     attente_record: 
-    distance: 
+    distance: 280
     km_voiture: 
     km_voiture_record: 
     km_camion: 
@@ -104,23 +104,23 @@ Suisse:
     video: 
 Autriche:
     traverse: oui
-    continent: EUrope
+    continent: Europe
     capitale: Vienne
     monnaie: EUR
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
+    jourspasses: 2
     conducteurs: 
     attente_record: 
-    distance: 
+    distance: 50
     km_voiture: 
     km_voiture_record: 
     km_camion: 
     km_camion_record: 
     km_bateau: 
     km_bateau_record: 
-    cartes_postales: 
+    cartes_postales: 7
     nuits_dehors: 
     video: 
 Monaco:
@@ -141,7 +141,7 @@ Monaco:
     km_camion_record: 
     km_bateau: 
     km_bateau_record: 
-    cartes_postales: 
+    cartes_postales: 5
     nuits_dehors: 
     video: 
 Hongrie:
@@ -177,6 +177,27 @@ Roumanie:
     conducteurs: 
     attente_record: 
     distance: 
+    km_voiture: 
+    km_voiture_record: 
+    km_camion: 
+    km_camion_record: 
+    km_bateau: 
+    km_bateau_record: 
+    cartes_postales: 
+    nuits_dehors: 
+    video: 
+Allemagne:
+    traverse: oui
+    continent: Europe
+    capitale: Berlin
+    monnaie: EUR
+    population: 
+    superficie: 
+    monnaies_locales: 
+    jourspasses: 1
+    conducteurs: 
+    attente_record: 
+    distance: 350
     km_voiture: 
     km_voiture_record: 
     km_camion: 
