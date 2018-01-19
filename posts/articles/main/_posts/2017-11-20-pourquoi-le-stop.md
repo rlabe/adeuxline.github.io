@@ -11,6 +11,9 @@ image:
     thumb: widgets/widget1.png
 tags:
   - main
+  - projet
+  - defi
+  - autostop
 ---
 
 Le stop est un moyen gratuit de bouger d'un point A en direction d'un point B. Ce n'est pas ma première pensée quand je fais du stop, et c'est pour ça que je commence par là ! Comme ça c'est dit, et on en parle plus !
@@ -25,4 +28,3 @@ Je n'en ai pas encore parlé, et c'est un tort, mais le stop est également un m
 
 {% include alert info='<center> </center>' %}
 
-Faire du stop vous tente ? Plus d'infos pour vous lancer ici : 

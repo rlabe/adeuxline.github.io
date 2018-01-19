@@ -12,6 +12,8 @@ image:
     thumb: widgets/widget2.png
 tags:
   - main
+  - projet
+  - defi
 ---
 
 C'est avec un grand plaisir que je parraine trois classes de primaire. Merci Cindy, Magali et Nathalie de participer au projet ! <br/>
