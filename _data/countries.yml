@@ -1,5 +1,5 @@
 Russie:
-    traverse: oui
+    traverse:
     continent: Asie
     capitale: Moscou
     monnaielocale: 
@@ -19,7 +19,7 @@ Russie:
     nuits_dehors:
     video:
 Belgique:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Bruxelles
     monnaie: EUR
@@ -40,7 +40,7 @@ Belgique:
     nuits_dehors: 
     video: 
 France:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Paris
     monnaie: EUR
@@ -61,7 +61,7 @@ France:
     nuits_dehors: 1
     video: 
 Italie:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Rome
     monnaie: EUR
@@ -71,7 +71,7 @@ Italie:
     jourspasses: 1
     conducteurs: 1
     attente_record: 
-    distance: 80 
+    distance: 380 
     km_voiture: 
     km_voiture_record: 
     km_camion: 320
@@ -82,7 +82,7 @@ Italie:
     nuits_dehors: 
     video: 
 Suisse:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Bern
     monnaie: CFH
@@ -103,7 +103,7 @@ Suisse:
     nuits_dehors: 
     video: 
 Autriche:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Vienne
     monnaie: EUR
@@ -113,8 +113,8 @@ Autriche:
     jourspasses: 2
     conducteurs: 
     attente_record: 
-    distance: 50
-    km_voiture: 
+    distance: 450
+    km_voiture: 400 
     km_voiture_record: 
     km_camion: 
     km_camion_record: 
@@ -124,18 +124,18 @@ Autriche:
     nuits_dehors: 
     video: 
 Monaco:
-    traverse: oui
+    traverse: 1
     continent: Europe
     capitale: Monaco
     monnaie: EUR
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
+    jourspasses: 1
     conducteurs: 
     attente_record: 
-    distance: 
-    km_voiture: 
+    distance: 5
+    km_voiture: 5
     km_voiture_record: 
     km_camion: 
     km_camion_record: 
@@ -145,28 +145,28 @@ Monaco:
     nuits_dehors: 
     video: 
 Hongrie:
-    traverse: 
+    traverse: 1
     continent: Europe
     capitale: Budapest
-    monnaie: 
+    monnaie: HUF
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
+    jourspasses: 9
     conducteurs: 
     attente_record: 
-    distance: 
-    km_voiture: 
+    distance: 200
+    km_voiture: 200
     km_voiture_record: 
     km_camion: 
     km_camion_record: 
     km_bateau: 
     km_bateau_record: 
-    cartes_postales: 
+    cartes_postales: 10
     nuits_dehors: 
     video: 
 Roumanie:
-    traverse: 
+    traverse: 0
     continent: Europe
     capitale: Bucharest
     monnaie: 
@@ -186,8 +186,8 @@ Roumanie:
     cartes_postales: 
     nuits_dehors: 
     video: 
-Allemagne:
-    traverse: oui
+Allemagne: 
+    traverse: 1
     continent: Europe
     capitale: Berlin
     monnaie: EUR

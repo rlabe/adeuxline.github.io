@@ -10,9 +10,7 @@ permalink: "/stats/"
 <!-- Calculs -->
 {% assign total_pays = 0 %}
 {% for pays in site.data.countries %}
-    {% if pays.traverse %}
-    {% assign sum_superficie = sum_superficie | plus: 1 %}
-    {% endif %}
+    {% assign total_pays = total_pays | plus: pays[1].traverse %}
 {% endfor %}
 
 {% assign total_jours = 0 %}
@@ -59,6 +57,13 @@ permalink: "/stats/"
 {% include _map_global.html %}
 
 <!-- Rendu -->
+<div class="panel">
+  <div class="row">
+    <center><h3>J'ai déjà traversé {{ total_pays }} pays.</h3><br/>
+    <a href="/pays/">Voir la liste</a></center>
+  </div>
+</div>
+
 <div class="panel">
   <div class="row">
     <center><h3>Transports</h3></center>
