@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_full
 show_meta: false
 title: "Statistiques"
 header:
