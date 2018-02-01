@@ -153,7 +153,7 @@ Hongrie:
     superficie: 
     monnaies_locales: 
     jourspasses: 9
-    conducteurs: 
+    conducteurs: 11
     attente_record: 
     distance: 200
     km_voiture: 200
@@ -166,15 +166,15 @@ Hongrie:
     nuits_dehors: 
     video: 
 Roumanie:
-    traverse: 0
+    traverse: 1
     continent: Europe
     capitale: Bucharest
     monnaie: 
     population: 
     superficie: 
     monnaies_locales: 
-    jourspasses: 
-    conducteurs: 
+    jourspasses: 3
+    conducteurs: 2
     attente_record: 
     distance: 
     km_voiture: 
