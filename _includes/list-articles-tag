@@ -11,7 +11,7 @@
       
 	{% for article in site.tags[tag] %}
 	<tr>	
-		<td> {{article.date}}</td>
+		<td> {{ article.date | date: "%e %B %Y"}}</td>
 		<td><a href="{{ site.url }}{{ site.baseurl }}{{ article.url }}"> {{article.titre}} </a></td>
 	</tr>
 	{% endfor %}
